@@ -17,6 +17,7 @@ class Order{
         Order();
         ~Order();
         void addToOrder(Item* item);
+        void appendToOrder(Item* item);
         float calculatePrice();
         Waiter* getWaiter();
     private:

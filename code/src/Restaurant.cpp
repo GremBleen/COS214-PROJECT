@@ -7,13 +7,10 @@
 
 #include "Restaurant.h"
 
-Restaurant::Restaurant()
+Restaurant::Restaurant(int numTables)
 {
-    this->floor = new Floor();
+    this->floor = new Floor(numTables);
     this->kitchen = new Kitchen();
-
-    // TODO : Setup chefs
-
 }
 
 Restaurant::~Restaurant()
@@ -24,21 +21,26 @@ Restaurant::~Restaurant()
 
 void Restaurant::seatCustomer(Customer* customer)
 {
-
+    this->floor->seatCustomer(customer);
 }
 
 void Restaurant::requestWaiter(Customer* customer)
 {
-
+    
 }
 
 void Restaurant::placeOrder(string order)
 {
-
+    this->kitchen->receiveOrder(order);
 }
 
 void Restaurant::initialise()
 {
     this->kitchen->setRestaurant(this);
     this->floor->setRestaurant(this);
+    
+    for(int i = 0; i < 8; i++)
+    {
+        this->waiters.push_back(new Waiter());
+    }
 }
