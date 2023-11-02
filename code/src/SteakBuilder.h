@@ -11,7 +11,7 @@ using namespace std;
 #ifndef STEAKBUILDER_H
 #define STEAKBUILDER_H
 
-class SteakBuilder
+class SteakBuilder : public MainBuilder
 {
     public:
         SteakBuilder();

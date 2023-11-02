@@ -30,3 +30,7 @@ Order* Kitchen::makeNextOrder()
 
 }
 
+void Kitchen::setRestaurant(Restaurant* restaurant)
+{
+    this->restaurant = restaurant;
+}

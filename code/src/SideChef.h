@@ -16,7 +16,7 @@ class SideChef : public Chef
     public:
         SideChef();
         ~SideChef();
-        Order* preparePart(string order);
+        void preparePart(string order, Order* o);
 };
 
 #endif

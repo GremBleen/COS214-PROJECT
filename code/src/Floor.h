@@ -21,6 +21,7 @@ class Floor{
         Floor();
         ~Floor();
         void seatCustomer(Customer* customer);
+        void setRestaurant(Restaurant* restaurant);
     private:
         Restaurant* restaurant;
         vector<Table*> tables;

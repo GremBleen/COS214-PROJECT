@@ -24,6 +24,7 @@ class Kitchen
         ~Kitchen();
         void receiveOrder(string order);
         Order* makeNextOrder();
+        void setRestaurant(Restaurant* restaurant);
 
     private:
         Restaurant* restaurant;
