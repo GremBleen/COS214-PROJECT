@@ -17,7 +17,7 @@ Customer* Interface::createCustomer()
 
 Restaurant* Interface::createRestaurant()
 {
-    Restaurant* restaurant = new Restaurant();
+    Restaurant* restaurant = new Restaurant(8);
     restaurant->initialise();
     return restaurant;
 }
