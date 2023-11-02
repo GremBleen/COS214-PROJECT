@@ -11,7 +11,7 @@ using namespace std;
 #ifndef BURGERBUILDER_H
 #define BURGERBUILDER_H
 
-class BurgerBuilder
+class BurgerBuilder : public MainBuilder
 {
     public:
         BurgerBuilder();

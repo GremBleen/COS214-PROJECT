@@ -11,12 +11,15 @@ Restaurant::Restaurant()
 {
     this->floor = new Floor();
     this->kitchen = new Kitchen();
+
+    // TODO : Setup chefs
+
 }
 
 Restaurant::~Restaurant()
 {
     delete floor;
-    delete kitchen();
+    delete kitchen;
 }
 
 void Restaurant::seatCustomer(Customer* customer)
@@ -32,4 +35,10 @@ void Restaurant::requestWaiter(Customer* customer)
 void Restaurant::placeOrder(string order)
 {
 
+}
+
+void Restaurant::initialise()
+{
+    this->kitchen->setRestaurant(this);
+    this->floor->setRestaurant(this);
 }

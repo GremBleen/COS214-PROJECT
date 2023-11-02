@@ -24,6 +24,7 @@ class Restaurant{
         void requestWaiter(Customer* customer);
         void placeOrder(string order);
         void serveNextOrder();
+        void initialise();
     private:
         Floor* floor;
         Kitchen* kitchen;
