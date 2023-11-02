@@ -10,6 +10,7 @@ using namespace std;
 #define WAITER_H
 
 class Customer;
+class Order;
 class Restaurant;
 
 class Waiter{

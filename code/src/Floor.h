@@ -18,14 +18,13 @@ class Restaurant;
 
 class Floor{
     public:
-        Floor();
+        Floor(int numTables);
         ~Floor();
         void seatCustomer(Customer* customer);
         void setRestaurant(Restaurant* restaurant);
     private:
         Restaurant* restaurant;
         vector<Table*> tables;
-        vector<Customer*> customers;
 };
 
 #endif
