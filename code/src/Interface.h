@@ -19,11 +19,11 @@ class Interface{
         ~Interface();
         int generateNumberOfCustomers();
         float runCustomer();
+        static int getCurrentUnixTime();
+        static string generateOrderString();
     private:
         Customer* createCustomer();
         Restaurant* createRestaurant();
-        int getCurrentUnixTime();
-        string generateOrderString();
         Restaurant* r;
 };
 

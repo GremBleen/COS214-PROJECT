@@ -91,17 +91,9 @@ int Interface::generateNumberOfCustomers()
 float Interface::runCustomer()
 {
     // TODO : IMPLEMENT
-
     // create a new customer using createCustomer()
-    // generate a new order string using generateOrderString()
-
     // try and seat the customer
-    // Take the customer's order (generated randomly)
-    // Prepare order
-    // send it back to the customer
-    // get tip based on random patience value
-    // add to total
-    // clean table and make it available
+    
     return 0;
 }
 
@@ -113,10 +105,10 @@ float Interface::runCustomer()
  * There are a maximum of 6 mains, sides and drinks per order.
  * @authors Aidan Chapman (u22738917)
  */
-string Interface::generateOrderString()
+string Interface::generateOrderString() 
 {
     stringstream s;
-    int numMain = ((getCurrentUnixTime() * rand()) % 6) + 1; // getting a number between 1 and 10
+    int numMain = ((getCurrentUnixTime() * rand()) % 6) + 1;
     for (int i = 0; i < numMain; i++)
     {
         int num = ((getCurrentUnixTime() * rand()) % 3) + 1;
@@ -134,7 +126,7 @@ string Interface::generateOrderString()
         }
     }
 
-    int numSide = ((getCurrentUnixTime() * rand()) % 6); // getting a number between 1 and 10
+    int numSide = ((getCurrentUnixTime() * rand()) % 7);
     for (int i = 0; i < numSide; i++)
     {
         int num = ((getCurrentUnixTime() * rand()) % 2) + 1;
@@ -149,7 +141,7 @@ string Interface::generateOrderString()
         }
     }
 
-    int numDrink = ((getCurrentUnixTime() * rand()) % 6); // getting a number between 1 and 10
+    int numDrink = ((getCurrentUnixTime() * rand()) % 7);
     for (int i = 0; i < numDrink; i++)
     {
         int num = ((getCurrentUnixTime() * rand()) % 3) + 1;

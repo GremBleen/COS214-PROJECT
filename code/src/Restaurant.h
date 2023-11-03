@@ -21,9 +21,7 @@ class Restaurant{
         Restaurant(int numTables);
         ~Restaurant();
         void seatCustomer(Customer* customer);
-        void requestWaiter(Customer* customer);
         void placeOrder(string order);
-        void serveNextOrder();
         void initialise();
     private:
         Floor* floor;

@@ -1,15 +1,39 @@
-#include "SideChef.h"
+/**
+ * @file SideChef.cpp
+ * @brief Contains implementation for the SideChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 
+#include "SideChef.h"
+#include "Customer.h"
+
+/**
+ * @fn SideChef::SideChef()
+ * @brief Constructor of the SideChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 SideChef::SideChef()
 {
 
 }
 
+/**
+ * @fn SideChef::~SideChef()
+ * @brief Destructor of the SideChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 SideChef::~SideChef()
 {
 
 }
 
+/**
+ * @fn void SideChef::preparePart(string order, Order* o)
+ * @param order a string
+ * @param o an Order pointer
+ * @brief The Chain of responsibility handle() method
+ * @authors Aidan Chapman (u22738917)
+*/
 void SideChef::preparePart(string order, Order* o)
 {
     int temp = request(order);
@@ -25,7 +49,7 @@ void SideChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        w->takeOrder();
+        w->takeOrder(w->getCustomer()->getOrderRequest());
     }
     else
     {
