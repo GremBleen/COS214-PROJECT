@@ -14,6 +14,11 @@ class Steak : public MainMeal
     public:
         Steak();
         ~Steak();
+
+        bool tenderisedSteak = false;
+        bool seasonedSteak = false;
+        bool cookedSteak = false;
+        bool platedSteak = false;
 };
 
 #endif

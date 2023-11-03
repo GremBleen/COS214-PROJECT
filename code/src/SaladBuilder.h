@@ -5,6 +5,7 @@
 */
 
 #include "SideBuilder.h"
+#include "Salad.h"
 
 using namespace std;
 
@@ -16,13 +17,23 @@ class SaladBuilder : public SideBuilder
     public:
         SaladBuilder();
         ~SaladBuilder();
-        void prepareVegetables();
-        void cutVegetables();
-        void cutFeta();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
 
+        void washVegetables();
+        void chopVegetables();
+        void assembleSide();
+        void plateSide();
+
+        void washLettuce();
+        void cutLettuce();
+        void washTomato();
+        void cutTomato();
+        void washCucumber();
+        void cutCucumber();
+        void cutFeta();
+        void assembleSalad();
+
+    private:
+        Salad* salad;
 };
 
 #endif
