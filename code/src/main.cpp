@@ -4,12 +4,16 @@
  * @authors Aidan Chapman (u22738917)
 */
 #include <iostream>
-#include <cstdlib>
 
 #include "Interface.h"
 
 using namespace std;
 
+/**
+ * @fn int main
+ * @brief A function used to run the program
+ * @authors Aidan Chapman (u22738917)
+*/
 int main()
 {
     Interface* interface = new Interface();
@@ -19,16 +23,11 @@ int main()
     do
     {
         float dailyTotal = 0;
-        // generate a random number of customers for the day
-        // loop through each customer
-        //      Create customer (set time to current time and generate a random patience value)
-        //      try and seat the customer
-        //      Take the customer's order (generated randomly)
-        //      Prepare order
-        //      send it back to the customer
-        //      get tip based on random patience value
-        //      add to total
-        //      clean table and make it available
+        int num = interface.generateNumberOfCustomers();
+        for(int i = 0; i < num; i++)
+        {
+            dailyTotal += interface.runCustomer();
+        }
         total += dailyTotal;
         cout << "Total for the day: R" << dailyTotal << endl << "Total: R" << total << endl << "Continue to next day [y]:";
         cin >> cont;

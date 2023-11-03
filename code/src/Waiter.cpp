@@ -1,8 +1,16 @@
+/**
+ * @file Waiter.cpp
+ * @brief Contains implementation for the Waiter class
+ * @authors Aidan Chapman (u22738917)
+*/
+
 #include "Waiter.h"
 
-Waiter::Waiter()
-{
+#include "Customer.h"
 
+Waiter::Waiter(Restaurant* restaurant)
+{
+    this->restaurant = restaurant;
 }
 
 Waiter::~Waiter()
@@ -22,5 +30,5 @@ void Waiter::takeOrder()
 
 void Waiter::serveCustomer(Order* order)
 {
-    
+    this->customer->receiveOrder(order);
 }

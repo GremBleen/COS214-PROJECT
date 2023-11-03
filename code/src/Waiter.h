@@ -4,18 +4,19 @@
  * @authors Aidan Chapman (u22738917)
 */
 
+#include "Restaurant.h"
+#include "Order.h"
+
 using namespace std;
 
 #ifndef WAITER_H
 #define WAITER_H
 
 class Customer;
-class Order;
-class Restaurant;
 
 class Waiter{
     public:
-        Waiter();
+        Waiter(Restaurant* restaurant);
         ~Waiter();
         void visitCustomer(Customer* customer);
         void takeOrder();
