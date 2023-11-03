@@ -16,7 +16,7 @@ class DrinkChef : public Chef
     public:
         DrinkChef();
         ~DrinkChef();
-        Order* preparePart(string order);
+        void preparePart(string order, Order* o);
 };
 
 #endif

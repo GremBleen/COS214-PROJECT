@@ -5,6 +5,7 @@
 */
 
 #include "Item.h"
+#include "Waiter.h"
 
 using namespace std;
 
@@ -16,10 +17,11 @@ class Order{
         Order();
         ~Order();
         void addToOrder(Item* item);
+        void appendToOrder(Item* item);
         float calculatePrice();
+        Waiter* getWaiter();
     private:
-        Item* items; // Assuming this is a linked list of items in an order?
-        Order* nextOrder;
+        Waiter* waiter;
 };
 
 #endif

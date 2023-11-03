@@ -16,7 +16,7 @@ class Unhappy : public Rating
     public:
         Unhappy();
         ~Unhappy();
-        int calculateTip();
+        float calculateTip();
 };
 
 #endif

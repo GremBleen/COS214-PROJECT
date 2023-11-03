@@ -16,7 +16,7 @@ class Satisfied : public Rating
     public:
         Satisfied();
         ~Satisfied();
-        int calculateTip();
+        float calculateTip();
 };
 
 #endif

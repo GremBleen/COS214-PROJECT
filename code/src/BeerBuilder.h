@@ -11,12 +11,12 @@ using namespace std;
 #ifndef BEERBUILDER_H
 #define BEERBUILDER_H
 
-class BeerBuilder
+class BeerBuilder : public DrinkBuilder
 {
     public:
         BeerBuilder();
         ~BeerBuilder();
-        void getGlas();
+        void getGlass();
         void pourDrink();
         void prepareIngredients();
         void assembleItem();
