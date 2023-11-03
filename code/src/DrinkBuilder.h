@@ -16,11 +16,12 @@ class DrinkBuilder : public ItemBuilder
     public:
         DrinkBuilder();
         virtual ~DrinkBuilder();
-        virtual void prepareIngredients() = 0;
-        virtual void assembleItem() = 0;
-        virtual void getGlass() = 0;
-        virtual void pourDrink() = 0;
-        virtual Item* getItem() = 0;
+        virtual void prepareIngredients();
+        virtual void assembleItem();
+        virtual Item* getItem();
+        
+        virtual void getGlass();
+        virtual void pourDrink();
 };
 
 #endif

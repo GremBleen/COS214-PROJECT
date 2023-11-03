@@ -16,14 +16,21 @@ class BurgerBuilder : public MainBuilder
     public:
         BurgerBuilder();
         ~BurgerBuilder();
-        void butterBun();
-        void prepareVegetables();
-        void cookPatty();
-        void applySauce();
         void prepareIngredients();
         void assembleItem();
         Item* getItem();
 
+        // Operations used in template method
+        void prepareMeat();
+        void seasonMeat();
+        void cookMeat();
+        void plateMain();
+
+        void butterBun();
+        void prepareVegetables();
+        void cookPatty();
+        void applySauce();
+        void assembleBurger();
 };
 
 #endif

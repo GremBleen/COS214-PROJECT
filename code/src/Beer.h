@@ -16,6 +16,13 @@ class Beer : public Drink
     public:
         Beer();
         ~Beer();
+
+    void prepareIngredients();
+    void assembleItem();
+    Item* getItem();
+
+    void getGlass();
+    void pourDrink();
 };
 
 #endif

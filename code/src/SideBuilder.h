@@ -16,9 +16,13 @@ class SideBuilder : public ItemBuilder
     public:
         SideBuilder();
         virtual ~SideBuilder();
-        virtual void prepareIngredients() = 0;
-        virtual void assembleItem() = 0;
-        virtual Item* getItem() = 0;
+        virtual void prepareIngredients();
+        virtual void assembleItem();
+        virtual Item* getItem();
+
+        virtual void washVegetables();
+        virtual void chopVegetables();
+        virtual void plateSide();
 };
 
 #endif

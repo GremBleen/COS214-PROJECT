@@ -16,13 +16,22 @@ class SaladBuilder : public SideBuilder
     public:
         SaladBuilder();
         ~SaladBuilder();
-        void prepareVegetables();
-        void cutVegetables();
-        void cutFeta();
         void prepareIngredients();
         void assembleItem();
         Item* getItem();
 
+        void washVegetables();
+        void chopVegetables();
+        void plateSide();
+
+        void washLettuce();
+        void cutLettuce();
+        void washTomato();
+        void cutTomato();
+        void washCucumber();
+        void cutCucumber();
+        void cutFeta();
+        void assembleSalad();
 };
 
 #endif

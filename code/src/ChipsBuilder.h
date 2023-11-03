@@ -16,13 +16,19 @@ class ChipsBuilder : public SideBuilder
     public:
         ChipsBuilder();
         ~ChipsBuilder();
-        void cutPotato();
-        void fryPotato();
-        void seasonChips();
         void prepareIngredients();
         void assembleItem();
         Item* getItem();
 
+        void washVegetables();
+        void chopVegetables();
+        void assembleSide();
+        void plateSide();
+
+        void washPotato();
+        void cutPotato();
+        void fryPotato();
+        void seasonChips();
 };
 
 #endif
