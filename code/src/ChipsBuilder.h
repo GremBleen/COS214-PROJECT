@@ -11,7 +11,7 @@ using namespace std;
 #ifndef CHIPSBUILDER_H
 #define CHIPSBUILDER_H
 
-class ChipsBuilder
+class ChipsBuilder : public SideBuilder
 {
     public:
         ChipsBuilder();
