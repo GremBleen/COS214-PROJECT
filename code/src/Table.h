@@ -16,9 +16,10 @@ class Table{
         Table();
         ~Table();
         void addCustomer(Customer* customer);
+        Customer* getCustomer();
         void cleanUp();
     private:
-        Customer* customer();
+        Customer* customer;
 };
 
 #endif

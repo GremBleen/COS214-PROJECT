@@ -16,14 +16,17 @@ using namespace std;
 #ifndef RESTAURANT_H
 #define RESTAURANT_H
 
+class Waiter;
+
 class Restaurant{
     public:
-        Restaurant();
+        Restaurant(int numTables);
         ~Restaurant();
         void seatCustomer(Customer* customer);
         void requestWaiter(Customer* customer);
         void placeOrder(string order);
         void serveNextOrder();
+        void initialise();
     private:
         Floor* floor;
         Kitchen* kitchen;
