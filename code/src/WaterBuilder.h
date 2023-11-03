@@ -11,12 +11,12 @@ using namespace std;
 #ifndef WATERBUILDER_H
 #define WATERBUILDER_H
 
-class WaterBuilder
+class WaterBuilder : public DrinkBuilder
 {
     public:
         WaterBuilder();
         ~WaterBuilder();
-        void getGlas();
+        void getGlass();
         void pourDrink();
         void prepareIngredients();
         void assembleItem();

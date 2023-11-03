@@ -16,7 +16,7 @@ class Neutral : public Rating
     public:
         Neutral();
         ~Neutral();
-        int calculateTip();
+        float calculateTip();
 };
 
 #endif

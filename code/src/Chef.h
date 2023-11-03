@@ -19,9 +19,10 @@ class Chef
     public:
         Chef();
         virtual ~Chef();
-        virtual Order* preparePart(string order) = 0;
+        virtual void preparePart(string order, Order* o) = 0;
         int request(string order);
         Chef* nextChef;
+        enum itemBuilders{steak, burger, fish, chips, salad, beer, water, soda};
     protected:
         ItemBuilder* builders[8];
 };
