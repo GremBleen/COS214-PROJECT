@@ -6,8 +6,6 @@
 
 #include "Drink.h"
 
-using namespace std;
-
 #ifndef WATER_H
 #define WATER_H
 

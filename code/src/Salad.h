@@ -6,8 +6,6 @@
 
 #include "Side.h"
 
-using namespace std;
-
 #ifndef SALAD_H
 #define SALAD_H
 

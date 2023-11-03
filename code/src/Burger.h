@@ -6,8 +6,6 @@
 
 #include "MainMeal.h"
 
-using namespace std;
-
 #ifndef BURGER_H
 #define BURGER_H
 

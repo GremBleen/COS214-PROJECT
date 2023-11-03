@@ -6,8 +6,6 @@
 
 #include "MainMeal.h"
 
-using namespace std;
-
 #ifndef STEAK_H
 #define STEAK_H
 

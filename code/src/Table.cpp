@@ -1,5 +1,7 @@
 #include "Table.h"
 
+#include "Customer.h"
+
 Table::Table()
 {
 

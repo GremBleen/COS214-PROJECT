@@ -6,8 +6,6 @@
 
 #include "Item.h"
 
-using namespace std;
-
 #ifndef MAINMEAL_H
 #define MAINMEAL_H
 

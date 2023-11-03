@@ -6,6 +6,7 @@
 
 #include "Chef.h"
 #include "Order.h"
+#include "Restaurant.h"
 
 #include <string>
 #include <vector>
@@ -15,15 +16,13 @@ using namespace std;
 #ifndef KITCHEN_H
 #define KITCHEN_H
 
-class Restaurant;
-
 class Kitchen
 {
     public:
         Kitchen();
         ~Kitchen();
         void receiveOrder(string order);
-        Order* makeNextOrder();
+        void makeNextOrder();
         void setRestaurant(Restaurant* restaurant);
 
     private:

@@ -6,8 +6,6 @@
 
 #include "Drink.h"
 
-using namespace std;
-
 #ifndef SODA_H
 #define SODA_H
 

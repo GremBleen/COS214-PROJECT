@@ -6,8 +6,6 @@
 
 #include "Item.h"
 
-using namespace std;
-
 #ifndef ITEMBUILDER_H
 #define ITEMBUILDER_H
 

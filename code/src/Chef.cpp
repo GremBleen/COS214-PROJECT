@@ -1,3 +1,9 @@
+/**
+ * @file Chef.cpp
+ * @brief Contains implementation for the Chef class
+ * @authors Aidan Chapman (u22738917)
+*/
+
 #include "Chef.h"
 #include "SteakBuilder.h"
 #include "BurgerBuilder.h"
@@ -8,6 +14,12 @@
 #include "WaterBuilder.h"
 #include "SodaBuilder.h"
 
+
+/**
+ * @fn Chef::Chef()
+ * @brief Constructor of the Chef class
+ * @authors Aidan Chapman (u22738917)
+*/
 Chef::Chef()
 {
     builders[steak] = new SteakBuilder();
@@ -20,6 +32,11 @@ Chef::Chef()
     builders[soda] = new SodaBuilder();
 }
 
+/**
+ * @fn Chef::~Chef()
+ * @brief Destructor of the Chef class
+ * @authors Aidan Chapman (u22738917)
+*/
 Chef::~Chef()
 {
     for(int i = 0; i < 8; i++)
@@ -28,6 +45,12 @@ Chef::~Chef()
     }
 }
 
+/**
+ * @fn int Chef::request(string order)
+ * @param order a string
+ * @brief member function of the Chef class, implementing Adapter functionality
+ * @authors Aidan Chapman (u22738917)
+*/
 int Chef::request(string order)
 {
     char temp = order[0];

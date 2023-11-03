@@ -6,6 +6,7 @@
 
 #include "Customer.h"
 #include "Table.h"
+#include "Restaurant.h"
 
 #include <vector>
 
@@ -14,14 +15,13 @@ using namespace std;
 #ifndef FLOOR_H
 #define FLOOR_H
 
-class Restaurant;
-
 class Floor{
     public:
         Floor(int numTables);
         ~Floor();
         void seatCustomer(Customer* customer);
         void setRestaurant(Restaurant* restaurant);
+        int getNumTables();
     private:
         Restaurant* restaurant;
         vector<Table*> tables;
