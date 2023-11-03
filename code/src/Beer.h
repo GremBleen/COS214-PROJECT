@@ -6,8 +6,6 @@
 
 #include "Drink.h"
 
-using namespace std;
-
 #ifndef BEER_H
 #define BEER_H
 

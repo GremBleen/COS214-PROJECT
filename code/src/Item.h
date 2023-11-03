@@ -4,8 +4,6 @@
  * @authors Aidan Chapman (u22738917)
 */
 
-using namespace std;
-
 #ifndef ITEM_H
 #define ITEM_H
 

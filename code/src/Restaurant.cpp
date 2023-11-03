@@ -7,13 +7,13 @@
 
 #include "Restaurant.h"
 
+#include "Waiter.h"
+#include "Floor.h"
+#include "Kitchen.h"
+#include "Customer.h"
+
 Restaurant::Restaurant(int numTables)
 {
-    for(int i = 0; i < numTables; i++)
-    {
-        this->waiters.push_back(new Waiter());
-    }
-
     this->floor = new Floor(numTables);
     this->kitchen = new Kitchen();
 }
@@ -31,7 +31,7 @@ void Restaurant::seatCustomer(Customer* customer)
 
 void Restaurant::requestWaiter(Customer* customer)
 {
-
+    
 }
 
 void Restaurant::placeOrder(string order)
@@ -43,4 +43,9 @@ void Restaurant::initialise()
 {
     this->kitchen->setRestaurant(this);
     this->floor->setRestaurant(this);
+
+    for(int i = 0; i < floor->getNumTables(); i++)
+    {
+        this->waiters.push_back(new Waiter(this));
+    }
 }

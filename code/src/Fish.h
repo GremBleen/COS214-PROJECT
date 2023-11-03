@@ -6,8 +6,6 @@
 
 #include "MainMeal.h"
 
-using namespace std;
-
 #ifndef FISH_H
 #define FISH_H
 
