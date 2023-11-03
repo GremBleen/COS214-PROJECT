@@ -16,6 +16,12 @@ class Chips : public Side
     public:
         Chips();
         ~Chips();
+
+        bool washedPotatoes = false;
+        bool cutPotatoes = false;
+        bool friedPotatoes = false;
+        bool seasonedChips = false;
+        
 };
 
 #endif

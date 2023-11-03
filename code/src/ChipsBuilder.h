@@ -5,6 +5,7 @@
 */
 
 #include "SideBuilder.h"
+#include "Chips.h"
 
 using namespace std;
 
@@ -16,9 +17,6 @@ class ChipsBuilder : public SideBuilder
     public:
         ChipsBuilder();
         ~ChipsBuilder();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
 
         void washVegetables();
         void chopVegetables();
@@ -29,6 +27,9 @@ class ChipsBuilder : public SideBuilder
         void cutPotato();
         void fryPotato();
         void seasonChips();
+
+    private:
+        Chips* chips;
 };
 
 #endif

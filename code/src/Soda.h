@@ -16,6 +16,10 @@ class Soda : public Drink
     public:
         Soda();
         ~Soda();
+
+        bool gotSodaGlass = false;
+        bool pouredSoda = false;
+        bool assembledSoda = false;
 };
 
 #endif

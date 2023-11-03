@@ -5,6 +5,7 @@
 */
 
 #include "ItemBuilder.h"
+#include "Side.h"
 
 using namespace std;
 
@@ -20,9 +21,13 @@ class SideBuilder : public ItemBuilder
         virtual void assembleItem();
         virtual Item* getItem();
 
-        virtual void washVegetables();
-        virtual void chopVegetables();
-        virtual void plateSide();
+        virtual void washVegetables() = 0;
+        virtual void chopVegetables() = 0;
+        virtual void assembleSide() = 0;
+        virtual void plateSide() = 0;
+
+    protected:
+        Side* side;
 };
 
 #endif

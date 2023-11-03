@@ -16,6 +16,10 @@ class Drink : public Item
     public:
         Drink();
         virtual ~Drink();
+
+        bool gotGlass = false;
+        bool pouredDrink = false;
+        bool assembledDrink = false;
 };
 
 #endif

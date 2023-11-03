@@ -20,7 +20,7 @@ class ItemBuilder
         virtual void assembleItem() = 0;
         virtual Item* getItem() = 0;
 
-    private:
+    protected:
         Item* item;
 };
 

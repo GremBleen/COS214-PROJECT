@@ -17,12 +17,9 @@ class Water : public Drink
         Water();
         ~Water();
 
-    void prepareIngredients();
-    void assembleItem();
-    Item* getItem();
-
-    void getGlass();
-    void pourDrink();
+        bool gotWaterGlass = false;
+        bool pouredWater = false;
+        bool assembledWater = false;
 };
 
 #endif

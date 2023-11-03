@@ -5,6 +5,7 @@
 */
 
 #include "DrinkBuilder.h"
+#include "Soda.h"
 
 using namespace std;
 
@@ -16,11 +17,17 @@ class SodaBuilder : public DrinkBuilder
     public:
         SodaBuilder();
         ~SodaBuilder();
+
         void getGlass();
         void pourDrink();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
+        void assembleDrink();
+
+        void getSodaGlass();
+        void pourSoda();
+        void assembleSoda();
+
+    private:
+        Soda* soda;
 };
 
 #endif

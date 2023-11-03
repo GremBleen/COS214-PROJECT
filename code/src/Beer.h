@@ -17,12 +17,9 @@ class Beer : public Drink
         Beer();
         ~Beer();
 
-    void prepareIngredients();
-    void assembleItem();
-    Item* getItem();
-
-    void getGlass();
-    void pourDrink();
+        bool gotBeerGlass = false;
+        bool pouredBeer = false;
+        bool assembledBeer = false;
 };
 
 #endif
