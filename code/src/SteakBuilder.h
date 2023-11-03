@@ -5,6 +5,7 @@
 */
 
 #include "MainBuilder.h"
+#include "Steak.h"
 
 using namespace std;
 
@@ -29,6 +30,9 @@ class SteakBuilder : public MainBuilder
         void tenderiseSteak();
         void seasonSteak();
         void cookSteak();
+        void plateSteak();
+    private:
+        Steak* steak;
 };
 
 #endif

@@ -16,6 +16,11 @@ class Burger : public MainMeal
     public:
         Burger();
         ~Burger();
+
+        bool cookedPatty = false;
+        bool assembledBurger = false;
+        bool butteredBun = false;
+        bool preparedVegetables = false;
 };
 
 #endif

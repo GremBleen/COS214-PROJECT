@@ -5,6 +5,7 @@
 */
 
 #include "ItemBuilder.h"
+#include "MainMeal.h"
 
 using namespace std;
 
@@ -23,7 +24,10 @@ class MainBuilder : public ItemBuilder
         virtual void prepareMeat();
         virtual void seasonMeat();
         virtual void cookMeat();
-        virtual void plateMain();        
+        virtual void plateMain();
+
+    protected:
+        MainMeal* main;
 };
 
 #endif
