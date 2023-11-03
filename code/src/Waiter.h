@@ -5,6 +5,7 @@
 */
 
 #include "Restaurant.h"
+#include <string>
 
 using namespace std;
 
@@ -19,8 +20,10 @@ class Waiter{
         Waiter(Restaurant* restaurant);
         ~Waiter();
         void visitCustomer(Customer* customer);
-        void takeOrder();
+        void takeOrder(string order);
         void serveCustomer(Order* order);
+        Customer* getCustomer();
+        void cleanUp();
     private:
         Restaurant* restaurant;
         Customer* customer;

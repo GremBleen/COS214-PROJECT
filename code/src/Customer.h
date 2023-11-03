@@ -6,6 +6,7 @@
 
 #include "Rating.h"
 #include "Waiter.h"
+#include <string>
 
 using namespace std;
 
@@ -14,16 +15,18 @@ using namespace std;
 
 class Customer{
     public:
-        Customer();
+        Customer(int timestamp);
         ~Customer();
         void acceptWaiter(Waiter* waiter);
+        string getOrderRequest();
         void changeRating(Rating* rating);
         void receiveOrder(Order* order);
         float calculatePayment();
-    
+        Waiter* getWaiter();
     private:
         Waiter* waiter;
         Rating* satisfaction;
+        int timestamp;
 };
 
 #endif

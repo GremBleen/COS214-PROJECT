@@ -5,6 +5,7 @@
 */
 
 #include "DrinkChef.h"
+#include "Customer.h"
 
 /**
  * @fn DrinkChef::DrinkChef()
@@ -48,7 +49,8 @@ void DrinkChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        w->takeOrder();
+        w->takeOrder(w->getCustomer()->getOrderRequest());
+        
     }
     else
     {
