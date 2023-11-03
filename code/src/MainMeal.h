@@ -11,11 +11,17 @@ using namespace std;
 #ifndef MAINMEAL_H
 #define MAINMEAL_H
 
-class MainMeal
+class MainMeal : public Item
 {
-    public:
-        MainMeal();
-        virtual ~MainMeal();
+public:
+    MainMeal();
+
+    virtual ~MainMeal();
+
+    bool preparedMain = false;
+    bool seasonedMain = false;
+    bool cookedMain = false;
+    bool platedMain = false;
 };
 
 #endif

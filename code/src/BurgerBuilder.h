@@ -5,6 +5,7 @@
 */
 
 #include "MainBuilder.h"
+#include "Burger.h"
 
 using namespace std;
 
@@ -13,24 +14,27 @@ using namespace std;
 
 class BurgerBuilder : public MainBuilder
 {
-    public:
-        BurgerBuilder();
-        ~BurgerBuilder();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
+public:
+    BurgerBuilder();
+    ~BurgerBuilder();
+    void prepareIngredients();
+    void assembleItem();
+    Item *getItem();
 
-        // Operations used in template method
-        void prepareMeat();
-        void seasonMeat();
-        void cookMeat();
-        void plateMain();
+    // Operations used in template method
+    void prepareMeat();
+    void seasonMeat();
+    void cookMeat();
+    void plateMain();
 
-        void butterBun();
-        void prepareVegetables();
-        void cookPatty();
-        void applySauce();
-        void assembleBurger();
+    void butterBun();
+    void prepareVegetables();
+    void cookPatty();
+    void applySauce();
+    void assembleBurger();
+
+protected:
+    Burger *burger;
 };
 
 #endif
