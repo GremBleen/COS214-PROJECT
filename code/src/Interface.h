@@ -17,8 +17,7 @@ class Interface{
         Interface();
         ~Interface();
         Customer* createCustomer();
-        
-
+        Restaurant* createRestaurant();
     private:
         Restaurant* r;
 };
