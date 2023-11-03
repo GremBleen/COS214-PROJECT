@@ -4,8 +4,6 @@
  * @authors Aidan Chapman (u22738917)
 */
 
-using namespace std;
-
 #ifndef TABLE_H
 #define TABLE_H
 

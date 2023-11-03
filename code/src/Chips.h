@@ -6,8 +6,6 @@
 
 #include "Side.h"
 
-using namespace std;
-
 #ifndef CHIPS_H
 #define CHIPS_H
 

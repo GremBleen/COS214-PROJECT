@@ -10,6 +10,7 @@
 #include "Waiter.h"
 #include "Floor.h"
 #include "Kitchen.h"
+#include "Customer.h"
 
 Restaurant::Restaurant(int numTables)
 {

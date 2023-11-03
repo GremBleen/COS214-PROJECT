@@ -15,7 +15,7 @@ using namespace std;
 class Waiter;
 class Floor;
 class Kitchen;
-
+class Customer;
 class Restaurant{
     public:
         Restaurant(int numTables);

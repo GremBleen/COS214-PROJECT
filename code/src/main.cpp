@@ -23,10 +23,10 @@ int main()
     do
     {
         float dailyTotal = 0;
-        int num = interface.generateNumberOfCustomers();
+        int num = interface->generateNumberOfCustomers();
         for(int i = 0; i < num; i++)
         {
-            dailyTotal += interface.runCustomer();
+            dailyTotal += interface->runCustomer();
         }
         total += dailyTotal;
         cout << "Total for the day: R" << dailyTotal << endl << "Total: R" << total << endl << "Continue to next day [y]:";

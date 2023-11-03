@@ -5,7 +5,6 @@
 */
 
 #include "Restaurant.h"
-#include "Order.h"
 
 using namespace std;
 
@@ -13,6 +12,7 @@ using namespace std;
 #define WAITER_H
 
 class Customer;
+class Order;
 
 class Waiter{
     public:

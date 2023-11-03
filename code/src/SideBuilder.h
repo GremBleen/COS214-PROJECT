@@ -9,7 +9,7 @@
 using namespace std;
 
 #ifndef SIDEBUILDER_H
-#define MAINBUILDER_H
+#define SIDEBUILDER_H
 
 class SideBuilder : public ItemBuilder
 {

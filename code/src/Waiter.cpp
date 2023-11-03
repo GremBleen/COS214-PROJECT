@@ -7,6 +7,7 @@
 #include "Waiter.h"
 
 #include "Customer.h"
+#include "Order.h"
 
 Waiter::Waiter(Restaurant* restaurant)
 {

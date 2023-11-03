@@ -6,8 +6,6 @@
 
 #include "Rating.h"
 
-using namespace std;
-
 #ifndef SATISFIED_H
 #define SATISFIED_H
 

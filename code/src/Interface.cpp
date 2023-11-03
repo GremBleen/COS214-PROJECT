@@ -79,6 +79,7 @@ int Interface::getCurrentUnixTime()
 int Interface::generateNumberOfCustomers()
 {
     int numCustomers = (abs(getCurrentUnixTime() * rand()) % 10) + 1;
+    return numCustomers;
 }
 
 /**
@@ -101,6 +102,7 @@ float Interface::runCustomer()
     // get tip based on random patience value
     // add to total
     // clean table and make it available
+    return 0;
 }
 
 /**
@@ -121,13 +123,13 @@ string Interface::generateOrderString()
         switch(num)
         {
             case 1:
-                s << Chef::itemBuilders.steak;
+                s << Chef::steak;
             break;
             case 2:
-                s << Chef::itemBuilders.burger;
+                s << Chef::burger;
             break;
             case 3:
-                s << Chef::itemBuilders.fish;
+                s << Chef::fish;
             break;
         }
     }
@@ -139,10 +141,10 @@ string Interface::generateOrderString()
         switch(num)
         {
             case 1:
-                s << Chef::itemBuilders.chips;
+                s << Chef::chips;
             break;
             case 2:
-                s << Chef::itemBuilders.salad;
+                s << Chef::salad;
             break;
         }
     }
@@ -154,13 +156,13 @@ string Interface::generateOrderString()
         switch(num)
         {
             case 1:
-                s << Chef::itemBuilders.beer;
+                s << Chef::beer;
             break;
             case 2:
-                s << Chef::itemBuilders.water;
+                s << Chef::water;
             break;
             case 3:
-                s << Chef::itemBuilders.soda;
+                s << Chef::soda;
             break;
         }
     }

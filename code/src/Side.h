@@ -6,8 +6,6 @@
 
 #include "Item.h"
 
-using namespace std;
-
 #ifndef SIDE_H
 #define SIDE_H
 
