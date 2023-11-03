@@ -11,7 +11,7 @@ using namespace std;
 #ifndef SALADBUILDER_H
 #define SALADBUILDER_H
 
-class SaladBuilder
+class SaladBuilder : public SideBuilder
 {
     public:
         SaladBuilder();
