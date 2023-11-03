@@ -11,7 +11,7 @@ using namespace std;
 #ifndef FISHBUILDER_H
 #define FISHBUILDER_H
 
-class FishBuilder
+class FishBuilder : public MainBuilder
 {
     public:
         FishBuilder();
