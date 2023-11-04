@@ -109,10 +109,11 @@ float Interface::runCustomer()
     newRestaurant->serveOrder(order);
     float tip = newCustomer->calculatePayment();
     // add to total
-    new
+    // TODO : add tip to customer's total
     // clean table and make it available
     newCustomer->getWaiter()->cleanTable();
 
+    // TODO : return order cost + tip (total)
     return 0;
 }
 
