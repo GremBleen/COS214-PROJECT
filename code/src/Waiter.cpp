@@ -8,6 +8,7 @@
 
 #include "Customer.h"
 #include "Order.h"
+#include "OrderContainer.h"
 
 /**
  * @fn Waiter::Waiter(Restaurant* restaurant)
@@ -31,14 +32,14 @@ void Waiter::visitCustomer(Customer* customer) // notify
 }
 
 /**
- * @fn void Waiter::takeOrder(string order)
- * @param order a string
+ * @fn void Waiter::takeOrder(OrderContainer* orderContainer)
+ * @param orderContainer an OrderContainer pointer
  * @brief A member function of the Waiter Class. Used to take the customer's order
  * @authors Aidan Chapman (u22738917)
 */
-void Waiter::takeOrder(string order)
+void Waiter::takeOrder(OrderContainer* orderContainer)
 {
-    this->restaurant->placeOrder(order);
+    this->restaurant->placeOrder(orderContainer);
 }
 
 /**
@@ -63,6 +64,22 @@ Customer* Waiter::getCustomer()
     return this->customer;
 }
 
+/**
+ * @fn Restaurant* Waiter::getRestaurant()
+ * @return Restaurant reference
+ * @brief A member function of the Waiter class. A getter for the Restaurant member variable
+ * @authors Aidan Chapman (u22738917)
+*/
+Restaurant* Waiter::getRestaurant()
+{
+    return this->restaurant;
+}
+
+/**
+ * @fn void Waiter::cleanUp()
+ * @brief A member function of the Waiter class. Resets customer member variable
+ * @authors Aidan Chapman (u22738917)
+*/
 void Waiter::cleanUp()
 {
     this->customer = nullptr;

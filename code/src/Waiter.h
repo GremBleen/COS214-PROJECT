@@ -14,15 +14,17 @@ using namespace std;
 
 class Customer;
 class Order;
+class OrderContainer;
 
 class Waiter{
     public:
         Waiter(Restaurant* restaurant);
         ~Waiter();
         void visitCustomer(Customer* customer);
-        void takeOrder(string order);
+        void takeOrder(OrderContainer* orderContainer);
         void serveCustomer(Order* order);
         Customer* getCustomer();
+        Restaurant* getRestaurant();
         void cleanUp();
     private:
         Restaurant* restaurant;

@@ -10,6 +10,7 @@
 #include "Floor.h"
 #include "Kitchen.h"
 #include "Customer.h"
+#include "OrderContainer.h"
 
 /**
  * @fn Restaurant::Restaurant(int numTables)
@@ -57,20 +58,30 @@ void Restaurant::seatCustomer(Customer* customer)
         it++;
     }
 
-    customer->acceptWaiter(thisWaiter); // customer -> attach(Waiter
-    thisWaiter->takeOrder(customer->getOrderRequest());
+    customer->acceptWaiter(thisWaiter); // customer -> attach(Waiter)
+    thisWaiter->takeOrder(new OrderContainer(customer->getOrderRequest(), new Order(thisWaiter)));
     this->kitchen->makeNextOrder();
 }
 
 /**
- * @fn void Restaurant::placeOrder(string order)
- * @param order a string
+ * @fn void Restaurant::makenextOrder()
+ * @brief A method used to call Kitchen's makeNextOrder() method
+ * @authors Aidan Chapman (u22738917)
+*/
+void Restaurant::makeNextOrder()
+{
+    this->kitchen->makeNextOrder();
+}
+
+/**
+ * @fn void Restaurant::placeOrder(OrderContainer* order)
+ * @param orderContainer an OrderContainer pointer
  * @brief A method used to send the order to the kitchen
  * @authors Aidan Chapman (u22738917)
 */
-void Restaurant::placeOrder(string order)
+void Restaurant::placeOrder(OrderContainer* orderContainer)
 {
-    this->kitchen->receiveOrder(order);
+    this->kitchen->receiveOrder(orderContainer);
 }
 
 /**
