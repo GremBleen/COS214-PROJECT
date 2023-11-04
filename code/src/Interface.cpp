@@ -21,3 +21,5 @@ Restaurant* Interface::createRestaurant()
     restaurant->initialise();
     return restaurant;
 }
+
+//Merged Facade with Dev in order to update the interface class
