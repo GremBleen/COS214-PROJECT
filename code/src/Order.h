@@ -14,7 +14,7 @@ using namespace std;
 
 class Order{
     public:
-        Order();
+        Order(Waiter* waiter);
         ~Order();
         void addToOrder(Item* item);
         void appendToOrder(Item* item);

@@ -5,6 +5,7 @@
 */
 
 #include "MainBuilder.h"
+#include "Fish.h"
 
 using namespace std;
 
@@ -13,16 +14,26 @@ using namespace std;
 
 class FishBuilder : public MainBuilder
 {
-    public:
-        FishBuilder();
-        ~FishBuilder();
-        void descaleFish();
-        void cookFish();
-        void seasonFish();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
+public:
+    FishBuilder();
+    ~FishBuilder();
+    void prepareIngredients();
+    void assembleItem();
+    Item *getItem();
 
+    // Operations used in template method
+    void prepareMeat();
+    void seasonMeat();
+    void cookMeat();
+    void plateMain();
+
+    void descaleFish();
+    void seasonFish();
+    void cookFish();
+    void plateFish();
+
+protected:
+    Fish *fish;
 };
 
 #endif

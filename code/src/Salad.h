@@ -6,8 +6,6 @@
 
 #include "Side.h"
 
-using namespace std;
-
 #ifndef SALAD_H
 #define SALAD_H
 
@@ -16,6 +14,16 @@ class Salad : public Side
     public:
         Salad();
         ~Salad();
+
+        bool washedLettuce = false;
+        bool cutLettuce = false;
+        bool washedTomato = false;
+        bool cutTomato = false;
+        bool washedCucumber = false;
+        bool cutCucumber = false;
+        bool cutFeta = false;
+        bool assembledSalad = false;
+        bool platedSalad = false;
 };
 
 #endif

@@ -1,15 +1,40 @@
-#include "MainChef.h"
+/**
+ * @file MainChef.cpp
+ * @brief Contains implementation for the MainChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 
+#include "MainChef.h"
+#include "Customer.h"
+#include "OrderContainer.h"
+
+/**
+ * @fn MainChef::MainChef()
+ * @brief Constructor of the MainChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 MainChef::MainChef()
 {
 
 }
 
+/**
+ * @fn MainChef::~MainChef()
+ * @brief Destructor of the MainChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 MainChef::~MainChef()
 {
 
 }
 
+/**
+ * @fn void MainChef::preparePart(string order, Order* o)
+ * @param order a string
+ * @param o an Order pointer
+ * @brief The Chain of responsibility handle() method
+ * @authors Aidan Chapman (u22738917)
+*/
 void MainChef::preparePart(string order, Order* o)
 {
     int temp = request(order);
@@ -25,10 +50,11 @@ void MainChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        w->takeOrder();
+        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), new Order(w)));
+        w->getRestaurant()->makeNextOrder();
     }
     else
     {
-        nextChef->preparePart(order, 0);
+        nextChef->preparePart(order, o);
     }
 }

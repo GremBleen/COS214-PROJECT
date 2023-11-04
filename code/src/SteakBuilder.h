@@ -5,6 +5,7 @@
 */
 
 #include "MainBuilder.h"
+#include "Steak.h"
 
 using namespace std;
 
@@ -16,13 +17,22 @@ class SteakBuilder : public MainBuilder
     public:
         SteakBuilder();
         ~SteakBuilder();
-        void prepareMeat();
-        void cookSteak();
-        void seasonSteak();
         void prepareIngredients();
         void assembleItem();
         Item* getItem();
 
+        // Operations used in template method
+        void prepareMeat();
+        void seasonMeat();
+        void cookMeat();
+        void plateMain();
+
+        void tenderiseSteak();
+        void seasonSteak();
+        void cookSteak();
+        void plateSteak();
+    private:
+        Steak* steak;
 };
 
 #endif

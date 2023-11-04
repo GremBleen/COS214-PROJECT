@@ -6,8 +6,6 @@
 
 #include "Drink.h"
 
-using namespace std;
-
 #ifndef WATER_H
 #define WATER_H
 
@@ -16,6 +14,10 @@ class Water : public Drink
     public:
         Water();
         ~Water();
+
+        bool gotWaterGlass = false;
+        bool pouredWater = false;
+        bool assembledWater = false;
 };
 
 #endif

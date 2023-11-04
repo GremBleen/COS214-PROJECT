@@ -4,10 +4,6 @@
  * @authors Aidan Chapman (u22738917)
 */
 
-#include "Floor.h"
-#include "Kitchen.h"
-#include "Waiter.h"
-
 #include <string>
 #include <vector>
 
@@ -17,15 +13,17 @@ using namespace std;
 #define RESTAURANT_H
 
 class Waiter;
-
+class Floor;
+class Kitchen;
+class Customer;
+class OrderContainer;
 class Restaurant{
     public:
         Restaurant(int numTables);
         ~Restaurant();
         void seatCustomer(Customer* customer);
-        void requestWaiter(Customer* customer);
-        void placeOrder(string order);
-        void serveNextOrder();
+        void placeOrder(OrderContainer* orderContainer);
+        void makeNextOrder();
         void initialise();
     private:
         Floor* floor;
