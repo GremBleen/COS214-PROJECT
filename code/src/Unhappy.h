@@ -6,8 +6,6 @@
 
 #include "Rating.h"
 
-using namespace std;
-
 #ifndef UNHAPPY_H
 #define UNHAPPY_H
 

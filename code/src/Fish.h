@@ -6,8 +6,6 @@
 
 #include "MainMeal.h"
 
-using namespace std;
-
 #ifndef FISH_H
 #define FISH_H
 
@@ -16,6 +14,11 @@ class Fish : public MainMeal
     public:
         Fish();
         ~Fish();
+
+        bool descaledFish = false;
+        bool seasonedFish = false;
+        bool cookedFish = false;
+        bool platedFish = false;
 };
 
 #endif

@@ -4,6 +4,9 @@
  * @authors Aidan Chapman (u22738917)
 */
 
+#include "Restaurant.h"
+#include <string>
+
 using namespace std;
 
 #ifndef WAITER_H
@@ -11,15 +14,16 @@ using namespace std;
 
 class Customer;
 class Order;
-class Restaurant;
 
 class Waiter{
     public:
-        Waiter();
+        Waiter(Restaurant* restaurant);
         ~Waiter();
         void visitCustomer(Customer* customer);
-        void takeOrder();
+        void takeOrder(string order);
         void serveCustomer(Order* order);
+        Customer* getCustomer();
+        void cleanUp();
     private:
         Restaurant* restaurant;
         Customer* customer;

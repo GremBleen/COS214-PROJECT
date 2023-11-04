@@ -6,8 +6,6 @@
 
 #include "Rating.h"
 
-using namespace std;
-
 #ifndef NEUTRAL_H
 #define NEUTRAL_H
 

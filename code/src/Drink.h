@@ -6,8 +6,6 @@
 
 #include "Item.h"
 
-using namespace std;
-
 #ifndef DRINK_H
 #define DRINK_H
 
@@ -16,6 +14,10 @@ class Drink : public Item
     public:
         Drink();
         virtual ~Drink();
+
+        bool gotGlass = false;
+        bool pouredDrink = false;
+        bool assembledDrink = false;
 };
 
 #endif
