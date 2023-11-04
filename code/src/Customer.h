@@ -26,7 +26,10 @@ class Customer{
     private:
         Waiter* waiter;
         Rating* satisfaction;
+
         int timestamp;
+        Order* order;
+        float orderCost;
 };
 
 #endif
