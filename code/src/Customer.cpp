@@ -4,8 +4,10 @@
  * @authors Aidan Chapman (u22738917)
 */
 
+#include <iostream>
 #include "Customer.h"
 #include "Interface.h"
+#include "Satisfied.h"
 
 /**
  * @fn Customer::Customer(int timestamp)
@@ -17,6 +19,7 @@ Customer::Customer(int timestamp)
 {
     this->waiter = nullptr;
     this->timestamp = timestamp;
+    this->table = nullptr;
     this->satisfaction = new Satisfied();
     // TODO : implement rating functionality
 }
@@ -74,12 +77,12 @@ void Customer::changeRating(Rating *rating)
 void Customer::receiveOrder(Order *order)
 {
     this->order = order;
-    cout << "Customer received order"<< endl;
+    std::cout<< "Customer received order"<< endl;
 }
 
 float Customer::calculatePayment()
 {
-    return this->satisfaction->getTip();
+    return this->satisfaction->calculateTip();
 }
 
 /**
@@ -92,5 +95,39 @@ Waiter* Customer::getWaiter()
 {
     return this->waiter;
 }
+
+/**
+ * @fn Order* Customer::getOrder()
+ * @return an Order pointer
+ * @brief The order member variable getter for the Customer class
+ * @authors Douglas Porter (u21797545)
+*/
+Order* Customer::getOrder()
+{
+    return this->order;
+}
+
+/**
+ * @fn Table* Customer::getTable()
+ * @return a Table pointer
+ * @brief The table member variable getter for the Customer class
+ * @authors Douglas Porter (u21797545)
+ */
+Table* Customer::getTable()
+{
+    return this->table;
+}
+
+/**
+ * @fn int Customer::getTimestamp()
+ * @return an int
+ * @brief The timestamp member variable getter for the Customer class
+ * @authors Douglas Porter (u21797545)
+ */
+int Customer::getTimestamp()
+{
+    return this->timestamp;
+}
+
 
 
