@@ -66,16 +66,8 @@ void Restaurant::seatCustomer(Customer* customer)
  * @fn void Restaurant::placeOrder(string order)
  * @param order a string
  * @brief A method used to send the order to the kitchen
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
 */
-void Restaurant::requestWaiter(Customer* customer)
-{
-    Waiter* waiter = this->floor->getWaiter();
-    customer->setWaiter(waiter);
-    waiter->serveCustomer(customer);
-}
-
-
 void Restaurant::placeOrder(string order)
 {
     this->kitchen->receiveOrder(order);
