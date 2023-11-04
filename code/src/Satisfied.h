@@ -15,6 +15,7 @@ class Satisfied : public Rating
         Satisfied();
         ~Satisfied();
         float calculateTip();
+        void changeState(Customer* customer);
 };
 
 #endif
