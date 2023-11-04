@@ -16,47 +16,56 @@
 /**
  * @fn Interface::Interface()
  * @brief Constructor of the Interface class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
  */
 Interface::Interface()
 {
-    // TODO : IMPLEMENT
+    this->r = nullptr;
 }
 
 /**
  * @fn Interface::~Interface()
  * @brief Destructor of the Interface class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
  */
 Interface::~Interface()
 {
-    // TODO : IMPLEMENT
+    if (this->r != nullptr)
+    {
+        delete this->r;
+    }
 }
 
 /**
  * @fn Customer* Interface::createCustomer()
  * @return a Customer pointer
  * @brief Member function of the Interface class, Creates and returns a customer
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
  */
 Customer *Interface::createCustomer()
 {
-    // TODO : IMPLEMENT
-    // customer needs to be initialised with a unix timestamp for patience
-    return NULL;
+    Customer *customer = new Customer(getCurrentUnixTime());
+    if (customer == nullptr)
+    {
+        return nullptr;
+    }
+    else
+    {
+        return customer;
+    }
 }
 
 /**
  * @fn Restaurant Interface::createRestaurant()
  * @return a Restaurant pointer
  * @brief Member function of the Interface class, Creates and returns a restaurant
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
  */
 Restaurant *Interface::createRestaurant()
 {
-    Restaurant *restaurant = new Restaurant(8);
-    restaurant->initialise();
-    return restaurant;
+    this->r = new Restaurant(8);
+    this->r->initialise();
+    return this->r;
 }
 
 
@@ -88,14 +97,29 @@ int Interface::generateNumberOfCustomers()
  * @fn float Interface::runCustomer()
  * @return a float
  * @brief Member function of the Interface class, returns the amount that the Customer paid
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
  */
 float Interface::runCustomer()
 {
-    // TODO : IMPLEMENT
     // create a new customer using createCustomer()
-    // try and seat the customer
-    
+    Customer* newCustomer = createCustomer();
+    // generate a new order string using generateOrderString()
+    string order = generateOrderString();
+    // create a new restaurant using createRestaurant()
+    Restaurant* newRestaurant = createRestaurant();
+
+
+    newRestaurant->requestWaiter(newCustomer);
+    newRestaurant->seatCustomer(newCustomer);
+    newRestaurant->takeOrder(order);
+    newRestaurant->placeOrder(order);
+    newRestaurant->serveOrder(order);
+    float tip = newCustomer->calculatePayment();
+    // add to total
+    new
+    // clean table and make it available
+    newCustomer->getWaiter()->cleanTable();
+
     return 0;
 }
 
