@@ -79,7 +79,7 @@ void Customer::receiveOrder(Order *order)
 
 float Customer::calculatePayment()
 {
-    return (this->order->getCost() + this->satisfaction->getTip());
+    return this->satisfaction->getTip();
 }
 
 /**
