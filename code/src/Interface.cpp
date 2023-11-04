@@ -20,7 +20,7 @@
  */
 Interface::Interface()
 {
-    this->r = nullptr;
+    this->r = createRestaurant();
 }
 
 /**
@@ -99,22 +99,14 @@ float Interface::runCustomer()
     // generate a new order string using generateOrderString()
     string order = generateOrderString();
     // create a new restaurant using createRestaurant()
-    Restaurant* newRestaurant = createRestaurant();
 
+    r->seatCustomer(newCustomer);
+    r->placeOrder(order);
 
-    newRestaurant->requestWaiter(newCustomer);
-    newRestaurant->seatCustomer(newCustomer);
-    newRestaurant->takeOrder(order);
-    newRestaurant->placeOrder(order);
-    newRestaurant->serveOrder(order);
-    float tip = newCustomer->calculatePayment();
-    // add to total
-    // TODO : add tip to customer's total
-    // clean table and make it available
-    newCustomer->getWaiter()->cleanTable();
+    //determine the customer's total (tip + order price???) and return it
+    float customerPayment = newCustomer->calculatePayment() + newCustomer->getOrder()->calculatePrice();
 
-    // TODO : return order cost + tip (total)
-    return 0;
+    return customerPayment;
 }
 
 /**
@@ -125,7 +117,7 @@ float Interface::runCustomer()
  * There are a maximum of 6 mains, sides and drinks per order.
  * @authors Aidan Chapman (u22738917)
  */
-string Interface::generateOrderString() 
+string Interface::generateOrderString()
 {
     stringstream s;
     int numMain = ((getCurrentUnixTime() * rand()) % 6) + 1;
