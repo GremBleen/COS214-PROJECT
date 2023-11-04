@@ -45,14 +45,7 @@ Interface::~Interface()
 Customer *Interface::createCustomer()
 {
     Customer *customer = new Customer(getCurrentUnixTime());
-    if (customer == nullptr)
-    {
-        return nullptr;
-    }
-    else
-    {
-        return customer;
-    }
+    return customer;
 }
 
 /**
