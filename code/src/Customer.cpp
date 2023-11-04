@@ -17,6 +17,7 @@ Customer::Customer(int timestamp)
 {
     this->waiter = nullptr;
     this->timestamp = timestamp;
+    this->satisfaction = new Satisfied();
     // TODO : implement rating functionality
 }
 
@@ -27,13 +28,21 @@ Customer::Customer(int timestamp)
 */
 Customer::~Customer()
 {
-    this->waiter = nullptr;
+    if (this->waiter != nullptr)
+    {
+        delete this->waiter;
+    }
+    if (this->satisfaction != nullptr)
+    {
+        delete this->satisfaction;
+    }
+    if (this->order != nullptr)
+    {
+        delete this->order;
+    }
+    // TODO : implement order functionality
 }
 
-void Customer::acceptWaiter(Waiter* waiter)
-{
-    // TODO : implement
-}
 
 /**
  * @fn string Customer::getOrderRequest()
@@ -46,20 +55,31 @@ string Customer::getOrderRequest()
     return Interface::generateOrderString();
 }
 
-void Customer::changeRating(Rating * rating)
+
+void Customer::acceptWaiter(Waiter *waiter)
 {
-    // TODO : implement
+    this->waiter = waiter;
+    this->waiter->visitCustomer(this);
 }
 
-void Customer::receiveOrder(Order* order)
+void Customer::changeRating(Rating *rating)
 {
-    // TODO : implement
+    if (this->satisfaction != nullptr)
+    {
+        delete this->satisfaction;
+    }
+    this->satisfaction = rating;
+}
+
+void Customer::receiveOrder(Order *order)
+{
+    this->order = order;
+    cout << "Customer received order"<< endl;
 }
 
 float Customer::calculatePayment()
 {
-    // TODO : implement
-    return 0;
+    return (this->order->getCost() + this->satisfaction->getTip());
 }
 
 /**
@@ -72,3 +92,5 @@ Waiter* Customer::getWaiter()
 {
     return this->waiter;
 }
+
+
