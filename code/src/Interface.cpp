@@ -21,6 +21,7 @@
 Interface::Interface()
 {
     // TODO : IMPLEMENT
+    // create restaurant
 }
 
 /**
