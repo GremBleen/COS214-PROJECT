@@ -1,7 +1,7 @@
 /**
  * @file Interface.cpp
  * @brief Contains implementation for the Interface class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
  */
 
 #include "Interface.h"
@@ -90,7 +90,7 @@ int Interface::generateNumberOfCustomers()
  * @fn float Interface::runCustomer()
  * @return a float
  * @brief Member function of the Interface class, returns the amount that the Customer paid
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
  */
 float Interface::runCustomer()
 {
