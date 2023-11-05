@@ -1,7 +1,7 @@
 /**
  * @file Interface.cpp
  * @brief Contains implementation for the Interface class
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
  */
 
 #include "Interface.h"
@@ -34,6 +34,11 @@ Interface::~Interface()
     {
         delete this->r;
     }
+}
+
+Restaurant *Interface::getRestaurant()
+{
+    return r;
 }
 
 /**
@@ -96,7 +101,6 @@ float Interface::runCustomer()
 {
     // create a new customer using createCustomer()
     Customer *newCustomer = createCustomer();
-    // create a new restaurant using createRestaurant()
 
     r->seatCustomer(newCustomer);
 
