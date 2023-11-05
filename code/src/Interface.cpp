@@ -36,6 +36,11 @@ Interface::~Interface()
     }
 }
 
+Restaurant *Interface::getRestaurant()
+{
+    return r;
+}
+
 /**
  * @fn Customer* Interface::createCustomer()
  * @return a Customer pointer
