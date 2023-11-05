@@ -10,7 +10,7 @@ class ComplexOrder : public Order
     public:
         ComplexOrder();
         ~ComplexOrder();
-        float getPrice();
+        float calculatePrice();
     private:
         Order* item;
         Order* nextOrderItem;

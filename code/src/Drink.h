@@ -12,7 +12,7 @@
 class Drink : public Item
 {
     public:
-        Drink();
+        Drink(float price);
         virtual ~Drink();
 
         bool gotGlass = false;

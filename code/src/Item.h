@@ -10,9 +10,9 @@
 class Item
 {
     public:
-        Item();
+        Item(float price);
         virtual ~Item();
-        float getPrice();
+        float calculatePrice();
     protected:
         float price;
 };

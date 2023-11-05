@@ -12,7 +12,7 @@
 class MainMeal : public Item
 {
 public:
-    MainMeal();
+    MainMeal(float price);
 
     virtual ~MainMeal();
 
