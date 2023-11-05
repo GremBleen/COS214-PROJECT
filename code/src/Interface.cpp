@@ -106,8 +106,7 @@ float Interface::runCustomer()
     r->seatCustomer(newCustomer);
     r->placeOrder(orderContainer);
 
-    // determine the customer's total (tip + order price???) and return it
-    float customerPayment = newCustomer->calculatePayment() + newCustomer->getOrder()->calculatePrice();
+    float customerPayment = newCustomer->calculatePayment();
 
     return customerPayment;
 }
