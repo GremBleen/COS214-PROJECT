@@ -78,18 +78,33 @@ void Customer::changeRating(Rating *rating)
     this->satisfaction = rating;
 }
 
+/*
+ * @fn void Customer::receiveOrder(Order *order)
+ * @param order an Order pointer
+ * @brief Sets the order member variable for the Customer class, and prints a message to the console saying that the customer has received their order
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ */
 void Customer::receiveOrder(Order *order)
 {
     this->order = order;
     std::cout<< "Customer received order"<< endl;
 }
 
+/*
+ * @fn float Customer::calculatePayment()
+ * @return a float
+ * @brief A member function that calculates the payment for the customer, based on the order and the tip given by the customer's rating
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ */
 float Customer::calculatePayment()
 {
+    // TODO : change customer's rating based on their start time (Observer)
     // need to check the customer's start time
     // change Rating accordingly
     // get the price of the meal
+    float mealPrice = this->order->calculatePrice();
     // add the tip (multiply price by calculateTip())
+    float tip = this->satisfaction->calculateTip();
     // return
     return 0;
 }
