@@ -9,6 +9,16 @@
 #include "Customer.h"
 using namespace std;
 
+Satisfied::Satisfied()
+{
+
+}
+
+Satisfied::~Satisfied()
+{
+    
+}
+
 /**
  * Function for changing the state of the passed in customer's rating to satisfied
 */
@@ -29,5 +39,5 @@ string Satisfied::getRating() {
  * Neutral customer gives 10% tip, satisfied customer gives 25% tip and unhappy customer doesn't give a tip.
 */
 float Satisfied::calculateTip() {
-    return 0.0;
+    return 0.25F;
 }

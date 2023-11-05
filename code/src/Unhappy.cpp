@@ -29,5 +29,5 @@ string Unhappy::getRating() {
  * Neutral customer gives 10% tip, satisfied customer gives 25% tip and unhappy customer doesn't give a tip.
 */
 float Unhappy::calculateTip() {
-    return 0.0;
+    return 0.0F;
 }

@@ -60,7 +60,7 @@ void Restaurant::seatCustomer(Customer* customer)
 
     customer->acceptWaiter(thisWaiter); // customer -> attach(Waiter)
     thisWaiter->takeOrder(new OrderContainer(customer->getOrderRequest(), new Order(thisWaiter)));
-    this->kitchen->makeNextOrder();
+    // this->kitchen->makeNextOrder(); 
 }
 
 /**

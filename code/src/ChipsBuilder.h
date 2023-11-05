@@ -7,8 +7,6 @@
 #include "SideBuilder.h"
 #include "Chips.h"
 
-using namespace std;
-
 #ifndef CHIPSBUILDER_H
 #define CHIPSBUILDER_H
 

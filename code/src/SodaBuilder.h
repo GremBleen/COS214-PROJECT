@@ -7,7 +7,6 @@
 #include "DrinkBuilder.h"
 #include "Soda.h"
 
-using namespace std;
 
 #ifndef SODABUILDER_H
 #define SODABUILDER_H

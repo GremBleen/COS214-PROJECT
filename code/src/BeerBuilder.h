@@ -7,8 +7,6 @@
 #include "DrinkBuilder.h"
 #include "Beer.h"
 
-using namespace std;
-
 #ifndef BEERBUILDER_H
 #define BEERBUILDER_H
 

@@ -7,8 +7,6 @@
 #include "SideBuilder.h"
 #include "Salad.h"
 
-using namespace std;
-
 #ifndef SALADBUILDER_H
 #define SALADBUILDER_H
 

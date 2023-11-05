@@ -7,8 +7,6 @@
 #include "ItemBuilder.h"
 #include "MainMeal.h"
 
-using namespace std;
-
 #ifndef MAINBUILDER_H
 #define MAINBUILDER_H
 
