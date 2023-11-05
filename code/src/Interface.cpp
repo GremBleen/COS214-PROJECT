@@ -1,7 +1,7 @@
 /**
  * @file Interface.cpp
  * @brief Contains implementation for the Interface class
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
  */
 
 #include "Interface.h"
@@ -99,9 +99,9 @@ float Interface::runCustomer()
     // generate a new order string using generateOrderString()
     string order = generateOrderString();
     // create a new order object using the new customer's waiter
-    Order* custOrder = new Order(newCustomer->getWaiter());
+    Order *custOrder = new Order(newCustomer->getWaiter());
     // create a new OrderContainer object using the order string and Order object
-    OrderContainer* orderContainer = new OrderContainer(order, custOrder);
+    OrderContainer *orderContainer = new OrderContainer(order, custOrder);
 
     r->seatCustomer(newCustomer);
     r->placeOrder(orderContainer);
