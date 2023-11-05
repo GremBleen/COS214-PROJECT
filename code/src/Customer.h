@@ -6,24 +6,34 @@
 
 #include "Rating.h"
 #include "Waiter.h"
+#include "Table.h"
+#include <string>
 
-using namespace std;
 
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
 
 class Customer{
     public:
-        Customer();
+        Customer(int timestamp);
         ~Customer();
         void acceptWaiter(Waiter* waiter);
+        Order* getOrder();
+        string getOrderRequest();
         void changeRating(Rating* rating);
         void receiveOrder(Order* order);
         float calculatePayment();
-    
-    private:
+        Table* getTable();
+        Waiter* getWaiter();
+        int getTimestamp();
+
+private:
         Waiter* waiter;
         Rating* satisfaction;
+        Table* table;
+
+        int timestamp;
+        Order* order;
 };
 
 #endif

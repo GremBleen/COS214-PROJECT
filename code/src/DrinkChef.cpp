@@ -1,15 +1,40 @@
-#include "DrinkChef.h"
+/**
+ * @file DrinkChef.cpp
+ * @brief Contains implementation for the DrinkChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 
+#include "DrinkChef.h"
+#include "Customer.h"
+#include "OrderContainer.h"
+
+/**
+ * @fn DrinkChef::DrinkChef()
+ * @brief Constructor of the DrinkChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 DrinkChef::DrinkChef()
 {
 
 }
 
+/**
+ * @fn DrinkChef::~DrinkChef()
+ * @brief Destructor of the DrinkChef class
+ * @authors Aidan Chapman (u22738917)
+*/
 DrinkChef::~DrinkChef()
 {
 
 }
 
+/**
+ * @fn void DrinkChef::preparePart(string order, Order* o)
+ * @param order a string
+ * @param o an Order pointer
+ * @brief Member function of the DrinkChef class, implementing Chain of Responsibility functionality
+ * @authors Aidan Chapman (u22738917)
+*/
 void DrinkChef::preparePart(string order, Order* o)
 {
     int temp = request(order);
@@ -25,10 +50,11 @@ void DrinkChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        w->takeOrder();
+        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), new Order(w)));        
+        w->getRestaurant()->makeNextOrder();
     }
     else
     {
-        nextChef->preparePart(order, 0);
+        nextChef->preparePart(order, o);
     }
 }

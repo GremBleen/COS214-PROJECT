@@ -5,25 +5,34 @@
 */
 
 #include "MainBuilder.h"
-
-using namespace std;
+#include "Burger.h"
 
 #ifndef BURGERBUILDER_H
 #define BURGERBUILDER_H
 
 class BurgerBuilder : public MainBuilder
 {
-    public:
-        BurgerBuilder();
-        ~BurgerBuilder();
-        void butterBun();
-        void prepareVegetables();
-        void cookPatty();
-        void applySauce();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
+public:
+    BurgerBuilder();
+    ~BurgerBuilder();
+    void prepareIngredients();
+    void assembleItem();
+    Item *getItem();
 
+    // Operations used in template method
+    void prepareMeat();
+    void seasonMeat();
+    void cookMeat();
+    void plateMain();
+
+    void butterBun();
+    void prepareVegetables();
+    void cookPatty();
+    void applySauce();
+    void assembleBurger();
+
+protected:
+    Burger *burger;
 };
 
 #endif

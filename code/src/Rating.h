@@ -1,14 +1,13 @@
 /**
  * @file Rating.h
  * @brief Contains declaration for the Rating class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Sange Tshakumane (u21479748)
 */
-
-using namespace std;
 
 #ifndef RATING_H
 #define RATING_H
 
+class Customer;
 class Rating{
     public:
         Rating();

@@ -7,14 +7,12 @@
 #include "Item.h"
 #include "Waiter.h"
 
-using namespace std;
-
 #ifndef ORDER_H
 #define ORDER_H
 
 class Order{
     public:
-        Order();
+        Order(Waiter* waiter);
         ~Order();
         void addToOrder(Item* item);
         void appendToOrder(Item* item);

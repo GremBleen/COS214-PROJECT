@@ -6,8 +6,7 @@
 
 #include "Customer.h"
 #include "Restaurant.h"
-
-using namespace std;
+#include <string>
 
 #ifndef INTERFACE_H
 #define INTERFACE_H
@@ -16,9 +15,13 @@ class Interface{
     public:
         Interface();
         ~Interface();
+        int generateNumberOfCustomers();
+        float runCustomer();
+        static int getCurrentUnixTime();
+        static string generateOrderString();
+    private:
         Customer* createCustomer();
         Restaurant* createRestaurant();
-    private:
         Restaurant* r;
 };
 

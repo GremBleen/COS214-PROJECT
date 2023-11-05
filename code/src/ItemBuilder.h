@@ -6,8 +6,6 @@
 
 #include "Item.h"
 
-using namespace std;
-
 #ifndef ITEMBUILDER_H
 #define ITEMBUILDER_H
 
@@ -20,7 +18,7 @@ class ItemBuilder
         virtual void assembleItem() = 0;
         virtual Item* getItem() = 0;
 
-    private:
+    protected:
         Item* item;
 };
 
