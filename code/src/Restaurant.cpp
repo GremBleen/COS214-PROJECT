@@ -77,7 +77,7 @@ void Restaurant::makeNextOrder()
  * @fn void Restaurant::placeOrder(OrderContainer* order)
  * @param orderContainer an OrderContainer pointer
  * @brief A method used to send the order to the kitchen
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
 */
 void Restaurant::placeOrder(OrderContainer* orderContainer)
 {

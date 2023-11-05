@@ -4,6 +4,7 @@
  * @authors Aidan Chapman (u22738917)
 */
 
+#include <iostream>
 #include "Customer.h"
 #include "Interface.h"
 #include "Satisfied.h"
@@ -20,23 +21,27 @@ Customer::Customer(int timestamp)
 {
     this->waiter = nullptr;
     this->timestamp = timestamp;
+    this->table = nullptr;
     this->satisfaction = new Satisfied();
 }
 
 /**
  * @fn Customer::~Customer()
  * @brief The destructor for the Customer class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
 */
 Customer::~Customer()
 {
-    this->waiter = nullptr;
+    if (this->satisfaction != nullptr)
+    {
+        delete this->satisfaction;
+    }
+    if (this->order != nullptr)
+    {
+        delete this->order;
+    }
 }
 
-void Customer::acceptWaiter(Waiter* waiter)
-{
-    // TODO : implement
-}
 
 /**
  * @fn string Customer::getOrderRequest()
@@ -49,20 +54,38 @@ string Customer::getOrderRequest()
     return Interface::generateOrderString();
 }
 
-void Customer::changeRating(Rating * rating)
+/*
+ * @fn void Customer::acceptWaiter(Waiter *waiter)
+ * @param waiter a Waiter pointer
+ * @brief The waiter member variable setter for the Customer class
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ */
+void Customer::acceptWaiter(Waiter *waiter)
+{
+    this->waiter = waiter;
+    this->waiter->visitCustomer(this);
+}
+
+/*
+ * @fn void Customer::changeRating(Rating *rating)
+ * @param rating a Rating pointer
+ * @brief The satisfaction member variable setter for the Customer class, also deletes the previous rating if it exists
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), 
+ */
+void Customer::changeRating(Rating *rating)
 {
     delete this->satisfaction;
     this->satisfaction = rating;
 }
 
-void Customer::receiveOrder(Order* order)
+void Customer::receiveOrder(Order *order)
 {
-    // TODO : implement
+    this->order = order;
+    std::cout<< "Customer received order"<< endl;
 }
 
 float Customer::calculatePayment()
 {
-
     // need to check the customer's start time
     // change Rating accordingly
     // get the price of the meal
@@ -81,3 +104,39 @@ Waiter* Customer::getWaiter()
 {
     return this->waiter;
 }
+
+/**
+ * @fn Order* Customer::getOrder()
+ * @return an Order pointer
+ * @brief The order member variable getter for the Customer class
+ * @authors Douglas Porter (u21797545)
+*/
+Order* Customer::getOrder()
+{
+    return this->order;
+}
+
+/**
+ * @fn Table* Customer::getTable()
+ * @return a Table pointer
+ * @brief The table member variable getter for the Customer class
+ * @authors Douglas Porter (u21797545)
+ */
+Table* Customer::getTable()
+{
+    return this->table;
+}
+
+/**
+ * @fn int Customer::getTimestamp()
+ * @return an int
+ * @brief The timestamp member variable getter for the Customer class
+ * @authors Douglas Porter (u21797545)
+ */
+int Customer::getTimestamp()
+{
+    return this->timestamp;
+}
+
+
+

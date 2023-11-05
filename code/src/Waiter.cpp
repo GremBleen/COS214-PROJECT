@@ -14,28 +14,43 @@
  * @fn Waiter::Waiter(Restaurant* restaurant)
  * @param restaurant a Restaurant pointer
  * @brief Constructor for the Waiter Class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
 */
 Waiter::Waiter(Restaurant* restaurant)
 {
     this->restaurant = restaurant;
+    this->customer = nullptr;
 }
 
+/**
+ * @fn Waiter::~Waiter()
+ * @brief Destructor for the Waiter Class
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
+*/
 Waiter::~Waiter()
 {
-    // Should not be linked to a customer when destructed
+    if (this->customer == nullptr)
+    {
+        delete this->restaurant;
+    }
 }
 
+/**
+ * @fn Waiter::~Waiter()
+ * @param customer a Customer pointer
+ * @brief Destructor for the Waiter Class
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
+*/
 void Waiter::visitCustomer(Customer* customer) // notify
 {
-    // TODO : implement
+    this->customer = customer;
 }
 
 /**
  * @fn void Waiter::takeOrder(OrderContainer* orderContainer)
  * @param orderContainer an OrderContainer pointer
  * @brief A member function of the Waiter Class. Used to take the customer's order
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
 */
 void Waiter::takeOrder(OrderContainer* orderContainer)
 {
@@ -46,7 +61,7 @@ void Waiter::takeOrder(OrderContainer* orderContainer)
  * @fn void Waiter::serveCustomer(Order* order)
  * @param order an Order pointer
  * @brief A member function of the Waiter Class. Calls the customer's receiveOrder(Order* order) function
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
 */
 void Waiter::serveCustomer(Order* order)
 {

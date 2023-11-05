@@ -1,7 +1,7 @@
 /**
  * @file Interface.cpp
  * @brief Contains implementation for the Interface class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
  */
 
 #include "Interface.h"
@@ -16,57 +16,57 @@
 /**
  * @fn Interface::Interface()
  * @brief Constructor of the Interface class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545),Kabelo CHuene(14046492)
  */
 Interface::Interface()
 {
-    // TODO : IMPLEMENT
-    // create restaurant
+    this->r = createRestaurant();
 }
 
 /**
  * @fn Interface::~Interface()
  * @brief Destructor of the Interface class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545),Kabelo CHuene(14046492)
  */
 Interface::~Interface()
 {
-    // TODO : IMPLEMENT
-
-    //delete restaurant
+    if (this->r != nullptr)
+    {
+        delete this->r;
+    }
 }
 
 /**
  * @fn Customer* Interface::createCustomer()
  * @return a Customer pointer
  * @brief Member function of the Interface class, Creates and returns a customer
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545),Kabelo CHuene(14046492)
  */
 Customer *Interface::createCustomer()
 {
-    // TODO : IMPLEMENT
-    // customer needs to be initialised with a unix timestamp for patience
-    return NULL;
+    Customer *customer = new Customer(getCurrentUnixTime());
+    return customer;
 }
 
 /**
  * @fn Restaurant Interface::createRestaurant()
  * @return a Restaurant pointer
  * @brief Member function of the Interface class, Creates and returns a restaurant
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545),Kabelo CHuene(14046492)
  */
 Restaurant *Interface::createRestaurant()
 {
-    Restaurant *restaurant = new Restaurant(8);
-    restaurant->initialise();
-    return restaurant;
+    this->r = new Restaurant(8);
+    this->r->initialise();
+    return this->r;
 }
 
+// Merged Facade with Dev in order to update the interface class
 /**
  * @fn int Interface::getCurrentUnixTime()
  * @return an int
  * @brief Member function of the Interface class, returns the current unix time. Dependent on system clock
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917),Kabelo CHuene(14046492)
  */
 int Interface::getCurrentUnixTime()
 {
@@ -77,7 +77,7 @@ int Interface::getCurrentUnixTime()
  * @fn int Interface::generateNumberOfCustomers()
  * @return an int
  * @brief Member function of the Interface class, returns a random number of customers between 1 and 10
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917),Kabelo CHuene(14046492)
  */
 int Interface::generateNumberOfCustomers()
 {
@@ -89,15 +89,24 @@ int Interface::generateNumberOfCustomers()
  * @fn float Interface::runCustomer()
  * @return a float
  * @brief Member function of the Interface class, returns the amount that the Customer paid
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545),Kabelo CHuene(14046492)
+
  */
 float Interface::runCustomer()
 {
-    // TODO : IMPLEMENT
     // create a new customer using createCustomer()
-    // try and seat the customer
-    
-    return 0;
+    Customer *newCustomer = createCustomer();
+    // generate a new order string using generateOrderString()
+    string order = generateOrderString();
+    // create a new restaurant using createRestaurant()
+
+    r->seatCustomer(newCustomer);
+    r->placeOrder(order);
+
+    // determine the customer's total (tip + order price???) and return it
+    float customerPayment = newCustomer->calculatePayment() + newCustomer->getOrder()->calculatePrice();
+
+    return customerPayment;
 }
 
 /**
@@ -106,25 +115,25 @@ float Interface::runCustomer()
  * @brief Member function of the Interface class, returns a randomOrder string to be adapted by the chef.
  * The string is composed of at least 1 main meal.
  * There are a maximum of 6 mains, sides and drinks per order.
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917),Kabelo CHuene(14046492)
  */
-string Interface::generateOrderString() 
+string Interface::generateOrderString()
 {
     stringstream s;
     int numMain = ((getCurrentUnixTime() * rand()) % 6) + 1;
     for (int i = 0; i < numMain; i++)
     {
         int num = ((getCurrentUnixTime() * rand()) % 3) + 1;
-        switch(num)
+        switch (num)
         {
-            case 1:
-                s << Chef::steak;
+        case 1:
+            s << Chef::steak;
             break;
-            case 2:
-                s << Chef::burger;
+        case 2:
+            s << Chef::burger;
             break;
-            case 3:
-                s << Chef::fish;
+        case 3:
+            s << Chef::fish;
             break;
         }
     }
@@ -133,13 +142,13 @@ string Interface::generateOrderString()
     for (int i = 0; i < numSide; i++)
     {
         int num = ((getCurrentUnixTime() * rand()) % 2) + 1;
-        switch(num)
+        switch (num)
         {
-            case 1:
-                s << Chef::chips;
+        case 1:
+            s << Chef::chips;
             break;
-            case 2:
-                s << Chef::salad;
+        case 2:
+            s << Chef::salad;
             break;
         }
     }
@@ -148,16 +157,16 @@ string Interface::generateOrderString()
     for (int i = 0; i < numDrink; i++)
     {
         int num = ((getCurrentUnixTime() * rand()) % 3) + 1;
-        switch(num)
+        switch (num)
         {
-            case 1:
-                s << Chef::beer;
+        case 1:
+            s << Chef::beer;
             break;
-            case 2:
-                s << Chef::water;
+        case 2:
+            s << Chef::water;
             break;
-            case 3:
-                s << Chef::soda;
+        case 3:
+            s << Chef::soda;
             break;
         }
     }

@@ -6,6 +6,7 @@
 
 #include "Rating.h"
 #include "Waiter.h"
+#include "Table.h"
 #include <string>
 
 
@@ -17,15 +18,22 @@ class Customer{
         Customer(int timestamp);
         ~Customer();
         void acceptWaiter(Waiter* waiter);
+        Order* getOrder();
         string getOrderRequest();
         void changeRating(Rating* rating);
         void receiveOrder(Order* order);
         float calculatePayment();
+        Table* getTable();
         Waiter* getWaiter();
-    private:
+        int getTimestamp();
+
+private:
         Waiter* waiter;
         Rating* satisfaction;
+        Table* table;
+
         int timestamp;
+        Order* order;
 };
 
 #endif
