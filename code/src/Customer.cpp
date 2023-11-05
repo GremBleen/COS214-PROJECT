@@ -27,7 +27,7 @@ Customer::Customer(int timestamp)
 /**
  * @fn Customer::~Customer()
  * @brief The destructor for the Customer class
- * @authors Aidan Chapman (u22738917)
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
 */
 Customer::~Customer()
 {
@@ -58,13 +58,24 @@ string Customer::getOrderRequest()
     return Interface::generateOrderString();
 }
 
-
+/*
+ * @fn void Customer::acceptWaiter(Waiter *waiter)
+ * @param waiter a Waiter pointer
+ * @brief The waiter member variable setter for the Customer class
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ */
 void Customer::acceptWaiter(Waiter *waiter)
 {
     this->waiter = waiter;
     this->waiter->visitCustomer(this);
 }
 
+/*
+ * @fn void Customer::changeRating(Rating *rating)
+ * @param rating a Rating pointer
+ * @brief The satisfaction member variable setter for the Customer class, also deletes the previous rating if it exists
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), 
+ */
 void Customer::changeRating(Rating *rating)
 {
     if (this->satisfaction != nullptr)
