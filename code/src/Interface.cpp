@@ -56,9 +56,9 @@ Customer *Interface::createCustomer()
  */
 Restaurant *Interface::createRestaurant()
 {
-    this->r = new Restaurant(8);
-    this->r->initialise();
-    return this->r;
+    Restaurant* restaurant = new Restaurant(8);
+    restaurant->initialise();
+    return restaurant;
 }
 
 // Merged Facade with Dev in order to update the interface class
@@ -66,7 +66,7 @@ Restaurant *Interface::createRestaurant()
  * @fn int Interface::getCurrentUnixTime()
  * @return an int
  * @brief Member function of the Interface class, returns the current unix time. Dependent on system clock
- * @authors Aidan Chapman (u22738917),Kabelo CHuene(14046492)
+ * @authors Aidan Chapman (u22738917)
  */
 int Interface::getCurrentUnixTime()
 {
@@ -77,7 +77,7 @@ int Interface::getCurrentUnixTime()
  * @fn int Interface::generateNumberOfCustomers()
  * @return an int
  * @brief Member function of the Interface class, returns a random number of customers between 1 and 10
- * @authors Aidan Chapman (u22738917),Kabelo CHuene(14046492)
+ * @authors Aidan Chapman (u22738917)
  */
 int Interface::generateNumberOfCustomers()
 {
@@ -96,17 +96,15 @@ float Interface::runCustomer()
 {
     // create a new customer using createCustomer()
     Customer *newCustomer = createCustomer();
-    // generate a new order string using generateOrderString()
-    string order = generateOrderString();
     // create a new restaurant using createRestaurant()
 
     r->seatCustomer(newCustomer);
-    r->placeOrder(order);
 
-    // determine the customer's total (tip + order price???) and return it
-    float customerPayment = newCustomer->calculatePayment() + newCustomer->getOrder()->calculatePrice();
+    while(newCustomer->getOrder() == nullptr){} // loop while the customer does not have their order (should never have to loop in single threading)
 
-    return customerPayment;
+    // determine the customer's total (tip + order price) and return it
+    float ret = newCustomer->calculatePayment();
+    return ret;
 }
 
 /**

@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include "Customer.h"
+#include "Order.h"
 #include "Interface.h"
 #include "Satisfied.h"
 #include "Neutral.h"
@@ -22,6 +23,7 @@ Customer::Customer(int timestamp)
     this->waiter = nullptr;
     this->timestamp = timestamp;
     this->table = nullptr;
+    this->order = nullptr;
     this->satisfaction = new Satisfied();
 }
 
@@ -54,7 +56,7 @@ string Customer::getOrderRequest()
     return Interface::generateOrderString();
 }
 
-/*
+/**
  * @fn void Customer::acceptWaiter(Waiter *waiter)
  * @param waiter a Waiter pointer
  * @brief The waiter member variable setter for the Customer class
@@ -66,11 +68,11 @@ void Customer::acceptWaiter(Waiter *waiter)
     this->waiter->visitCustomer(this);
 }
 
-/*
+/**
  * @fn void Customer::changeRating(Rating *rating)
  * @param rating a Rating pointer
  * @brief The satisfaction member variable setter for the Customer class, also deletes the previous rating if it exists
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), 
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
  */
 void Customer::changeRating(Rating *rating)
 {
@@ -78,20 +80,43 @@ void Customer::changeRating(Rating *rating)
     this->satisfaction = rating;
 }
 
+/**
+ * @fn void Customer::changeRating(Rating *rating)
+ * @param order an Order pointer
+ * @brief Sets the order member variable to the passed in value
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
+ */
 void Customer::receiveOrder(Order *order)
 {
     this->order = order;
-    std::cout<< "Customer received order"<< endl;
 }
 
+/**
+ * @fn float Customer::calculatePayment()
+ * @return a float
+ * @brief A function used to calculate what the customer pays for their meal, including the tip based on how happy they were with the service
+ * @authors Aidan Chapman (u22738917)
+ */
 float Customer::calculatePayment()
 {
-    // need to check the customer's start time
-    // change Rating accordingly
-    // get the price of the meal
-    // add the tip (multiply price by calculateTip())
-    // return
-    return 0;
+    int diff = Interface::getCurrentUnixTime() - getTimestamp();
+
+    if(diff < 10)
+    {
+        
+    }
+    else if(diff < 20)
+    {
+        changeRating(new Neutral());
+    }
+    else
+    {
+        changeRating(new Unhappy());
+    }
+
+    float ret = order->calculatePrice() * (1 + satisfaction->calculateTip());
+
+    return ret;
 }
 
 /**
