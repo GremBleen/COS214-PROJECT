@@ -60,3 +60,8 @@ void SteakBuilder::cookSteak()
     this->steak->cookedSteak = true;
 }
 
+void SteakBuilder::plateSteak()
+{
+    this->steak->platedSteak = true;
+}
+
