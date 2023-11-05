@@ -98,10 +98,13 @@ float Interface::runCustomer()
     Customer *newCustomer = createCustomer();
     // generate a new order string using generateOrderString()
     string order = generateOrderString();
-    // create a new restaurant using createRestaurant()
+    // create a new order object using the new customer's waiter
+    Order* custOrder = new Order(newCustomer->getWaiter());
+    // create a new OrderContainer object using the order string and Order object
+    OrderContainer* orderContainer = new OrderContainer(order, custOrder);
 
     r->seatCustomer(newCustomer);
-    r->placeOrder(order);
+    r->placeOrder(orderContainer);
 
     // determine the customer's total (tip + order price???) and return it
     float customerPayment = newCustomer->calculatePayment() + newCustomer->getOrder()->calculatePrice();
