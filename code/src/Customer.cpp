@@ -2,7 +2,7 @@
  * @file Customer.cpp
  * @brief Contains implementation for the Customer class
  * @authors Aidan Chapman (u22738917)
-*/
+ */
 
 #include <iostream>
 #include "Customer.h"
@@ -16,7 +16,7 @@
  * @param timestamp an int
  * @brief The constructor for the Customer class
  * @authors Aidan Chapman (u22738917)
-*/
+ */
 Customer::Customer(int timestamp)
 {
     this->waiter = nullptr;
@@ -28,8 +28,8 @@ Customer::Customer(int timestamp)
 /**
  * @fn Customer::~Customer()
  * @brief The destructor for the Customer class
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
-*/
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
+ */
 Customer::~Customer()
 {
     if (this->satisfaction != nullptr)
@@ -42,13 +42,12 @@ Customer::~Customer()
     }
 }
 
-
 /**
  * @fn string Customer::getOrderRequest()
  * @return a string
  * @brief A member function that generates a random order using Interface's generateOrderString() function
  * @authors Aidan Chapman (u22738917)
-*/
+ */
 string Customer::getOrderRequest()
 {
     return Interface::generateOrderString();
@@ -58,7 +57,7 @@ string Customer::getOrderRequest()
  * @fn void Customer::acceptWaiter(Waiter *waiter)
  * @param waiter a Waiter pointer
  * @brief The waiter member variable setter for the Customer class
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
  */
 void Customer::acceptWaiter(Waiter *waiter)
 {
@@ -70,7 +69,7 @@ void Customer::acceptWaiter(Waiter *waiter)
  * @fn void Customer::changeRating(Rating *rating)
  * @param rating a Rating pointer
  * @brief The satisfaction member variable setter for the Customer class, also deletes the previous rating if it exists
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), 
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
  */
 void Customer::changeRating(Rating *rating)
 {
@@ -82,19 +81,19 @@ void Customer::changeRating(Rating *rating)
  * @fn void Customer::receiveOrder(Order *order)
  * @param order an Order pointer
  * @brief Sets the order member variable for the Customer class, and prints a message to the console saying that the customer has received their order
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
  */
 void Customer::receiveOrder(Order *order)
 {
     this->order = order;
-    std::cout<< "Customer received order"<< endl;
+    std::cout << "Customer received order" << endl;
 }
 
 /*
  * @fn float Customer::calculatePayment()
  * @return a float
  * @brief A member function that calculates the payment for the customer, based on the order and the tip given by the customer's rating
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
  */
 float Customer::calculatePayment()
 {
@@ -106,7 +105,7 @@ float Customer::calculatePayment()
     // add the tip (multiply price by calculateTip())
     float tip = this->satisfaction->calculateTip();
     // return
-    return 0;
+    return (mealPrice + tip);
 }
 
 /**
@@ -114,8 +113,8 @@ float Customer::calculatePayment()
  * @return a waiter pointer
  * @brief The waiter member variable getter the Customer class
  * @authors Aidan Chapman (u22738917)
-*/
-Waiter* Customer::getWaiter()
+ */
+Waiter *Customer::getWaiter()
 {
     return this->waiter;
 }
@@ -125,8 +124,8 @@ Waiter* Customer::getWaiter()
  * @return an Order pointer
  * @brief The order member variable getter for the Customer class
  * @authors Douglas Porter (u21797545)
-*/
-Order* Customer::getOrder()
+ */
+Order *Customer::getOrder()
 {
     return this->order;
 }
@@ -137,7 +136,7 @@ Order* Customer::getOrder()
  * @brief The table member variable getter for the Customer class
  * @authors Douglas Porter (u21797545)
  */
-Table* Customer::getTable()
+Table *Customer::getTable()
 {
     return this->table;
 }
@@ -152,6 +151,3 @@ int Customer::getTimestamp()
 {
     return this->timestamp;
 }
-
-
-
