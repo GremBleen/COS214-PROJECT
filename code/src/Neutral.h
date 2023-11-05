@@ -1,8 +1,8 @@
 /**
  * @file Neutral.h
  * @brief Contains declaration for the Neutral class
- * @authors Aidan Chapman (u22738917)
-*/
+ * @authors Aidan Chapman (u22738917),Kabelo CHuene(14046492)
+ */
 
 #include "Rating.h"
 
@@ -11,10 +11,11 @@
 
 class Neutral : public Rating
 {
-    public:
-        Neutral();
-        ~Neutral();
-        float calculateTip();
+public:
+    Neutral();
+    ~Neutral();
+    float calculateTip();
+    void changeState(Customer *customer);
 };
 
 #endif
