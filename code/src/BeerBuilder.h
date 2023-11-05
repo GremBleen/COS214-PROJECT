@@ -5,6 +5,7 @@
 */
 
 #include "DrinkBuilder.h"
+#include "Beer.h"
 
 using namespace std;
 
@@ -16,12 +17,17 @@ class BeerBuilder : public DrinkBuilder
     public:
         BeerBuilder();
         ~BeerBuilder();
+
         void getGlass();
         void pourDrink();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
+        void assembleDrink();
 
+        void getBeerGlass();
+        void pourBeer();
+        void assembleBeer();
+
+    private:
+        Beer* beer;
 };
 
 #endif

@@ -14,6 +14,11 @@ class Fish : public MainMeal
     public:
         Fish();
         ~Fish();
+
+        bool descaledFish = false;
+        bool seasonedFish = false;
+        bool cookedFish = false;
+        bool platedFish = false;
 };
 
 #endif

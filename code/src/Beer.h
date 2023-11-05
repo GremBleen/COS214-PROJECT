@@ -14,6 +14,10 @@ class Beer : public Drink
     public:
         Beer();
         ~Beer();
+
+        bool gotBeerGlass = false;
+        bool pouredBeer = false;
+        bool assembledBeer = false;
 };
 
 #endif
