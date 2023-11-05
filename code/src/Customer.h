@@ -8,7 +8,6 @@
 #include "Waiter.h"
 #include <string>
 
-using namespace std;
 
 #ifndef CUSTOMER_H
 #define CUSTOMER_H

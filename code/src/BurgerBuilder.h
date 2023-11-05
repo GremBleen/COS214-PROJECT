@@ -7,8 +7,6 @@
 #include "MainBuilder.h"
 #include "Burger.h"
 
-using namespace std;
-
 #ifndef BURGERBUILDER_H
 #define BURGERBUILDER_H
 

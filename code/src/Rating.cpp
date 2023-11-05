@@ -6,11 +6,18 @@
 
 #include <iostream>
 #include "Rating.h"
-using namespace std;
+
+/**
+ * Constructor function for the rating class
+*/
+Rating::Rating()
+{
+
+}
 
 /**
  * Destructor function for the rating class
 */
 Rating::~Rating() {
-    cout << "Rating destructor called" << endl;
+    
 }

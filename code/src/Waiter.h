@@ -7,7 +7,6 @@
 #include "Restaurant.h"
 #include <string>
 
-using namespace std;
 
 #ifndef WAITER_H
 #define WAITER_H

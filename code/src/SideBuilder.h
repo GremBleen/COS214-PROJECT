@@ -7,8 +7,6 @@
 #include "ItemBuilder.h"
 #include "Side.h"
 
-using namespace std;
-
 #ifndef SIDEBUILDER_H
 #define SIDEBUILDER_H
 

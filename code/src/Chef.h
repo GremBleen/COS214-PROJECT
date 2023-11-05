@@ -9,8 +9,6 @@
 
 #include <string>
 
-using namespace std;
-
 #ifndef CHEF_H
 #define CHEF_H
 

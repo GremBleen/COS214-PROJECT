@@ -32,6 +32,8 @@ Interface::Interface()
 Interface::~Interface()
 {
     // TODO : IMPLEMENT
+
+    //delete restaurant
 }
 
 /**

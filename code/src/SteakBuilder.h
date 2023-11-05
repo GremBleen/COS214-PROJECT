@@ -7,8 +7,6 @@
 #include "MainBuilder.h"
 #include "Steak.h"
 
-using namespace std;
-
 #ifndef STEAKBUILDER_H
 #define STEAKBUILDER_H
 

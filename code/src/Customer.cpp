@@ -6,6 +6,9 @@
 
 #include "Customer.h"
 #include "Interface.h"
+#include "Satisfied.h"
+#include "Neutral.h"
+#include "Unhappy.h"
 
 /**
  * @fn Customer::Customer(int timestamp)
@@ -17,7 +20,7 @@ Customer::Customer(int timestamp)
 {
     this->waiter = nullptr;
     this->timestamp = timestamp;
-    // TODO : implement rating functionality
+    this->satisfaction = new Satisfied();
 }
 
 /**
@@ -48,7 +51,8 @@ string Customer::getOrderRequest()
 
 void Customer::changeRating(Rating * rating)
 {
-    // TODO : implement
+    delete this->satisfaction;
+    this->satisfaction = rating;
 }
 
 void Customer::receiveOrder(Order* order)
@@ -58,7 +62,12 @@ void Customer::receiveOrder(Order* order)
 
 float Customer::calculatePayment()
 {
-    // TODO : implement
+
+    // need to check the customer's start time
+    // change Rating accordingly
+    // get the price of the meal
+    // add the tip (multiply price by calculateTip())
+    // return
     return 0;
 }
 

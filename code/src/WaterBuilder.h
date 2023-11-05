@@ -7,8 +7,6 @@
 #include "DrinkBuilder.h"
 #include "Water.h"
 
-using namespace std;
-
 #ifndef WATERBUILDER_H
 #define WATERBUILDER_H
 
