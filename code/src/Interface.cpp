@@ -108,6 +108,10 @@ float Interface::runCustomer()
 
     // determine the customer's total (tip + order price) and return it
     float ret = newCustomer->calculatePayment();
+
+    // properly remove customer from restaurant and make table available
+    r->cleanUp(newCustomer);
+
     return ret;
 }
 

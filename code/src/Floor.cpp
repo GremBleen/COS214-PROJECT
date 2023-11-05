@@ -73,3 +73,22 @@ int Floor::getNumTables()
 {
     return this->tables.size();
 }
+
+/**
+ * @fn Table* Floor::getTable(Customer* customer)
+ * @param customer a Customer pointer
+ * @return a Table pointer
+ * @brief A member function of the Floor class, returns the table that a customer is at. Returns nullptr if no customer is found at any table.
+ * @authors Aidan Chapman (u22738917)
+*/
+Table* Floor::getTable(Customer* customer)
+{
+    for(vector<Table*>::iterator it = tables.begin(); it != tables.end(); ++it)
+    {
+        if((*it)->getCustomer() == customer)
+        {
+            return (*it);
+        }
+    }
+    return nullptr;
+}

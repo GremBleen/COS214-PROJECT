@@ -51,12 +51,10 @@ Customer* Table::getCustomer()
 
 /**
  * @fn void Table::cleanUp()
- * @brief A function to be called after the customer has received their food. This is used to properly remove the customer object from the restaurant
+ * @brief A function to be called after the customer has received their food. This is used to properly remove the customer object from the table
  * @authors Aidan Chapman (u22738917)
 */
 void Table::cleanUp()
 {
-    customer->getWaiter()->cleanUp();
-    delete customer;
     customer = nullptr;
 }
