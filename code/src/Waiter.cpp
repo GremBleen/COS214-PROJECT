@@ -97,5 +97,6 @@ Restaurant* Waiter::getRestaurant()
 */
 void Waiter::cleanUp()
 {
+    delete this->customer;
     this->customer = nullptr;
 }

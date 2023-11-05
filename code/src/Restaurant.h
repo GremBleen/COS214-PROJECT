@@ -25,6 +25,7 @@ class Restaurant{
         void placeOrder(OrderContainer* orderContainer);
         void makeNextOrder();
         void initialise();
+        void cleanUp(Customer* customer);
     private:
         Floor* floor;
         Kitchen* kitchen;

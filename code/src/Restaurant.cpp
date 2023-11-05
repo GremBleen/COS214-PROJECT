@@ -99,3 +99,17 @@ void Restaurant::initialise()
         this->waiters.push_back(new Waiter(this));
     }
 }
+
+/**
+ * @fn void Restaurant::cleanUp(Customer* customer)
+ * @param customer a Customer pointer
+ * @brief A function to be called when the customer leaves to properly delete/clean the customer and their related objects.
+ * @authors Aidan Chapman (u22738917)
+*/
+void Restaurant::cleanUp(Customer* customer)
+{
+    // remove customer from table
+    this->floor->getTable(customer)->cleanUp();
+    // Set waiter's customer to nullptr and properly delete customer
+    customer->getWaiter()->cleanUp();
+}
