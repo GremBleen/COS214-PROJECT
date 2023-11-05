@@ -25,5 +25,5 @@ Waiter* Order::getWaiter() {
  * Destructor of the order class
 */
 Order::~Order(){
-    delete waiter;
+    
 }
