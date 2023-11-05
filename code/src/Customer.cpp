@@ -8,6 +8,8 @@
 #include "Customer.h"
 #include "Interface.h"
 #include "Satisfied.h"
+#include "Neutral.h"
+#include "Unhappy.h"
 
 /**
  * @fn Customer::Customer(int timestamp)
@@ -21,7 +23,6 @@ Customer::Customer(int timestamp)
     this->timestamp = timestamp;
     this->table = nullptr;
     this->satisfaction = new Satisfied();
-    // TODO : implement rating functionality
 }
 
 /**
@@ -31,10 +32,6 @@ Customer::Customer(int timestamp)
 */
 Customer::~Customer()
 {
-    if (this->waiter != nullptr)
-    {
-        delete this->waiter;
-    }
     if (this->satisfaction != nullptr)
     {
         delete this->satisfaction;
@@ -43,7 +40,6 @@ Customer::~Customer()
     {
         delete this->order;
     }
-    // TODO : implement order functionality
 }
 
 
@@ -78,10 +74,7 @@ void Customer::acceptWaiter(Waiter *waiter)
  */
 void Customer::changeRating(Rating *rating)
 {
-    if (this->satisfaction != nullptr)
-    {
-        delete this->satisfaction;
-    }
+    delete this->satisfaction;
     this->satisfaction = rating;
 }
 
@@ -93,7 +86,12 @@ void Customer::receiveOrder(Order *order)
 
 float Customer::calculatePayment()
 {
-    return this->satisfaction->calculateTip();
+    // need to check the customer's start time
+    // change Rating accordingly
+    // get the price of the meal
+    // add the tip (multiply price by calculateTip())
+    // return
+    return 0;
 }
 
 /**

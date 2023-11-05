@@ -7,8 +7,6 @@
 #include "MainBuilder.h"
 #include "Fish.h"
 
-using namespace std;
-
 #ifndef FISHBUILDER_H
 #define FISHBUILDER_H
 

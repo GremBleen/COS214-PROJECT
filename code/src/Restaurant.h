@@ -16,12 +16,14 @@ class Waiter;
 class Floor;
 class Kitchen;
 class Customer;
+class OrderContainer;
 class Restaurant{
     public:
         Restaurant(int numTables);
         ~Restaurant();
         void seatCustomer(Customer* customer);
-        void placeOrder(string order);
+        void placeOrder(OrderContainer* orderContainer);
+        void makeNextOrder();
         void initialise();
     private:
         Floor* floor;

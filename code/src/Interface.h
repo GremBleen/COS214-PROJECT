@@ -8,8 +8,6 @@
 #include "Restaurant.h"
 #include <string>
 
-using namespace std;
-
 #ifndef INTERFACE_H
 #define INTERFACE_H
 

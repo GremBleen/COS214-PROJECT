@@ -7,8 +7,6 @@
 #include "ItemBuilder.h"
 #include "Drink.h"
 
-using namespace std;
-
 #ifndef DRINKBUILDER_H
 #define DRINKBUILDER_H
 

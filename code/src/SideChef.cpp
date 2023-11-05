@@ -6,6 +6,7 @@
 
 #include "SideChef.h"
 #include "Customer.h"
+#include "OrderContainer.h"
 
 /**
  * @fn SideChef::SideChef()
@@ -49,7 +50,8 @@ void SideChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        w->takeOrder(w->getCustomer()->getOrderRequest());
+        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), new Order(w)));
+        w->getRestaurant()->makeNextOrder();
     }
     else
     {

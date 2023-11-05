@@ -10,6 +10,7 @@
 #include "SideChef.h"
 #include "DrinkChef.h"
 #include "HeadChef.h"
+#include "OrderContainer.h"
 
 /**
  * @fn Kitchen::Kitchen()
@@ -45,13 +46,13 @@ Kitchen::~Kitchen()
 
 /**
  * @fn void Kitchen::receiveOrder(string order)
- * @param order a string
+ * @param orderContainer an OrderContainer pointer
  * @brief A member function of the Kitchen class, adds order specified in parameter to the orderQueue member variable
  * @authors Aidan Chapman (u22738917)
 */
-void Kitchen::receiveOrder(string order)
+void Kitchen::receiveOrder(OrderContainer* orderContainer)
 {
-    this->orderQueue.push_back(order);
+    this->orderQueue.push_back(orderContainer);
 }
 
 /**
@@ -61,9 +62,10 @@ void Kitchen::receiveOrder(string order)
 */
 void Kitchen::makeNextOrder()
 {
-    string temp = orderQueue[0];
+    OrderContainer* temp = orderQueue[0];
     orderQueue.erase(orderQueue.begin());
-    this->chef->preparePart(temp, new Order());
+    this->chef->preparePart(temp->getRequestedOrder(), temp->getOrder());
+    delete temp;
 }
 
 /**

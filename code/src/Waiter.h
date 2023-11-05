@@ -7,22 +7,23 @@
 #include "Restaurant.h"
 #include <string>
 
-using namespace std;
 
 #ifndef WAITER_H
 #define WAITER_H
 
 class Customer;
 class Order;
+class OrderContainer;
 
 class Waiter{
     public:
         Waiter(Restaurant* restaurant);
         ~Waiter();
         void visitCustomer(Customer* customer);
-        void takeOrder(string order);
+        void takeOrder(OrderContainer* orderContainer);
         void serveCustomer(Order* order);
         Customer* getCustomer();
+        Restaurant* getRestaurant();
         void cleanUp();
     private:
         Restaurant* restaurant;
