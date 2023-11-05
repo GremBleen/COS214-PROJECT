@@ -17,9 +17,6 @@ class BurgerBuilder : public MainBuilder
 public:
     BurgerBuilder();
     ~BurgerBuilder();
-    void prepareIngredients();
-    void assembleItem();
-    Item *getItem();
 
     // Operations used in template method
     void prepareMeat();

@@ -17,9 +17,6 @@ class SteakBuilder : public MainBuilder
     public:
         SteakBuilder();
         ~SteakBuilder();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
 
         // Operations used in template method
         void prepareMeat();

@@ -17,9 +17,6 @@ class FishBuilder : public MainBuilder
 public:
     FishBuilder();
     ~FishBuilder();
-    void prepareIngredients();
-    void assembleItem();
-    Item *getItem();
 
     // Operations used in template method
     void prepareMeat();
