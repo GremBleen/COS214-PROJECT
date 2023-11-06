@@ -9,10 +9,7 @@
 */
 
 #include "Customer.h"
-#include "Table.h"
-#include "Restaurant.h"
 
-#include <vector>
 
 using namespace std;
 

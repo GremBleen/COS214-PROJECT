@@ -11,9 +11,6 @@
  */
 
 #include "ItemBuilder.h"
-#include "Order.h"
-
-#include <string>
 
 #ifndef CHEF_H
 #define CHEF_H

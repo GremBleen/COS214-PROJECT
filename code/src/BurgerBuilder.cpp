@@ -10,8 +10,6 @@
  */
 
 #include "BurgerBuilder.h"
-#include "Burger.h"
-
 
 /**
  * @fn BurgerBuilder::BurgerBuilder()

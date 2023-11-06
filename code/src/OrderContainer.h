@@ -12,8 +12,6 @@
  */
 #include "Order.h"
 
-#include <string>
-
 using namespace std;
 
 #ifndef ORDERCONTAINER_H

@@ -9,8 +9,6 @@
  */
 
 #include "Customer.h"
-#include "Restaurant.h"
-#include <string>
 #include "OrderContainer.h"
 
 #ifndef INTERFACE_H

@@ -1,0 +1,5 @@
+<map id="Kitchen.h" name="Kitchen.h">
+<area shape="rect" id="node1" title="Contains declaration for the Kitchen class." alt="" coords="80,5,163,32"/>
+<area shape="rect" id="node2" href="$Kitchen_8cpp.html" title="Contains implementation for the Kitchen class." alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$Restaurant_8cpp.html" title="Contains implementation for the Restaurant class." alt="" coords="128,80,248,107"/>
+</map>

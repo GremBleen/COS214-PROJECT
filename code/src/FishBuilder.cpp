@@ -7,7 +7,6 @@
  */
 
 #include "FishBuilder.h"
-#include "Fish.h"
 
 /**
  * @fn FishBuilder::FishBuilder()

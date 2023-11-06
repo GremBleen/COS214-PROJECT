@@ -1,0 +1,7 @@
+<map id="DrinkBuilder" name="DrinkBuilder">
+<area shape="rect" id="node1" title=" " alt="" coords="54,260,157,287"/>
+<area shape="rect" id="node2" href="$classItemBuilder.html" title=" " alt="" coords="5,171,104,197"/>
+<area shape="rect" id="node3" href="$classItem.html" title=" " alt="" coords="79,81,131,108"/>
+<area shape="rect" id="node5" href="$classDrink.html" title=" " alt="" coords="129,171,186,197"/>
+<area shape="rect" id="node4" href="$classOrder.html" title=" " alt="" coords="76,5,135,32"/>
+</map>

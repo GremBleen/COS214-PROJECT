@@ -9,8 +9,6 @@
 */
 
 #include "Restaurant.h"
-#include <string>
-
 
 #ifndef WAITER_H
 #define WAITER_H

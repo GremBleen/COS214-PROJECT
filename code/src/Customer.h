@@ -4,13 +4,13 @@
  * 
  * Contains the declaration of the Customer class, which represents a customer
  * 
- * @authors Aidan Chapman (u22738917)
+ * @authors
+ * - Aidan Chapman (u22738917)
 */
 
 #include "Rating.h"
 #include "Waiter.h"
 #include "Table.h"
-#include <string>
 
 
 #ifndef CUSTOMER_H

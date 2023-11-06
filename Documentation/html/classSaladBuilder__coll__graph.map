@@ -1,0 +1,8 @@
+<map id="SaladBuilder" name="SaladBuilder">
+<area shape="rect" id="node1" title=" " alt="" coords="51,336,155,363"/>
+<area shape="rect" id="node2" href="$classSideBuilder.html" title=" " alt="" coords="55,260,151,287"/>
+<area shape="rect" id="node3" href="$classItemBuilder.html" title=" " alt="" coords="5,171,104,197"/>
+<area shape="rect" id="node4" href="$classItem.html" title=" " alt="" coords="77,81,129,108"/>
+<area shape="rect" id="node6" href="$classSide.html" title=" " alt="" coords="128,171,179,197"/>
+<area shape="rect" id="node5" href="$classOrder.html" title=" " alt="" coords="73,5,132,32"/>
+</map>

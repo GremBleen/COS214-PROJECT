@@ -1,0 +1,133 @@
+\hypertarget{classComplexOrder}{}\doxysection{Complex\+Order Class Reference}
+\label{classComplexOrder}\index{ComplexOrder@{ComplexOrder}}
+
+
+Inheritance diagram for Complex\+Order\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{classComplexOrder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Complex\+Order\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{classComplexOrder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classComplexOrder_a62b8ff85a20d131970f7d7a923417486}{Complex\+Order}} (\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$waiter)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplexOrder_a6e62a24cc70d3fa80a06e1b13d872b9e}{$\sim$\+Complex\+Order}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classComplexOrder_a7e09f3bdc40e186c2e35c2b83fdc60fe}{add\+To\+Order}} (\mbox{\hyperlink{classOrder}{Order}} $\ast$item)
+\begin{DoxyCompactList}\small\item\em Adds an \mbox{\hyperlink{classOrder}{Order}} object to the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classComplexOrder_a5d6cb519b5468ec30526906263f0bfd7}{append\+To\+Order}} (\mbox{\hyperlink{classOrder}{Order}} $\ast$order)
+\begin{DoxyCompactList}\small\item\em Appends an \mbox{\hyperlink{classOrder}{Order}} object to the end of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classComplexOrder_ad349a98e6c653bee09df2d32568ed3a4}{calculate\+Price}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the total price of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classComplexOrder_a62b8ff85a20d131970f7d7a923417486}\label{classComplexOrder_a62b8ff85a20d131970f7d7a923417486}} 
+\index{ComplexOrder@{ComplexOrder}!ComplexOrder@{ComplexOrder}}
+\index{ComplexOrder@{ComplexOrder}!ComplexOrder@{ComplexOrder}}
+\doxysubsubsection{\texorpdfstring{ComplexOrder()}{ComplexOrder()}}
+{\footnotesize\ttfamily Complex\+Order\+::\+Complex\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$}]{waiter }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} class. 
+
+This constructor takes in a \mbox{\hyperlink{classWaiter}{Waiter}} pointer to initialise the \mbox{\hyperlink{classOrder}{Order}}\textquotesingle{}s \mbox{\hyperlink{classWaiter}{Waiter}} member variable.
+
+
+\begin{DoxyParams}{Parameters}
+{\em waiter} & A \mbox{\hyperlink{classWaiter}{Waiter}} pointer representing the waiter who took the order. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classComplexOrder_a6e62a24cc70d3fa80a06e1b13d872b9e}\label{classComplexOrder_a6e62a24cc70d3fa80a06e1b13d872b9e}} 
+\index{ComplexOrder@{ComplexOrder}!````~ComplexOrder@{$\sim$ComplexOrder}}
+\index{````~ComplexOrder@{$\sim$ComplexOrder}!ComplexOrder@{ComplexOrder}}
+\doxysubsubsection{\texorpdfstring{$\sim$ComplexOrder()}{~ComplexOrder()}}
+{\footnotesize\ttfamily Complex\+Order\+::$\sim$\+Complex\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor for the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} class. 
+
+This destructor frees up memory allocated to the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} object. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classComplexOrder_a7e09f3bdc40e186c2e35c2b83fdc60fe}\label{classComplexOrder_a7e09f3bdc40e186c2e35c2b83fdc60fe}} 
+\index{ComplexOrder@{ComplexOrder}!addToOrder@{addToOrder}}
+\index{addToOrder@{addToOrder}!ComplexOrder@{ComplexOrder}}
+\doxysubsubsection{\texorpdfstring{addToOrder()}{addToOrder()}}
+{\footnotesize\ttfamily void Complex\+Order\+::add\+To\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}} $\ast$}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Adds an \mbox{\hyperlink{classOrder}{Order}} object to the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. 
+
+This method adds an \mbox{\hyperlink{classOrder}{Order}} object to the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. If the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} already contains an \mbox{\hyperlink{classOrder}{Order}} object, it creates a new \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} object and adds the existing \mbox{\hyperlink{classOrder}{Order}} object and the new \mbox{\hyperlink{classOrder}{Order}} object to it.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & An \mbox{\hyperlink{classOrder}{Order}} pointer representing the \mbox{\hyperlink{classOrder}{Order}} object to be added to the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classOrder_a680e265af8078d242501ee0c4799d7ca}{Order}}.
+
+\mbox{\Hypertarget{classComplexOrder_a5d6cb519b5468ec30526906263f0bfd7}\label{classComplexOrder_a5d6cb519b5468ec30526906263f0bfd7}} 
+\index{ComplexOrder@{ComplexOrder}!appendToOrder@{appendToOrder}}
+\index{appendToOrder@{appendToOrder}!ComplexOrder@{ComplexOrder}}
+\doxysubsubsection{\texorpdfstring{appendToOrder()}{appendToOrder()}}
+{\footnotesize\ttfamily void Complex\+Order\+::append\+To\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}} $\ast$}]{order\+Item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Appends an \mbox{\hyperlink{classOrder}{Order}} object to the end of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. 
+
+This method appends an \mbox{\hyperlink{classOrder}{Order}} object to the end of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. If the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} already contains an \mbox{\hyperlink{classOrder}{Order}} object, it recursively calls itself on the next\+Order\+Item pointer until it reaches the end of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\+Item} & An \mbox{\hyperlink{classOrder}{Order}} pointer representing the \mbox{\hyperlink{classOrder}{Order}} object to be appended to the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classOrder_ac7f100ac0ec4a4562f722e5c03e86fca}{Order}}.
+
+\mbox{\Hypertarget{classComplexOrder_ad349a98e6c653bee09df2d32568ed3a4}\label{classComplexOrder_ad349a98e6c653bee09df2d32568ed3a4}} 
+\index{ComplexOrder@{ComplexOrder}!calculatePrice@{calculatePrice}}
+\index{calculatePrice@{calculatePrice}!ComplexOrder@{ComplexOrder}}
+\doxysubsubsection{\texorpdfstring{calculatePrice()}{calculatePrice()}}
+{\footnotesize\ttfamily float Complex\+Order\+::calculate\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calculates the total price of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. 
+
+This method calculates the total price of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}} by recursively calling itself on the next\+Order\+Item pointer until it reaches the end of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. It then adds the price of the current \mbox{\hyperlink{classOrder}{Order}} object to the total price.
+
+\begin{DoxyReturn}{Returns}
+A float representing the total price of the \mbox{\hyperlink{classComplexOrder}{Complex\+Order}}. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classOrder_ad644d98ba68a6c9947a33fa188f51ca3}{Order}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ComplexOrder_8h}{Complex\+Order.\+h}}\item 
+\mbox{\hyperlink{ComplexOrder_8cpp}{Complex\+Order.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+<map id="Interface.h" name="Interface.h">
+<area shape="rect" id="node1" title="Contains declaration for the Interface class." alt="" coords="156,5,248,32"/>
+<area shape="rect" id="node2" href="$Customer_8h.html" title="Contains declaration for the Customer class." alt="" coords="85,80,181,107"/>
+<area shape="rect" id="node9" href="$OrderContainer_8h.html" title="The OrderContainer class represents a container for an Order object and its corresponding requested o..." alt="" coords="212,80,344,107"/>
+<area shape="rect" id="node3" href="$Rating_8h.html" title="Contains declaration for the Rating class." alt="" coords="5,155,81,181"/>
+<area shape="rect" id="node4" href="$Waiter_8h.html" title="Contains declaration for the Waiter class." alt="" coords="165,229,239,256"/>
+<area shape="rect" id="node8" href="$Table_8h.html" title="Contains declaration for the Table class." alt="" coords="157,155,225,181"/>
+<area shape="rect" id="node5" href="$Restaurant_8h.html" title="Contains declaration for the Restaurant class." alt="" coords="149,304,255,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="130,379,189,405"/>
+<area shape="rect" id="node7" title=" " alt="" coords="213,379,276,405"/>
+<area shape="rect" id="node10" href="$Order_8h.html" title="Contains declaration for the Order class." alt="" coords="250,155,319,181"/>
+</map>

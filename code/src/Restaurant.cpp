@@ -4,12 +4,8 @@
  * @authors Aidan Chapman (u22738917)
 */
 
-#include "Restaurant.h"
-
-#include "Waiter.h"
 #include "Floor.h"
 #include "Kitchen.h"
-#include "Customer.h"
 #include "OrderContainer.h"
 #include "ComplexOrder.h"
 
