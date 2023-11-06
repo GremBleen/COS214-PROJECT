@@ -7,7 +7,11 @@
 
 #include "Interface.h"
 
+#include "UnitTesting.hpp"
+
 using namespace std;
+
+void run();
 
 /**
  * @fn int main
@@ -15,6 +19,14 @@ using namespace std;
  * @authors Aidan Chapman (u22738917)
 */
 int main()
+{
+    // run();
+    test();
+
+    return 0;
+}
+
+void run()
 {
     Interface* interface = new Interface();
 
@@ -36,7 +48,5 @@ int main()
         cout << endl;
     } while (cont == 'Y' || cont == 'y');
 
-    delete interface;    
-
-    return 0;
+    delete interface;  
 }
