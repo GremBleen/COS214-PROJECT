@@ -26,15 +26,15 @@ jobs:
     - name: Build
       run: |
         make fresh
-      working-directory: COS214-PROJECT/code
+      working-directory: code
 
     - name: Test
       run: |
         make run
-      working-directory: COS214-PROJECT/code
+      working-directory: code
 
     - name: Memory leak checking
       run: |
         make valgrind_run
-      working-directory: COS214-PROJECT/code
+      working-directory: code
 
