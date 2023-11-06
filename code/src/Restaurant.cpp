@@ -11,6 +11,7 @@
 #include "Kitchen.h"
 #include "Customer.h"
 #include "OrderContainer.h"
+#include "ComplexOrder.h"
 
 /**
  * @fn Restaurant::Restaurant(int numTables)
@@ -59,7 +60,8 @@ void Restaurant::seatCustomer(Customer* customer)
     }
 
     customer->acceptWaiter(thisWaiter); // customer -> attach(Waiter)
-    thisWaiter->takeOrder(new OrderContainer(customer->getOrderRequest(), new Order(thisWaiter)));
+    Order* temp = new ComplexOrder(thisWaiter);
+    thisWaiter->takeOrder(new OrderContainer(customer->getOrderRequest(), temp));
     this->kitchen->makeNextOrder(); 
 }
 

@@ -42,7 +42,7 @@ void SideChef::preparePart(string order, Order* o)
     {
         builders[temp]->prepareIngredients();
         builders[temp]->assembleItem();
-        Item* i = builders[temp]->getItem();
+        Order* i = builders[temp]->getItem();
         o->addToOrder(i);
         this->preparePart(order, o);
     }

@@ -8,8 +8,10 @@ using namespace std;
 class ComplexOrder : public Order
 {
     public:
-        ComplexOrder();
+        ComplexOrder(Waiter* waiter);
         ~ComplexOrder();
+        void addToOrder(Order* item);
+        void appendToOrder(Order* order);
         float calculatePrice();
     private:
         Order* item;

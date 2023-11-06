@@ -7,6 +7,7 @@
 #include "MainChef.h"
 #include "Customer.h"
 #include "OrderContainer.h"
+#include "ComplexOrder.h"
 
 /**
  * @fn MainChef::MainChef()
@@ -42,7 +43,7 @@ void MainChef::preparePart(string order, Order* o)
     {
         builders[temp]->prepareIngredients();
         builders[temp]->assembleItem();
-        Item* i = builders[temp]->getItem();
+        Order* i = builders[temp]->getItem();
         o->addToOrder(i);
         this->preparePart(order, o);
     }
@@ -50,7 +51,8 @@ void MainChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), new Order(w)));
+        Order* temp = new ComplexOrder(w);
+        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), temp));
         w->getRestaurant()->makeNextOrder();
     }
     else

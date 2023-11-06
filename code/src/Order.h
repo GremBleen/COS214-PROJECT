@@ -4,7 +4,6 @@
  * @authors Aidan Chapman (u22738917)
 */
 
-#include "Item.h"
 #include "Waiter.h"
 
 #ifndef ORDER_H
@@ -12,11 +11,12 @@
 
 class Order{
     public:
+        Order();
         Order(Waiter* waiter);
-        ~Order();
-        void addToOrder(Item* item);
-        void appendToOrder(Item* item);
-        float calculatePrice();
+        virtual ~Order();
+        virtual void addToOrder(Order* item);
+        virtual void appendToOrder(Order* order);
+        virtual float calculatePrice();
         Waiter* getWaiter();
     private:
         Waiter* waiter;

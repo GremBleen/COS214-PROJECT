@@ -4,10 +4,12 @@
  * @authors Aidan Chapman (u22738917)
 */
 
+#include "Order.h"
+
 #ifndef ITEM_H
 #define ITEM_H
 
-class Item
+class Item : public Order
 {
     public:
         Item(float price);

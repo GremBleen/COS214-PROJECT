@@ -12,7 +12,7 @@
  * @brief Constructor of the Item class. Sets the float variable with the price input
  * @authors Aidan Chapman (u22738917)
 */
-Item::Item(float price)
+Item::Item(float price) : Order()
 {
     this->price = price;
 }
