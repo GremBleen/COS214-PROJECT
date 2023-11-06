@@ -11,6 +11,8 @@
 
 #include "BurgerBuilder.h"
 #include <unistd.h>
+#include <cstdlib>
+#include <iostream>
 
 /**
  * @fn BurgerBuilder::BurgerBuilder()
@@ -37,6 +39,7 @@ BurgerBuilder::~BurgerBuilder()
  */
 void BurgerBuilder::prepareMeat()
 {
+    cout << "Burger Order" << endl;
     this->burger = new Burger();
     this->main = burger;
 
@@ -87,6 +90,7 @@ void BurgerBuilder::plateMain()
  */
 void BurgerBuilder::butterBun()
 {
+    cout << "\tButtering the buns..." << endl;
     this->burger->butteredBun = true;
     sleep(1);
 }
@@ -98,6 +102,7 @@ void BurgerBuilder::butterBun()
  */
 void BurgerBuilder::prepareVegetables()
 {
+    cout << "\tPreparing the vegetables..." << endl;
     this->burger->preparedVegetables = true;
     sleep(2);
 }
@@ -109,6 +114,7 @@ void BurgerBuilder::prepareVegetables()
  */
 void BurgerBuilder::cookPatty()
 {
+    cout << "\tCooking the patty..." << endl;
     this->burger->cookedPatty = true;
     sleep(3);
 }
@@ -120,6 +126,7 @@ void BurgerBuilder::cookPatty()
  */
 void BurgerBuilder::applySauce()
 {
+    cout << "\tPutting the burger together..." << endl;
     this->burger->assembledBurger = true;
     sleep(1);
 }
@@ -133,4 +140,5 @@ void BurgerBuilder::assembleBurger()
 {
     this->burger->assembledBurger = true;
     sleep(1);
+    cout << "Burger Ready" << endl;
 }
