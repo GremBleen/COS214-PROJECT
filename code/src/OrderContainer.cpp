@@ -1,3 +1,9 @@
+/**
+ * @file OrderContainer.cpp 
+ * @brief Contains implementation for the OrderContainer class.
+ * 
+ * @authors Aidan Chapman (u22738917)
+ */
 #include "OrderContainer.h"
 
 /**

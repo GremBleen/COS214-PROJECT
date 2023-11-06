@@ -11,7 +11,7 @@
 #include "DrinkBuilder.h"
 
 /**
- * @fn DrinkBuilder::DrinkBuilder()
+ * @fn DrinkBuilder::prepareIngredients()
  * @brief Prepares the ingredients for the drink.
  * 
  */

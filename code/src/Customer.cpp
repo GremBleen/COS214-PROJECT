@@ -83,7 +83,7 @@ void Customer::changeRating(Rating *rating)
 }
 
 /**
- * @fn void Customer::changeRating(Rating *rating)
+ * @fn void Customer::receiveOrder(Order *order)
  * @param order an Order pointer
  * @brief Sets the order member variable to the passed in value
  * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)

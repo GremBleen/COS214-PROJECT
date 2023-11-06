@@ -29,7 +29,9 @@ Item::~Item()
 }
 
 /**
- * Function for getting the price of this item
+ * @fn float Item::calculatePrice()
+ * @brief Calculates the price of the item
+ * @return float the price of the item
 */
 float Item::calculatePrice() {
     return price;

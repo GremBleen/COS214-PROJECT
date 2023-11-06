@@ -2,7 +2,7 @@
  * @file Chips.h
  * @brief Contains declaration for the Chips class
  * 
- * @author
+ * @authors
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)
 */

@@ -1,4 +1,10 @@
-
+/**
+ * @file SideBuilder.cpp
+ * @brief Contains implementation for the SideBuilder class
+ * 
+ * @authors 
+ * - Graeme Blain (u22625462)
+ */
 #include "SaladBuilder.h"
 
 /**
