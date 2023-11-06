@@ -1,62 +1,100 @@
 /**
  * @file SteakBuilder.cpp
  * @brief Contains the implementation for the SteakBuilder class
- * @authors Douglas Porter (u21797545)
+ * @authors 
+ * - Graeme Blain (u22625462)
+ * - Douglas Porter (u21797545)
 */
 
 #include "SteakBuilder.h"
 #include "Steak.h"
 
-SteakBuilder::SteakBuilder()
-{
+/**
+ * @fn SteakBuilder::SteakBuilder()
+ * @brief Construct a new Steak Builder:: Steak Builder object 
+ */
+SteakBuilder::SteakBuilder() {
+
+}
+
+/**
+ * @fn SteakBuilder::~SteakBuilder()
+ * @brief Destroy the Steak Builder:: Steak Builder object
+ */
+SteakBuilder::~SteakBuilder() {
+
+}
+
+/**
+ * @fn void SteakBuilder::prepareMeat()
+ * @brief Prepare the main meal
+ */
+void SteakBuilder::prepareMeat() {
     this->steak = new Steak();
     this->main = steak;
-}
 
-SteakBuilder::~SteakBuilder()
-{
-    delete steak;
-}
-
-void SteakBuilder::prepareMeat()
-{
     tenderiseSteak();
     this->main->preparedMain = true;
 }
 
-void SteakBuilder::seasonMeat()
-{
+/**
+ * @fn void SteakBuilder::seasonMeat()
+ * @brief Season the main meal
+ */
+void SteakBuilder::seasonMeat() {
     seasonSteak();
     this->main->seasonedMain = true;
 }
 
-void SteakBuilder::cookMeat()
-{
+/**
+ * @fn void SteakBuilder::cookMeat()
+ * @brief Cook the main meal
+ */
+void SteakBuilder::cookMeat() {
     cookSteak();
     this->main->cookedMain = true;
 }
 
-void SteakBuilder::plateMain()
-{
+/**
+ * @fn void SteakBuilder::plateMeat()
+ * @brief Plate the main meal
+ */
+void SteakBuilder::plateMain() {
     plateSteak();
-    this->steak->platedSteak = true;
+    this->main->platedMain = true;
 
     item = main;
 }
 
-void SteakBuilder::tenderiseSteak()
-{
+/**
+ * @fn void SteakBuilder::tenderiseSteak()
+ * @brief Tenderise the steak
+ */
+void SteakBuilder::tenderiseSteak() {
     this->steak->tenderisedSteak = true;
 }
 
-
-void SteakBuilder::seasonSteak()
-{
+/**
+ * @fn void SteakBuilder::seasonSteak()
+ * @brief Season the steak
+ */
+void SteakBuilder::seasonSteak() {
     this->steak->seasonedSteak = true;
 }
 
-void SteakBuilder::cookSteak()
-{
+/**
+ * @fn void SteakBuilder::cookSteak()
+ * @brief Cook the steak
+ */
+void SteakBuilder::cookSteak() {
     this->steak->cookedSteak = true;
+}
+
+/**
+ * @fn void SteakBuilder::plateSteak()
+ * @brief Plate the steak
+ */
+void SteakBuilder::plateSteak() {
+    this->steak->platedSteak = true;
 }
 

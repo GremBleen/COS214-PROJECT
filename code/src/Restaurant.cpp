@@ -4,13 +4,10 @@
  * @authors Aidan Chapman (u22738917)
 */
 
-#include "Restaurant.h"
-
-#include "Waiter.h"
 #include "Floor.h"
 #include "Kitchen.h"
-#include "Customer.h"
 #include "OrderContainer.h"
+#include "ComplexOrder.h"
 
 /**
  * @fn Restaurant::Restaurant(int numTables)
@@ -31,6 +28,11 @@ Restaurant::Restaurant(int numTables)
 */
 Restaurant::~Restaurant()
 {
+    for(int i = 0; i < floor->getNumTables(); i++)
+    {
+        delete this->waiters.at(i);
+    }
+
     delete floor;
     delete kitchen;
 }
@@ -50,7 +52,7 @@ void Restaurant::seatCustomer(Customer* customer)
     vector<Waiter*>::iterator it = waiters.begin();
     while(it != waiters.end())
     {
-        if((*it)->getCustomer() != nullptr)
+        if((*it)->getCustomer() == nullptr)
         {
             thisWaiter = *it;
             break;
@@ -59,7 +61,8 @@ void Restaurant::seatCustomer(Customer* customer)
     }
 
     customer->acceptWaiter(thisWaiter); // customer -> attach(Waiter)
-    thisWaiter->takeOrder(new OrderContainer(customer->getOrderRequest(), new Order(thisWaiter)));
+    Order* temp = new ComplexOrder(thisWaiter);
+    thisWaiter->takeOrder(new OrderContainer(customer->getOrderRequest(), temp));
     this->kitchen->makeNextOrder(); 
 }
 
@@ -111,5 +114,6 @@ void Restaurant::cleanUp(Customer* customer)
     // remove customer from table
     this->floor->getTable(customer)->cleanUp();
     // Set waiter's customer to nullptr and properly delete customer
-    customer->getWaiter()->cleanUp();
+    Waiter* w = customer->getWaiter();
+    w->cleanUp();
 }

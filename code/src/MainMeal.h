@@ -1,7 +1,12 @@
 /**
  * @file MainMeal.h
  * @brief Contains declaration for the MainMeal class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * MainMeal is a derived class of Item, representing a main meal.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "Item.h"
@@ -12,14 +17,13 @@
 class MainMeal : public Item
 {
 public:
-    MainMeal();
+    MainMeal(float price);
+    ~MainMeal();
 
-    virtual ~MainMeal();
-
-    bool preparedMain = false;
-    bool seasonedMain = false;
-    bool cookedMain = false;
-    bool platedMain = false;
+    bool preparedMain = false; ///< Whether the main has been prepared
+    bool seasonedMain = false; ///< Whether the main has been seasoned
+    bool cookedMain = false; ///< Whether the main has been cooked
+    bool platedMain = false; ///< Whether the main has been plated
 };
 
 #endif

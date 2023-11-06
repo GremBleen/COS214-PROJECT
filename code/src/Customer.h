@@ -1,13 +1,16 @@
 /**
  * @file Customer.h
  * @brief Contains declaration for the Customer class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * Contains the declaration of the Customer class, which represents a customer
+ * 
+ * @authors
+ * - Aidan Chapman (u22738917)
 */
 
 #include "Rating.h"
 #include "Waiter.h"
 #include "Table.h"
-#include <string>
 
 
 #ifndef CUSTOMER_H
@@ -28,12 +31,12 @@ class Customer{
         int getTimestamp();
 
 private:
-        Waiter* waiter;
-        Rating* satisfaction;
-        Table* table;
+        Waiter* waiter; ///< The waiter serving the customer
+        Rating* satisfaction; ///< The customer's satisfaction rating
+        Table* table; ///< The table the customer is seated at
 
-        int timestamp;
-        Order* order;
+        int timestamp; ///< The time the customer arrived at the restaurant
+        Order* order; ///< The customer's order
 };
 
 #endif

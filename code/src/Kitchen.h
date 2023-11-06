@@ -1,15 +1,15 @@
 /**
  * @file Kitchen.h
  * @brief Contains declaration for the Kitchen class
+ * 
+ * The Kitchen class is responsible for receiving orders from the Restaurant class and passing them to the Chef class.
+ * Kitchen holds a vector of OrderContainer objects, which are used to pass orders to the Chef class.
+ * Kitchen has a pointer to a Chef object, which is the chain of responsibility object.
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 
 #include "Chef.h"
-#include "Order.h"
-#include "Restaurant.h"
-
-#include <string>
-#include <vector>
 
 using namespace std;
 
@@ -28,9 +28,9 @@ class Kitchen
         void setRestaurant(Restaurant* restaurant);
 
     private:
-        Restaurant* restaurant;
-        Chef* chef;
-        vector<OrderContainer*> orderQueue;
+        Restaurant* restaurant; ///< Restaurant object
+        Chef* chef; ///< Chef object
+        vector<OrderContainer*> orderQueue; ///< Vector of OrderContainer objects
 };
 
 #endif

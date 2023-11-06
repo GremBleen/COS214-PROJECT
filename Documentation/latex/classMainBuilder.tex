@@ -1,0 +1,75 @@
+\hypertarget{classMainBuilder}{}\doxysection{Main\+Builder Class Reference}
+\label{classMainBuilder}\index{MainBuilder@{MainBuilder}}
+
+
+Inheritance diagram for Main\+Builder\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classMainBuilder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Main\+Builder\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classMainBuilder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMainBuilder_a4cb3cc80c1ffd3b44eb09a8faebee8e0}\label{classMainBuilder_a4cb3cc80c1ffd3b44eb09a8faebee8e0}} 
+virtual void {\bfseries prepare\+Ingredients} ()
+\item 
+\mbox{\Hypertarget{classMainBuilder_ac4bf42e4edf122bc8d0e79c178e8e76e}\label{classMainBuilder_ac4bf42e4edf122bc8d0e79c178e8e76e}} 
+virtual void \mbox{\hyperlink{classMainBuilder_ac4bf42e4edf122bc8d0e79c178e8e76e}{assemble\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Assembles the main dish. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classItem}{Item}} $\ast$ \mbox{\hyperlink{classMainBuilder_aa856a1e210f2a3f64d26802d965c9708}{get\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Returns the item that was built. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMainBuilder_abfd8159ad74adc4830e243ef5c864e0e}\label{classMainBuilder_abfd8159ad74adc4830e243ef5c864e0e}} 
+virtual void {\bfseries prepare\+Meat} ()=0
+\item 
+\mbox{\Hypertarget{classMainBuilder_ad852202775f883f879109a48eb7c342d}\label{classMainBuilder_ad852202775f883f879109a48eb7c342d}} 
+virtual void {\bfseries season\+Meat} ()=0
+\item 
+\mbox{\Hypertarget{classMainBuilder_ab1a8c1381f82412e55f3e2c2de28f6f4}\label{classMainBuilder_ab1a8c1381f82412e55f3e2c2de28f6f4}} 
+virtual void {\bfseries cook\+Meat} ()=0
+\item 
+\mbox{\Hypertarget{classMainBuilder_a33b25c8c2b8fce473e9bc323199b6948}\label{classMainBuilder_a33b25c8c2b8fce473e9bc323199b6948}} 
+virtual void {\bfseries plate\+Main} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMainBuilder_a169ddd54de4808b1da40700bc42c4176}\label{classMainBuilder_a169ddd54de4808b1da40700bc42c4176}} 
+\mbox{\hyperlink{classMainMeal}{Main\+Meal}} $\ast$ \mbox{\hyperlink{classMainBuilder_a169ddd54de4808b1da40700bc42c4176}{main}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classMainMeal}{Main\+Meal}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMainBuilder_aa856a1e210f2a3f64d26802d965c9708}\label{classMainBuilder_aa856a1e210f2a3f64d26802d965c9708}} 
+\index{MainBuilder@{MainBuilder}!getItem@{getItem}}
+\index{getItem@{getItem}!MainBuilder@{MainBuilder}}
+\doxysubsubsection{\texorpdfstring{getItem()}{getItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classItem}{Item}} $\ast$ Main\+Builder\+::get\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns the item that was built. 
+
+\begin{DoxyReturn}{Returns}
+Item$\ast$ Pointer to the item that was built 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classItemBuilder}{Item\+Builder}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{MainBuilder_8h}{Main\+Builder.\+h}}\item 
+\mbox{\hyperlink{MainBuilder_8cpp}{Main\+Builder.\+cpp}}\end{DoxyCompactItemize}

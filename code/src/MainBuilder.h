@@ -1,7 +1,13 @@
 /**
  * @file MainBuilder.h
  * @brief Contains declaration for the MainBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * MainBuilder is a derived class of ItemBuilder, representing a builder that prepares main meals.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
+ * - Douglas Porter (u21797545)
 */
 
 #include "ItemBuilder.h"
@@ -13,19 +19,17 @@
 class MainBuilder : public ItemBuilder
 {
     public:
-        MainBuilder();
-        virtual ~MainBuilder();
         virtual void prepareIngredients();
         virtual void assembleItem();
         virtual Item* getItem();
 
-        virtual void prepareMeat();
-        virtual void seasonMeat();
-        virtual void cookMeat();
-        virtual void plateMain();
+        virtual void prepareMeat() = 0;
+        virtual void seasonMeat() = 0;
+        virtual void cookMeat() = 0;
+        virtual void plateMain() = 0;
 
     protected:
-        MainMeal* main;
+        MainMeal* main; ///< MainMeal object
 };
 
 #endif

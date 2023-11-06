@@ -9,24 +9,50 @@
 #include "Customer.h"
 using namespace std;
 
+
 /**
- * Function for changing the state of the passed in customer's rating to neutral
+ * @fn Neutral::Neutral()
+ * @brief Constructs a new Neutral object.
+ * 
+ */
+Neutral::Neutral() : Rating() {
+
+}
+
+/**
+ * @fn Neutral::~Neutral()
+ * @brief Destroys the Neutral object.
+ * 
+ */
+Neutral::~Neutral() {
+
+}
+
+/**
+ * @fn Neutral::changeState(Customer* customer)
+ * @brief Function for changing the rating of the customer.
+ * 
+ * @param customer The customer whose rating will be changed.
 */
 void Neutral::changeState(Customer* customer) {
     customer->changeRating(new Neutral());
 }
 
 /**
- * Function for getting the rating of the current rating object
+ * @fn Neutral::getRating()
+ * @brief Function for getting the rating of the customer.
+ * 
+ * @return string The rating of the customer.
 */
 string Neutral::getRating() {
     return "Neutral";
 }
 
 /**
- * Function fo calculating the tip which will be added to the bill.
+ * @fn Neutral::calculateTip()
+ * @brief Function for calculating the tip of the customer.
  * 
- * Neutral customer gives 10% tip, satisfied customer gives 25% tip and unhappy customer doesn't give a tip.
+ * @return float The tip of the customer.
 */
 float Neutral::calculateTip() {
     return 0.1F;

@@ -1,7 +1,10 @@
 /**
  * @file Side.h
  * @brief Contains declaration for the Side class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "Item.h"
@@ -12,13 +15,13 @@
 class Side : public Item
 {
     public:
-        Side();
-        virtual ~Side();
+        Side(float price);
+        ~Side();
 
-        bool washedVegetables = false;
-        bool cutVegetables = false;
-        bool assembledSide = false;
-        bool platedSide = false;
+        bool washedVegetables = false; ///< Whether the vegetables have been washed
+        bool cutVegetables = false; ///< Whether the vegetables have been cut
+        bool assembledSide = false; ///< Whether the side has been assembled
+        bool platedSide = false; ///< Whether the side has been plated
 };
 
 #endif

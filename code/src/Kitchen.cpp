@@ -35,12 +35,10 @@ Kitchen::Kitchen()
 */
 Kitchen::~Kitchen()
 {
-    Chef* ptr = this->chef;
-    while(ptr != nullptr)
+    if(this->chef != nullptr)
     {
-        Chef* next = ptr->nextChef;
-        delete ptr;
-        ptr = next;
+        delete this->chef;
+        this->chef = nullptr;
     }
 }
 
@@ -62,10 +60,12 @@ void Kitchen::receiveOrder(OrderContainer* orderContainer)
 */
 void Kitchen::makeNextOrder()
 {
-    OrderContainer* temp = orderQueue[0];
-    orderQueue.erase(orderQueue.begin());
-    this->chef->preparePart(temp->getRequestedOrder(), temp->getOrder());
-    delete temp;
+    if (!orderQueue.empty()) {
+        OrderContainer* temp = orderQueue[0];
+        orderQueue.erase(orderQueue.begin());
+        this->chef->preparePart(temp->getRequestedOrder(), temp->getOrder());
+        delete temp;
+    }
 }
 
 /**

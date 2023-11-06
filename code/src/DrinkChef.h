@@ -1,6 +1,9 @@
 /**
  * @file DrinkChef.h
  * @brief Contains declaration for the DrinkChef class
+ * 
+ * DrinkChef is a derived class of Chef, representing a chef that prepares drinks.
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 

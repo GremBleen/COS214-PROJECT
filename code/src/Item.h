@@ -4,17 +4,19 @@
  * @authors Aidan Chapman (u22738917)
 */
 
+#include "Order.h"
+
 #ifndef ITEM_H
 #define ITEM_H
 
-class Item
+class Item : public Order
 {
     public:
-        Item();
-        virtual ~Item();
-        float getPrice();
+        Item(float price);
+        ~Item();
+        float calculatePrice();
     protected:
-        float price;
+        float price; ///< The price of the item
 };
 
 #endif

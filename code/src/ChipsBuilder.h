@@ -1,7 +1,12 @@
 /**
  * @file ChipsBuilder.h
  * @brief Contains declaration for the ChipsBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * Represents a concrete builder in the builder pattern. Responsible for building a Chips object.
+ * 
+ * @author 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "SideBuilder.h"
@@ -27,7 +32,7 @@ class ChipsBuilder : public SideBuilder
         void seasonChips();
 
     private:
-        Chips* chips;
+        Chips* chips; ///< Chips object
 };
 
 #endif

@@ -1,7 +1,13 @@
 /**
  * @file SteakBuilder.h
  * @brief Contains declaration for the SteakBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * SteakBuilder is a concrete builder for the Steak class.
+ * Responsible for creating a Steak object.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "MainBuilder.h"
@@ -10,27 +16,23 @@
 #ifndef STEAKBUILDER_H
 #define STEAKBUILDER_H
 
-class SteakBuilder : public MainBuilder
-{
-    public:
-        SteakBuilder();
-        ~SteakBuilder();
-        void prepareIngredients();
-        void assembleItem();
-        Item* getItem();
+class SteakBuilder : public MainBuilder {
+public:
+    SteakBuilder();
+    ~SteakBuilder();
 
-        // Operations used in template method
-        void prepareMeat();
-        void seasonMeat();
-        void cookMeat();
-        void plateMain();
+    // Operations used in template method
+    void prepareMeat();
+    void seasonMeat();
+    void cookMeat();
+    void plateMain();
 
-        void tenderiseSteak();
-        void seasonSteak();
-        void cookSteak();
-        void plateSteak();
-    private:
-        Steak* steak;
+    void tenderiseSteak();
+    void seasonSteak();
+    void cookSteak();
+    void plateSteak();
+private:
+    Steak* steak; ///< Steak object
 };
 
 #endif

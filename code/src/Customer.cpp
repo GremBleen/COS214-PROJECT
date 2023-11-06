@@ -1,8 +1,11 @@
 /**
  * @file Customer.cpp
  * @brief Contains implementation for the Customer class
+ * 
+ * This file contains the implementation of the Customer class, which is responsible for representing a customer in the restaurant.
+ * 
  * @authors Aidan Chapman (u22738917)
-*/
+ */
 
 #include <iostream>
 #include "Customer.h"
@@ -17,7 +20,7 @@
  * @param timestamp an int
  * @brief The constructor for the Customer class
  * @authors Aidan Chapman (u22738917)
-*/
+ */
 Customer::Customer(int timestamp)
 {
     this->waiter = nullptr;
@@ -30,27 +33,28 @@ Customer::Customer(int timestamp)
 /**
  * @fn Customer::~Customer()
  * @brief The destructor for the Customer class
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
-*/
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
+ */
 Customer::~Customer()
 {
     if (this->satisfaction != nullptr)
     {
         delete this->satisfaction;
+        this->satisfaction = nullptr;
     }
     if (this->order != nullptr)
     {
         delete this->order;
+        this->order = nullptr;
     }
 }
-
 
 /**
  * @fn string Customer::getOrderRequest()
  * @return a string
  * @brief A member function that generates a random order using Interface's generateOrderString() function
  * @authors Aidan Chapman (u22738917)
-*/
+ */
 string Customer::getOrderRequest()
 {
     return Interface::generateOrderString();
@@ -60,7 +64,7 @@ string Customer::getOrderRequest()
  * @fn void Customer::acceptWaiter(Waiter *waiter)
  * @param waiter a Waiter pointer
  * @brief The waiter member variable setter for the Customer class
- * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo
+ * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492)
  */
 void Customer::acceptWaiter(Waiter *waiter)
 {
@@ -81,7 +85,7 @@ void Customer::changeRating(Rating *rating)
 }
 
 /**
- * @fn void Customer::changeRating(Rating *rating)
+ * @fn void Customer::receiveOrder(Order *order)
  * @param order an Order pointer
  * @brief Sets the order member variable to the passed in value
  * @authors Aidan Chapman (u22738917), Douglas Porter (u21797545)
@@ -124,8 +128,8 @@ float Customer::calculatePayment()
  * @return a waiter pointer
  * @brief The waiter member variable getter the Customer class
  * @authors Aidan Chapman (u22738917)
-*/
-Waiter* Customer::getWaiter()
+ */
+Waiter *Customer::getWaiter()
 {
     return this->waiter;
 }
@@ -135,8 +139,8 @@ Waiter* Customer::getWaiter()
  * @return an Order pointer
  * @brief The order member variable getter for the Customer class
  * @authors Douglas Porter (u21797545)
-*/
-Order* Customer::getOrder()
+ */
+Order *Customer::getOrder()
 {
     return this->order;
 }
@@ -147,7 +151,7 @@ Order* Customer::getOrder()
  * @brief The table member variable getter for the Customer class
  * @authors Douglas Porter (u21797545)
  */
-Table* Customer::getTable()
+Table *Customer::getTable()
 {
     return this->table;
 }
@@ -162,6 +166,3 @@ int Customer::getTimestamp()
 {
     return this->timestamp;
 }
-
-
-

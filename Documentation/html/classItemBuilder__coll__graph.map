@@ -1,0 +1,5 @@
+<map id="ItemBuilder" name="ItemBuilder">
+<area shape="rect" id="node1" title=" " alt="" coords="5,171,104,197"/>
+<area shape="rect" id="node2" href="$classItem.html" title=" " alt="" coords="29,81,81,108"/>
+<area shape="rect" id="node3" href="$classOrder.html" title=" " alt="" coords="25,5,84,32"/>
+</map>

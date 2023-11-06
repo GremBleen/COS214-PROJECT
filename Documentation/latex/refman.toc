@@ -1,0 +1,382 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Beer Class Reference}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Constructor \& Destructor Documentation}{10}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Beer()}{11}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}$\sim $Beer()}{11}{subsubsection.4.1.1.2}%
+\contentsline {section}{\numberline {4.2}Beer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Burger Class Reference}{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Constructor \& Destructor Documentation}{14}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Burger()}{15}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}$\sim $Burger()}{15}{subsubsection.4.3.1.2}%
+\contentsline {section}{\numberline {4.4}Burger\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{15}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Chef Class Reference}{17}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Constructor \& Destructor Documentation}{19}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Chef()}{19}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}$\sim $Chef()}{19}{subsubsection.4.5.1.2}%
+\contentsline {subsection}{\numberline {4.5.2}Member Function Documentation}{19}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}request()}{19}{subsubsection.4.5.2.1}%
+\contentsline {section}{\numberline {4.6}Chips Class Reference}{20}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Constructor \& Destructor Documentation}{21}{subsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.1.1}Chips()}{21}{subsubsection.4.6.1.1}%
+\contentsline {subsubsection}{\numberline {4.6.1.2}$\sim $Chips()}{21}{subsubsection.4.6.1.2}%
+\contentsline {section}{\numberline {4.7}Chips\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{22}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Complex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Order Class Reference}{23}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Constructor \& Destructor Documentation}{24}{subsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.1.1}ComplexOrder()}{24}{subsubsection.4.8.1.1}%
+\contentsline {subsubsection}{\numberline {4.8.1.2}$\sim $ComplexOrder()}{25}{subsubsection.4.8.1.2}%
+\contentsline {subsection}{\numberline {4.8.2}Member Function Documentation}{25}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}addToOrder()}{25}{subsubsection.4.8.2.1}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}appendToOrder()}{25}{subsubsection.4.8.2.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.3}calculatePrice()}{26}{subsubsection.4.8.2.3}%
+\contentsline {section}{\numberline {4.9}Customer Class Reference}{26}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Constructor \& Destructor Documentation}{26}{subsection.4.9.1}%
+\contentsline {subsubsection}{\numberline {4.9.1.1}Customer()}{26}{subsubsection.4.9.1.1}%
+\contentsline {subsubsection}{\numberline {4.9.1.2}$\sim $Customer()}{27}{subsubsection.4.9.1.2}%
+\contentsline {subsection}{\numberline {4.9.2}Member Function Documentation}{27}{subsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.2.1}acceptWaiter()}{27}{subsubsection.4.9.2.1}%
+\contentsline {subsubsection}{\numberline {4.9.2.2}calculatePayment()}{27}{subsubsection.4.9.2.2}%
+\contentsline {subsubsection}{\numberline {4.9.2.3}changeRating()}{28}{subsubsection.4.9.2.3}%
+\contentsline {subsubsection}{\numberline {4.9.2.4}getOrder()}{28}{subsubsection.4.9.2.4}%
+\contentsline {subsubsection}{\numberline {4.9.2.5}getOrderRequest()}{29}{subsubsection.4.9.2.5}%
+\contentsline {subsubsection}{\numberline {4.9.2.6}getTable()}{29}{subsubsection.4.9.2.6}%
+\contentsline {subsubsection}{\numberline {4.9.2.7}getTimestamp()}{29}{subsubsection.4.9.2.7}%
+\contentsline {subsubsection}{\numberline {4.9.2.8}getWaiter()}{30}{subsubsection.4.9.2.8}%
+\contentsline {subsubsection}{\numberline {4.9.2.9}receiveOrder()}{30}{subsubsection.4.9.2.9}%
+\contentsline {section}{\numberline {4.10}Drink Class Reference}{31}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Constructor \& Destructor Documentation}{32}{subsection.4.10.1}%
+\contentsline {subsubsection}{\numberline {4.10.1.1}Drink()}{32}{subsubsection.4.10.1.1}%
+\contentsline {section}{\numberline {4.11}Drink\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{33}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Member Function Documentation}{34}{subsection.4.11.1}%
+\contentsline {subsubsection}{\numberline {4.11.1.1}getItem()}{34}{subsubsection.4.11.1.1}%
+\contentsline {section}{\numberline {4.12}Drink\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef Class Reference}{35}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Constructor \& Destructor Documentation}{36}{subsection.4.12.1}%
+\contentsline {subsubsection}{\numberline {4.12.1.1}DrinkChef()}{36}{subsubsection.4.12.1.1}%
+\contentsline {subsubsection}{\numberline {4.12.1.2}$\sim $DrinkChef()}{36}{subsubsection.4.12.1.2}%
+\contentsline {subsection}{\numberline {4.12.2}Member Function Documentation}{36}{subsection.4.12.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.1}preparePart()}{36}{subsubsection.4.12.2.1}%
+\contentsline {section}{\numberline {4.13}Fish Class Reference}{37}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Constructor \& Destructor Documentation}{38}{subsection.4.13.1}%
+\contentsline {subsubsection}{\numberline {4.13.1.1}Fish()}{39}{subsubsection.4.13.1.1}%
+\contentsline {subsubsection}{\numberline {4.13.1.2}$\sim $Fish()}{39}{subsubsection.4.13.1.2}%
+\contentsline {section}{\numberline {4.14}Fish\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{39}{section.4.14}%
+\contentsline {section}{\numberline {4.15}Floor Class Reference}{41}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Constructor \& Destructor Documentation}{41}{subsection.4.15.1}%
+\contentsline {subsubsection}{\numberline {4.15.1.1}Floor()}{41}{subsubsection.4.15.1.1}%
+\contentsline {subsubsection}{\numberline {4.15.1.2}$\sim $Floor()}{42}{subsubsection.4.15.1.2}%
+\contentsline {subsection}{\numberline {4.15.2}Member Function Documentation}{42}{subsection.4.15.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.1}getNumTables()}{42}{subsubsection.4.15.2.1}%
+\contentsline {subsubsection}{\numberline {4.15.2.2}getTable()}{42}{subsubsection.4.15.2.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.3}seatCustomer()}{43}{subsubsection.4.15.2.3}%
+\contentsline {subsubsection}{\numberline {4.15.2.4}setRestaurant()}{43}{subsubsection.4.15.2.4}%
+\contentsline {section}{\numberline {4.16}Head\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef Class Reference}{44}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Constructor \& Destructor Documentation}{45}{subsection.4.16.1}%
+\contentsline {subsubsection}{\numberline {4.16.1.1}HeadChef()}{45}{subsubsection.4.16.1.1}%
+\contentsline {subsubsection}{\numberline {4.16.1.2}$\sim $HeadChef()}{45}{subsubsection.4.16.1.2}%
+\contentsline {section}{\numberline {4.17}Interface Class Reference}{45}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Constructor \& Destructor Documentation}{46}{subsection.4.17.1}%
+\contentsline {subsubsection}{\numberline {4.17.1.1}Interface()}{46}{subsubsection.4.17.1.1}%
+\contentsline {subsubsection}{\numberline {4.17.1.2}$\sim $Interface()}{46}{subsubsection.4.17.1.2}%
+\contentsline {subsection}{\numberline {4.17.2}Member Function Documentation}{46}{subsection.4.17.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.1}generateNumberOfCustomers()}{46}{subsubsection.4.17.2.1}%
+\contentsline {subsubsection}{\numberline {4.17.2.2}generateOrderString()}{47}{subsubsection.4.17.2.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.3}getCurrentUnixTime()}{47}{subsubsection.4.17.2.3}%
+\contentsline {subsubsection}{\numberline {4.17.2.4}runCustomer()}{47}{subsubsection.4.17.2.4}%
+\contentsline {section}{\numberline {4.18}Item Class Reference}{48}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Constructor \& Destructor Documentation}{49}{subsection.4.18.1}%
+\contentsline {subsubsection}{\numberline {4.18.1.1}Item()}{49}{subsubsection.4.18.1.1}%
+\contentsline {subsection}{\numberline {4.18.2}Member Function Documentation}{49}{subsection.4.18.2}%
+\contentsline {subsubsection}{\numberline {4.18.2.1}calculatePrice()}{49}{subsubsection.4.18.2.1}%
+\contentsline {section}{\numberline {4.19}Item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{50}{section.4.19}%
+\contentsline {section}{\numberline {4.20}Kitchen Class Reference}{51}{section.4.20}%
+\contentsline {subsection}{\numberline {4.20.1}Constructor \& Destructor Documentation}{51}{subsection.4.20.1}%
+\contentsline {subsubsection}{\numberline {4.20.1.1}Kitchen()}{51}{subsubsection.4.20.1.1}%
+\contentsline {subsection}{\numberline {4.20.2}Member Function Documentation}{51}{subsection.4.20.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.1}makeNextOrder()}{52}{subsubsection.4.20.2.1}%
+\contentsline {subsubsection}{\numberline {4.20.2.2}receiveOrder()}{52}{subsubsection.4.20.2.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.3}setRestaurant()}{52}{subsubsection.4.20.2.3}%
+\contentsline {section}{\numberline {4.21}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{53}{section.4.21}%
+\contentsline {subsection}{\numberline {4.21.1}Member Function Documentation}{54}{subsection.4.21.1}%
+\contentsline {subsubsection}{\numberline {4.21.1.1}getItem()}{54}{subsubsection.4.21.1.1}%
+\contentsline {section}{\numberline {4.22}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef Class Reference}{55}{section.4.22}%
+\contentsline {subsection}{\numberline {4.22.1}Constructor \& Destructor Documentation}{56}{subsection.4.22.1}%
+\contentsline {subsubsection}{\numberline {4.22.1.1}MainChef()}{56}{subsubsection.4.22.1.1}%
+\contentsline {subsubsection}{\numberline {4.22.1.2}$\sim $MainChef()}{56}{subsubsection.4.22.1.2}%
+\contentsline {subsection}{\numberline {4.22.2}Member Function Documentation}{56}{subsection.4.22.2}%
+\contentsline {subsubsection}{\numberline {4.22.2.1}preparePart()}{56}{subsubsection.4.22.2.1}%
+\contentsline {section}{\numberline {4.23}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Meal Class Reference}{57}{section.4.23}%
+\contentsline {subsection}{\numberline {4.23.1}Constructor \& Destructor Documentation}{58}{subsection.4.23.1}%
+\contentsline {subsubsection}{\numberline {4.23.1.1}MainMeal()}{58}{subsubsection.4.23.1.1}%
+\contentsline {section}{\numberline {4.24}Neutral Class Reference}{59}{section.4.24}%
+\contentsline {subsection}{\numberline {4.24.1}Member Function Documentation}{60}{subsection.4.24.1}%
+\contentsline {subsubsection}{\numberline {4.24.1.1}calculateTip()}{60}{subsubsection.4.24.1.1}%
+\contentsline {subsubsection}{\numberline {4.24.1.2}changeState()}{60}{subsubsection.4.24.1.2}%
+\contentsline {subsubsection}{\numberline {4.24.1.3}getRating()}{60}{subsubsection.4.24.1.3}%
+\contentsline {section}{\numberline {4.25}Order Class Reference}{61}{section.4.25}%
+\contentsline {subsection}{\numberline {4.25.1}Constructor \& Destructor Documentation}{61}{subsection.4.25.1}%
+\contentsline {subsubsection}{\numberline {4.25.1.1}Order()}{61}{subsubsection.4.25.1.1}%
+\contentsline {subsection}{\numberline {4.25.2}Member Function Documentation}{62}{subsection.4.25.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.1}addToOrder()}{62}{subsubsection.4.25.2.1}%
+\contentsline {subsubsection}{\numberline {4.25.2.2}appendToOrder()}{62}{subsubsection.4.25.2.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.3}calculatePrice()}{62}{subsubsection.4.25.2.3}%
+\contentsline {subsubsection}{\numberline {4.25.2.4}getWaiter()}{63}{subsubsection.4.25.2.4}%
+\contentsline {section}{\numberline {4.26}Order\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Container Class Reference}{63}{section.4.26}%
+\contentsline {subsection}{\numberline {4.26.1}Constructor \& Destructor Documentation}{63}{subsection.4.26.1}%
+\contentsline {subsubsection}{\numberline {4.26.1.1}OrderContainer()}{63}{subsubsection.4.26.1.1}%
+\contentsline {subsection}{\numberline {4.26.2}Member Function Documentation}{64}{subsection.4.26.2}%
+\contentsline {subsubsection}{\numberline {4.26.2.1}getOrder()}{64}{subsubsection.4.26.2.1}%
+\contentsline {subsubsection}{\numberline {4.26.2.2}getRequestedOrder()}{64}{subsubsection.4.26.2.2}%
+\contentsline {section}{\numberline {4.27}Rating Class Reference}{64}{section.4.27}%
+\contentsline {section}{\numberline {4.28}Restaurant Class Reference}{65}{section.4.28}%
+\contentsline {subsection}{\numberline {4.28.1}Constructor \& Destructor Documentation}{65}{subsection.4.28.1}%
+\contentsline {subsubsection}{\numberline {4.28.1.1}Restaurant()}{65}{subsubsection.4.28.1.1}%
+\contentsline {subsubsection}{\numberline {4.28.1.2}$\sim $Restaurant()}{66}{subsubsection.4.28.1.2}%
+\contentsline {subsection}{\numberline {4.28.2}Member Function Documentation}{66}{subsection.4.28.2}%
+\contentsline {subsubsection}{\numberline {4.28.2.1}cleanUp()}{66}{subsubsection.4.28.2.1}%
+\contentsline {subsubsection}{\numberline {4.28.2.2}initialise()}{66}{subsubsection.4.28.2.2}%
+\contentsline {subsubsection}{\numberline {4.28.2.3}placeOrder()}{67}{subsubsection.4.28.2.3}%
+\contentsline {subsubsection}{\numberline {4.28.2.4}seatCustomer()}{67}{subsubsection.4.28.2.4}%
+\contentsline {section}{\numberline {4.29}Salad Class Reference}{68}{section.4.29}%
+\contentsline {subsection}{\numberline {4.29.1}Constructor \& Destructor Documentation}{69}{subsection.4.29.1}%
+\contentsline {subsubsection}{\numberline {4.29.1.1}Salad()}{69}{subsubsection.4.29.1.1}%
+\contentsline {subsubsection}{\numberline {4.29.1.2}$\sim $Salad()}{70}{subsubsection.4.29.1.2}%
+\contentsline {section}{\numberline {4.30}Salad\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{70}{section.4.30}%
+\contentsline {subsection}{\numberline {4.30.1}Member Function Documentation}{72}{subsection.4.30.1}%
+\contentsline {subsubsection}{\numberline {4.30.1.1}cutFeta()}{72}{subsubsection.4.30.1.1}%
+\contentsline {section}{\numberline {4.31}Satisfied Class Reference}{72}{section.4.31}%
+\contentsline {subsection}{\numberline {4.31.1}Member Function Documentation}{73}{subsection.4.31.1}%
+\contentsline {subsubsection}{\numberline {4.31.1.1}calculateTip()}{73}{subsubsection.4.31.1.1}%
+\contentsline {subsubsection}{\numberline {4.31.1.2}changeState()}{73}{subsubsection.4.31.1.2}%
+\contentsline {subsubsection}{\numberline {4.31.1.3}getRating()}{74}{subsubsection.4.31.1.3}%
+\contentsline {section}{\numberline {4.32}Side Class Reference}{74}{section.4.32}%
+\contentsline {subsection}{\numberline {4.32.1}Constructor \& Destructor Documentation}{75}{subsection.4.32.1}%
+\contentsline {subsubsection}{\numberline {4.32.1.1}Side()}{75}{subsubsection.4.32.1.1}%
+\contentsline {section}{\numberline {4.33}Side\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{76}{section.4.33}%
+\contentsline {subsection}{\numberline {4.33.1}Member Function Documentation}{77}{subsection.4.33.1}%
+\contentsline {subsubsection}{\numberline {4.33.1.1}getItem()}{78}{subsubsection.4.33.1.1}%
+\contentsline {section}{\numberline {4.34}Side\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef Class Reference}{78}{section.4.34}%
+\contentsline {subsection}{\numberline {4.34.1}Constructor \& Destructor Documentation}{79}{subsection.4.34.1}%
+\contentsline {subsubsection}{\numberline {4.34.1.1}SideChef()}{80}{subsubsection.4.34.1.1}%
+\contentsline {subsubsection}{\numberline {4.34.1.2}$\sim $SideChef()}{80}{subsubsection.4.34.1.2}%
+\contentsline {subsection}{\numberline {4.34.2}Member Function Documentation}{80}{subsection.4.34.2}%
+\contentsline {subsubsection}{\numberline {4.34.2.1}preparePart()}{80}{subsubsection.4.34.2.1}%
+\contentsline {section}{\numberline {4.35}Soda Class Reference}{81}{section.4.35}%
+\contentsline {subsection}{\numberline {4.35.1}Constructor \& Destructor Documentation}{82}{subsection.4.35.1}%
+\contentsline {subsubsection}{\numberline {4.35.1.1}Soda()}{82}{subsubsection.4.35.1.1}%
+\contentsline {subsubsection}{\numberline {4.35.1.2}$\sim $Soda()}{82}{subsubsection.4.35.1.2}%
+\contentsline {section}{\numberline {4.36}Soda\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{83}{section.4.36}%
+\contentsline {section}{\numberline {4.37}Steak Class Reference}{84}{section.4.37}%
+\contentsline {subsection}{\numberline {4.37.1}Constructor \& Destructor Documentation}{85}{subsection.4.37.1}%
+\contentsline {subsubsection}{\numberline {4.37.1.1}Steak()}{86}{subsubsection.4.37.1.1}%
+\contentsline {subsubsection}{\numberline {4.37.1.2}$\sim $Steak()}{86}{subsubsection.4.37.1.2}%
+\contentsline {section}{\numberline {4.38}Steak\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{86}{section.4.38}%
+\contentsline {section}{\numberline {4.39}Table Class Reference}{88}{section.4.39}%
+\contentsline {subsection}{\numberline {4.39.1}Constructor \& Destructor Documentation}{88}{subsection.4.39.1}%
+\contentsline {subsubsection}{\numberline {4.39.1.1}Table()}{88}{subsubsection.4.39.1.1}%
+\contentsline {subsubsection}{\numberline {4.39.1.2}$\sim $Table()}{88}{subsubsection.4.39.1.2}%
+\contentsline {subsection}{\numberline {4.39.2}Member Function Documentation}{89}{subsection.4.39.2}%
+\contentsline {subsubsection}{\numberline {4.39.2.1}addCustomer()}{89}{subsubsection.4.39.2.1}%
+\contentsline {subsubsection}{\numberline {4.39.2.2}cleanUp()}{89}{subsubsection.4.39.2.2}%
+\contentsline {subsubsection}{\numberline {4.39.2.3}getCustomer()}{89}{subsubsection.4.39.2.3}%
+\contentsline {section}{\numberline {4.40}Unhappy Class Reference}{90}{section.4.40}%
+\contentsline {subsection}{\numberline {4.40.1}Member Function Documentation}{90}{subsection.4.40.1}%
+\contentsline {subsubsection}{\numberline {4.40.1.1}calculateTip()}{91}{subsubsection.4.40.1.1}%
+\contentsline {subsubsection}{\numberline {4.40.1.2}changeState()}{91}{subsubsection.4.40.1.2}%
+\contentsline {subsubsection}{\numberline {4.40.1.3}getRating()}{91}{subsubsection.4.40.1.3}%
+\contentsline {section}{\numberline {4.41}Waiter Class Reference}{92}{section.4.41}%
+\contentsline {subsection}{\numberline {4.41.1}Constructor \& Destructor Documentation}{92}{subsection.4.41.1}%
+\contentsline {subsubsection}{\numberline {4.41.1.1}Waiter()}{92}{subsubsection.4.41.1.1}%
+\contentsline {subsubsection}{\numberline {4.41.1.2}$\sim $Waiter()}{92}{subsubsection.4.41.1.2}%
+\contentsline {subsection}{\numberline {4.41.2}Member Function Documentation}{93}{subsection.4.41.2}%
+\contentsline {subsubsection}{\numberline {4.41.2.1}cleanUp()}{93}{subsubsection.4.41.2.1}%
+\contentsline {subsubsection}{\numberline {4.41.2.2}getCustomer()}{93}{subsubsection.4.41.2.2}%
+\contentsline {subsubsection}{\numberline {4.41.2.3}getRestaurant()}{93}{subsubsection.4.41.2.3}%
+\contentsline {subsubsection}{\numberline {4.41.2.4}serveCustomer()}{93}{subsubsection.4.41.2.4}%
+\contentsline {subsubsection}{\numberline {4.41.2.5}takeOrder()}{94}{subsubsection.4.41.2.5}%
+\contentsline {section}{\numberline {4.42}Water Class Reference}{95}{section.4.42}%
+\contentsline {subsection}{\numberline {4.42.1}Constructor \& Destructor Documentation}{96}{subsection.4.42.1}%
+\contentsline {subsubsection}{\numberline {4.42.1.1}Water()}{96}{subsubsection.4.42.1.1}%
+\contentsline {subsubsection}{\numberline {4.42.1.2}$\sim $Water()}{96}{subsubsection.4.42.1.2}%
+\contentsline {section}{\numberline {4.43}Water\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{97}{section.4.43}%
+\contentsline {chapter}{\numberline {5}File Documentation}{99}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Beer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{99}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{100}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Beer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{101}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{102}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Beer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{102}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{103}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Beer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{104}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{105}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}Burger.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{105}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{106}{subsection.5.5.1}%
+\contentsline {section}{\numberline {5.6}Burger.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{107}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{108}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7}Burger\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{108}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{109}{subsection.5.7.1}%
+\contentsline {section}{\numberline {5.8}Burger\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{110}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{111}{subsection.5.8.1}%
+\contentsline {section}{\numberline {5.9}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{111}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Detailed Description}{112}{subsection.5.9.1}%
+\contentsline {section}{\numberline {5.10}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{112}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{114}{subsection.5.10.1}%
+\contentsline {section}{\numberline {5.11}Chips.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{114}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{115}{subsection.5.11.1}%
+\contentsline {section}{\numberline {5.12}Chips.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{116}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}Detailed Description}{117}{subsection.5.12.1}%
+\contentsline {section}{\numberline {5.13}Chips\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{117}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{118}{subsection.5.13.1}%
+\contentsline {section}{\numberline {5.14}Chips\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{119}{section.5.14}%
+\contentsline {subsection}{\numberline {5.14.1}Detailed Description}{120}{subsection.5.14.1}%
+\contentsline {section}{\numberline {5.15}Complex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Order.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{120}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Detailed Description}{121}{subsection.5.15.1}%
+\contentsline {section}{\numberline {5.16}Complex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Order.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{121}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}Detailed Description}{122}{subsection.5.16.1}%
+\contentsline {section}{\numberline {5.17}Customer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{123}{section.5.17}%
+\contentsline {subsection}{\numberline {5.17.1}Detailed Description}{123}{subsection.5.17.1}%
+\contentsline {section}{\numberline {5.18}Customer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{124}{section.5.18}%
+\contentsline {subsection}{\numberline {5.18.1}Detailed Description}{124}{subsection.5.18.1}%
+\contentsline {section}{\numberline {5.19}Drink.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{125}{section.5.19}%
+\contentsline {subsection}{\numberline {5.19.1}Detailed Description}{125}{subsection.5.19.1}%
+\contentsline {section}{\numberline {5.20}Drink.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{126}{section.5.20}%
+\contentsline {subsection}{\numberline {5.20.1}Detailed Description}{127}{subsection.5.20.1}%
+\contentsline {section}{\numberline {5.21}Drink\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{127}{section.5.21}%
+\contentsline {subsection}{\numberline {5.21.1}Detailed Description}{128}{subsection.5.21.1}%
+\contentsline {section}{\numberline {5.22}Drink\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{129}{section.5.22}%
+\contentsline {subsection}{\numberline {5.22.1}Detailed Description}{130}{subsection.5.22.1}%
+\contentsline {section}{\numberline {5.23}Drink\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{130}{section.5.23}%
+\contentsline {subsection}{\numberline {5.23.1}Detailed Description}{131}{subsection.5.23.1}%
+\contentsline {section}{\numberline {5.24}Drink\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{131}{section.5.24}%
+\contentsline {subsection}{\numberline {5.24.1}Detailed Description}{133}{subsection.5.24.1}%
+\contentsline {section}{\numberline {5.25}Fish.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{133}{section.5.25}%
+\contentsline {subsection}{\numberline {5.25.1}Detailed Description}{134}{subsection.5.25.1}%
+\contentsline {section}{\numberline {5.26}Fish.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{135}{section.5.26}%
+\contentsline {subsection}{\numberline {5.26.1}Detailed Description}{136}{subsection.5.26.1}%
+\contentsline {section}{\numberline {5.27}Fish\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{136}{section.5.27}%
+\contentsline {subsection}{\numberline {5.27.1}Detailed Description}{137}{subsection.5.27.1}%
+\contentsline {section}{\numberline {5.28}Fish\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{138}{section.5.28}%
+\contentsline {subsection}{\numberline {5.28.1}Detailed Description}{139}{subsection.5.28.1}%
+\contentsline {section}{\numberline {5.29}Floor.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{139}{section.5.29}%
+\contentsline {subsection}{\numberline {5.29.1}Detailed Description}{140}{subsection.5.29.1}%
+\contentsline {section}{\numberline {5.30}Floor.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{140}{section.5.30}%
+\contentsline {subsection}{\numberline {5.30.1}Detailed Description}{142}{subsection.5.30.1}%
+\contentsline {section}{\numberline {5.31}Head\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{142}{section.5.31}%
+\contentsline {subsection}{\numberline {5.31.1}Detailed Description}{143}{subsection.5.31.1}%
+\contentsline {section}{\numberline {5.32}Head\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{144}{section.5.32}%
+\contentsline {subsection}{\numberline {5.32.1}Detailed Description}{145}{subsection.5.32.1}%
+\contentsline {section}{\numberline {5.33}Interface.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{145}{section.5.33}%
+\contentsline {subsection}{\numberline {5.33.1}Detailed Description}{146}{subsection.5.33.1}%
+\contentsline {section}{\numberline {5.34}Interface.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{146}{section.5.34}%
+\contentsline {subsection}{\numberline {5.34.1}Detailed Description}{148}{subsection.5.34.1}%
+\contentsline {section}{\numberline {5.35}Item.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{148}{section.5.35}%
+\contentsline {subsection}{\numberline {5.35.1}Detailed Description}{149}{subsection.5.35.1}%
+\contentsline {section}{\numberline {5.36}Item.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{149}{section.5.36}%
+\contentsline {subsection}{\numberline {5.36.1}Detailed Description}{150}{subsection.5.36.1}%
+\contentsline {section}{\numberline {5.37}Item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{150}{section.5.37}%
+\contentsline {subsection}{\numberline {5.37.1}Detailed Description}{151}{subsection.5.37.1}%
+\contentsline {section}{\numberline {5.38}Kitchen.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{151}{section.5.38}%
+\contentsline {subsection}{\numberline {5.38.1}Detailed Description}{152}{subsection.5.38.1}%
+\contentsline {section}{\numberline {5.39}Kitchen.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{152}{section.5.39}%
+\contentsline {subsection}{\numberline {5.39.1}Detailed Description}{154}{subsection.5.39.1}%
+\contentsline {section}{\numberline {5.40}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{154}{section.5.40}%
+\contentsline {subsection}{\numberline {5.40.1}Detailed Description}{155}{subsection.5.40.1}%
+\contentsline {subsection}{\numberline {5.40.2}Function Documentation}{156}{subsection.5.40.2}%
+\contentsline {subsubsection}{\numberline {5.40.2.1}main()}{156}{subsubsection.5.40.2.1}%
+\contentsline {section}{\numberline {5.41}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{156}{section.5.41}%
+\contentsline {subsection}{\numberline {5.41.1}Detailed Description}{157}{subsection.5.41.1}%
+\contentsline {section}{\numberline {5.42}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{158}{section.5.42}%
+\contentsline {subsection}{\numberline {5.42.1}Detailed Description}{159}{subsection.5.42.1}%
+\contentsline {section}{\numberline {5.43}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{159}{section.5.43}%
+\contentsline {subsection}{\numberline {5.43.1}Detailed Description}{160}{subsection.5.43.1}%
+\contentsline {section}{\numberline {5.44}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{160}{section.5.44}%
+\contentsline {subsection}{\numberline {5.44.1}Detailed Description}{162}{subsection.5.44.1}%
+\contentsline {section}{\numberline {5.45}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Meal.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{162}{section.5.45}%
+\contentsline {subsection}{\numberline {5.45.1}Detailed Description}{163}{subsection.5.45.1}%
+\contentsline {section}{\numberline {5.46}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Meal.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{163}{section.5.46}%
+\contentsline {subsection}{\numberline {5.46.1}Detailed Description}{165}{subsection.5.46.1}%
+\contentsline {section}{\numberline {5.47}Neutral.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{165}{section.5.47}%
+\contentsline {subsection}{\numberline {5.47.1}Detailed Description}{165}{subsection.5.47.1}%
+\contentsline {section}{\numberline {5.48}Neutral.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{166}{section.5.48}%
+\contentsline {subsection}{\numberline {5.48.1}Detailed Description}{166}{subsection.5.48.1}%
+\contentsline {section}{\numberline {5.49}Order.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{167}{section.5.49}%
+\contentsline {subsection}{\numberline {5.49.1}Detailed Description}{167}{subsection.5.49.1}%
+\contentsline {section}{\numberline {5.50}Order.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{167}{section.5.50}%
+\contentsline {subsection}{\numberline {5.50.1}Detailed Description}{168}{subsection.5.50.1}%
+\contentsline {section}{\numberline {5.51}Order\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Container.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{169}{section.5.51}%
+\contentsline {subsection}{\numberline {5.51.1}Detailed Description}{169}{subsection.5.51.1}%
+\contentsline {section}{\numberline {5.52}Order\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Container.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{169}{section.5.52}%
+\contentsline {subsection}{\numberline {5.52.1}Detailed Description}{170}{subsection.5.52.1}%
+\contentsline {section}{\numberline {5.53}Rating.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{171}{section.5.53}%
+\contentsline {subsection}{\numberline {5.53.1}Detailed Description}{171}{subsection.5.53.1}%
+\contentsline {section}{\numberline {5.54}Rating.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{171}{section.5.54}%
+\contentsline {subsection}{\numberline {5.54.1}Detailed Description}{172}{subsection.5.54.1}%
+\contentsline {section}{\numberline {5.55}Restaurant.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{172}{section.5.55}%
+\contentsline {subsection}{\numberline {5.55.1}Detailed Description}{173}{subsection.5.55.1}%
+\contentsline {section}{\numberline {5.56}Restaurant.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{173}{section.5.56}%
+\contentsline {subsection}{\numberline {5.56.1}Detailed Description}{173}{subsection.5.56.1}%
+\contentsline {section}{\numberline {5.57}Salad.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{174}{section.5.57}%
+\contentsline {subsection}{\numberline {5.57.1}Detailed Description}{174}{subsection.5.57.1}%
+\contentsline {section}{\numberline {5.58}Salad.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{175}{section.5.58}%
+\contentsline {subsection}{\numberline {5.58.1}Detailed Description}{176}{subsection.5.58.1}%
+\contentsline {section}{\numberline {5.59}Salad\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{176}{section.5.59}%
+\contentsline {subsection}{\numberline {5.59.1}Detailed Description}{177}{subsection.5.59.1}%
+\contentsline {section}{\numberline {5.60}Salad\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{178}{section.5.60}%
+\contentsline {subsection}{\numberline {5.60.1}Detailed Description}{179}{subsection.5.60.1}%
+\contentsline {section}{\numberline {5.61}Satisfied.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{179}{section.5.61}%
+\contentsline {subsection}{\numberline {5.61.1}Detailed Description}{180}{subsection.5.61.1}%
+\contentsline {section}{\numberline {5.62}Satisfied.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{180}{section.5.62}%
+\contentsline {subsection}{\numberline {5.62.1}Detailed Description}{181}{subsection.5.62.1}%
+\contentsline {section}{\numberline {5.63}Side.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{182}{section.5.63}%
+\contentsline {subsection}{\numberline {5.63.1}Detailed Description}{182}{subsection.5.63.1}%
+\contentsline {section}{\numberline {5.64}Side.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{183}{section.5.64}%
+\contentsline {subsection}{\numberline {5.64.1}Detailed Description}{184}{subsection.5.64.1}%
+\contentsline {section}{\numberline {5.65}Side\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{184}{section.5.65}%
+\contentsline {subsection}{\numberline {5.65.1}Detailed Description}{185}{subsection.5.65.1}%
+\contentsline {section}{\numberline {5.66}Side\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{186}{section.5.66}%
+\contentsline {subsection}{\numberline {5.66.1}Detailed Description}{187}{subsection.5.66.1}%
+\contentsline {section}{\numberline {5.67}Side\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{187}{section.5.67}%
+\contentsline {subsection}{\numberline {5.67.1}Detailed Description}{188}{subsection.5.67.1}%
+\contentsline {section}{\numberline {5.68}Side\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chef.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{188}{section.5.68}%
+\contentsline {subsection}{\numberline {5.68.1}Detailed Description}{190}{subsection.5.68.1}%
+\contentsline {section}{\numberline {5.69}Soda.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{190}{section.5.69}%
+\contentsline {subsection}{\numberline {5.69.1}Detailed Description}{191}{subsection.5.69.1}%
+\contentsline {section}{\numberline {5.70}Soda.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{192}{section.5.70}%
+\contentsline {subsection}{\numberline {5.70.1}Detailed Description}{193}{subsection.5.70.1}%
+\contentsline {section}{\numberline {5.71}Soda\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{193}{section.5.71}%
+\contentsline {subsection}{\numberline {5.71.1}Detailed Description}{194}{subsection.5.71.1}%
+\contentsline {section}{\numberline {5.72}Soda\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{195}{section.5.72}%
+\contentsline {subsection}{\numberline {5.72.1}Detailed Description}{196}{subsection.5.72.1}%
+\contentsline {section}{\numberline {5.73}Steak.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{196}{section.5.73}%
+\contentsline {subsection}{\numberline {5.73.1}Detailed Description}{197}{subsection.5.73.1}%
+\contentsline {section}{\numberline {5.74}Steak.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{198}{section.5.74}%
+\contentsline {subsection}{\numberline {5.74.1}Detailed Description}{199}{subsection.5.74.1}%
+\contentsline {section}{\numberline {5.75}Steak\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{199}{section.5.75}%
+\contentsline {subsection}{\numberline {5.75.1}Detailed Description}{200}{subsection.5.75.1}%
+\contentsline {section}{\numberline {5.76}Steak\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{201}{section.5.76}%
+\contentsline {subsection}{\numberline {5.76.1}Detailed Description}{202}{subsection.5.76.1}%
+\contentsline {section}{\numberline {5.77}Table.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{202}{section.5.77}%
+\contentsline {subsection}{\numberline {5.77.1}Detailed Description}{203}{subsection.5.77.1}%
+\contentsline {section}{\numberline {5.78}Table.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{203}{section.5.78}%
+\contentsline {subsection}{\numberline {5.78.1}Detailed Description}{204}{subsection.5.78.1}%
+\contentsline {section}{\numberline {5.79}Unhappy.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{204}{section.5.79}%
+\contentsline {subsection}{\numberline {5.79.1}Detailed Description}{205}{subsection.5.79.1}%
+\contentsline {section}{\numberline {5.80}Unhappy.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{205}{section.5.80}%
+\contentsline {subsection}{\numberline {5.80.1}Detailed Description}{206}{subsection.5.80.1}%
+\contentsline {section}{\numberline {5.81}Waiter.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{206}{section.5.81}%
+\contentsline {subsection}{\numberline {5.81.1}Detailed Description}{207}{subsection.5.81.1}%
+\contentsline {section}{\numberline {5.82}Waiter.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{207}{section.5.82}%
+\contentsline {subsection}{\numberline {5.82.1}Detailed Description}{207}{subsection.5.82.1}%
+\contentsline {section}{\numberline {5.83}Water.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{208}{section.5.83}%
+\contentsline {subsection}{\numberline {5.83.1}Detailed Description}{208}{subsection.5.83.1}%
+\contentsline {section}{\numberline {5.84}Water.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{209}{section.5.84}%
+\contentsline {subsection}{\numberline {5.84.1}Detailed Description}{210}{subsection.5.84.1}%
+\contentsline {section}{\numberline {5.85}Water\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{210}{section.5.85}%
+\contentsline {subsection}{\numberline {5.85.1}Detailed Description}{211}{subsection.5.85.1}%
+\contentsline {section}{\numberline {5.86}Water\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{212}{section.5.86}%
+\contentsline {subsection}{\numberline {5.86.1}Detailed Description}{213}{subsection.5.86.1}%
+\contentsline {chapter}{Index}{215}{section*.326}%

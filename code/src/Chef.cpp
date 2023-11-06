@@ -1,7 +1,12 @@
 /**
  * @file Chef.cpp
  * @brief Contains implementation for the Chef class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * This file contains the implementation for the Chef class. The Chef class is responsible for building the order.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "Chef.h"
@@ -35,7 +40,9 @@ Chef::Chef()
 /**
  * @fn Chef::~Chef()
  * @brief Destructor of the Chef class
- * @authors Aidan Chapman (u22738917)
+ * @author 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 Chef::~Chef()
 {
@@ -43,21 +50,31 @@ Chef::~Chef()
     {
         delete builders[i];
     }
+    
+    if(this->nextChef != nullptr)
+    {
+        delete this->nextChef;
+        this->nextChef = nullptr;
+    }
 }
 
 /**
  * @fn int Chef::request(string order)
- * @param order a string
+ * @param order : string&
  * @brief member function of the Chef class, implementing Adapter functionality
  * @authors Aidan Chapman (u22738917)
 */
-int Chef::request(string order)
+int Chef::request(string& order)
 {
     char temp = order[0];
     if(temp >= '0' && temp <= '9')
     {
         order = order.substr(1);
         return temp - '0';
+    }
+    else if(temp == '\0')
+    {
+        return -2;
     }
     else
     {

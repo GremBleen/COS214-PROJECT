@@ -1,0 +1,220 @@
+\hypertarget{classCustomer}{}\doxysection{Customer Class Reference}
+\label{classCustomer}\index{Customer@{Customer}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCustomer_aa19e6e255270ee351b6ae59f6872297a}{Customer}} (int timestamp)
+\begin{DoxyCompactList}\small\item\em The constructor for the \mbox{\hyperlink{classCustomer}{Customer}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCustomer_ab93fb14683b0393b9c900109f77c2629}{$\sim$\+Customer}} ()
+\begin{DoxyCompactList}\small\item\em The destructor for the \mbox{\hyperlink{classCustomer}{Customer}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCustomer_a91b317dac6f64c755ff6447945994f36}{accept\+Waiter}} (\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$waiter)
+\begin{DoxyCompactList}\small\item\em The waiter member variable setter for the \mbox{\hyperlink{classCustomer}{Customer}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOrder}{Order}} $\ast$ \mbox{\hyperlink{classCustomer_ade45d77e8ddbf1365df31ca536a9a5ce}{get\+Order}} ()
+\begin{DoxyCompactList}\small\item\em The order member variable getter for the \mbox{\hyperlink{classCustomer}{Customer}} class. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classCustomer_a8341d71981233d6496d0d1c2beedf0f4}{get\+Order\+Request}} ()
+\begin{DoxyCompactList}\small\item\em A member function that generates a random order using \mbox{\hyperlink{classInterface}{Interface}}\textquotesingle{}s generate\+Order\+String() function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCustomer_aa61b1cbeabe13482b9da1862e4d147c6}{change\+Rating}} (\mbox{\hyperlink{classRating}{Rating}} $\ast$rating)
+\begin{DoxyCompactList}\small\item\em The satisfaction member variable setter for the \mbox{\hyperlink{classCustomer}{Customer}} class, also deletes the previous rating if it exists. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCustomer_a9fa5281800df8773520533bcea7350b0}{receive\+Order}} (\mbox{\hyperlink{classOrder}{Order}} $\ast$order)
+\begin{DoxyCompactList}\small\item\em Sets the order member variable to the passed in value. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classCustomer_acaf762c96a78767364f7e4745627da01}{calculate\+Payment}} ()
+\begin{DoxyCompactList}\small\item\em A function used to calculate what the customer pays for their meal, including the tip based on how happy they were with the service. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classTable}{Table}} $\ast$ \mbox{\hyperlink{classCustomer_a45ec6d7b6f315c53af9f9dbd25525fa5}{get\+Table}} ()
+\begin{DoxyCompactList}\small\item\em The table member variable getter for the \mbox{\hyperlink{classCustomer}{Customer}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$ \mbox{\hyperlink{classCustomer_a17a27a971cd4416b7cab534fd73586aa}{get\+Waiter}} ()
+\begin{DoxyCompactList}\small\item\em The waiter member variable getter the \mbox{\hyperlink{classCustomer}{Customer}} class. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCustomer_ac0374bb0b762fa1cde4ee44087c66473}{get\+Timestamp}} ()
+\begin{DoxyCompactList}\small\item\em The timestamp member variable getter for the \mbox{\hyperlink{classCustomer}{Customer}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCustomer_aa19e6e255270ee351b6ae59f6872297a}\label{classCustomer_aa19e6e255270ee351b6ae59f6872297a}} 
+\index{Customer@{Customer}!Customer@{Customer}}
+\index{Customer@{Customer}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{Customer()}{Customer()}}
+{\footnotesize\ttfamily Customer\+::\+Customer (\begin{DoxyParamCaption}\item[{int}]{timestamp }\end{DoxyParamCaption})}
+
+
+
+The constructor for the \mbox{\hyperlink{classCustomer}{Customer}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em timestamp} & an int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_ab93fb14683b0393b9c900109f77c2629}\label{classCustomer_ab93fb14683b0393b9c900109f77c2629}} 
+\index{Customer@{Customer}!````~Customer@{$\sim$Customer}}
+\index{````~Customer@{$\sim$Customer}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{$\sim$Customer()}{~Customer()}}
+{\footnotesize\ttfamily Customer\+::$\sim$\+Customer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The destructor for the \mbox{\hyperlink{classCustomer}{Customer}} class. 
+
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492) 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCustomer_a91b317dac6f64c755ff6447945994f36}\label{classCustomer_a91b317dac6f64c755ff6447945994f36}} 
+\index{Customer@{Customer}!acceptWaiter@{acceptWaiter}}
+\index{acceptWaiter@{acceptWaiter}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{acceptWaiter()}{acceptWaiter()}}
+{\footnotesize\ttfamily void Customer\+::accept\+Waiter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$}]{waiter }\end{DoxyParamCaption})}
+
+
+
+The waiter member variable setter for the \mbox{\hyperlink{classCustomer}{Customer}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em waiter} & a \mbox{\hyperlink{classWaiter}{Waiter}} pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917), Douglas Porter (u21797545), Kabelo Chuene(u14046492) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_acaf762c96a78767364f7e4745627da01}\label{classCustomer_acaf762c96a78767364f7e4745627da01}} 
+\index{Customer@{Customer}!calculatePayment@{calculatePayment}}
+\index{calculatePayment@{calculatePayment}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{calculatePayment()}{calculatePayment()}}
+{\footnotesize\ttfamily float Customer\+::calculate\+Payment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A function used to calculate what the customer pays for their meal, including the tip based on how happy they were with the service. 
+
+\begin{DoxyReturn}{Returns}
+a float 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_aa61b1cbeabe13482b9da1862e4d147c6}\label{classCustomer_aa61b1cbeabe13482b9da1862e4d147c6}} 
+\index{Customer@{Customer}!changeRating@{changeRating}}
+\index{changeRating@{changeRating}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{changeRating()}{changeRating()}}
+{\footnotesize\ttfamily void Customer\+::change\+Rating (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRating}{Rating}} $\ast$}]{rating }\end{DoxyParamCaption})}
+
+
+
+The satisfaction member variable setter for the \mbox{\hyperlink{classCustomer}{Customer}} class, also deletes the previous rating if it exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rating} & a \mbox{\hyperlink{classRating}{Rating}} pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917), Douglas Porter (u21797545) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_ade45d77e8ddbf1365df31ca536a9a5ce}\label{classCustomer_ade45d77e8ddbf1365df31ca536a9a5ce}} 
+\index{Customer@{Customer}!getOrder@{getOrder}}
+\index{getOrder@{getOrder}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{getOrder()}{getOrder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classOrder}{Order}} $\ast$ Customer\+::get\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The order member variable getter for the \mbox{\hyperlink{classCustomer}{Customer}} class. 
+
+\begin{DoxyReturn}{Returns}
+an \mbox{\hyperlink{classOrder}{Order}} pointer 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Douglas Porter (u21797545) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_a8341d71981233d6496d0d1c2beedf0f4}\label{classCustomer_a8341d71981233d6496d0d1c2beedf0f4}} 
+\index{Customer@{Customer}!getOrderRequest@{getOrderRequest}}
+\index{getOrderRequest@{getOrderRequest}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{getOrderRequest()}{getOrderRequest()}}
+{\footnotesize\ttfamily string Customer\+::get\+Order\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A member function that generates a random order using \mbox{\hyperlink{classInterface}{Interface}}\textquotesingle{}s generate\+Order\+String() function. 
+
+\begin{DoxyReturn}{Returns}
+a string 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_a45ec6d7b6f315c53af9f9dbd25525fa5}\label{classCustomer_a45ec6d7b6f315c53af9f9dbd25525fa5}} 
+\index{Customer@{Customer}!getTable@{getTable}}
+\index{getTable@{getTable}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{getTable()}{getTable()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTable}{Table}} $\ast$ Customer\+::get\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The table member variable getter for the \mbox{\hyperlink{classCustomer}{Customer}} class. 
+
+\begin{DoxyReturn}{Returns}
+a \mbox{\hyperlink{classTable}{Table}} pointer 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Douglas Porter (u21797545) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_ac0374bb0b762fa1cde4ee44087c66473}\label{classCustomer_ac0374bb0b762fa1cde4ee44087c66473}} 
+\index{Customer@{Customer}!getTimestamp@{getTimestamp}}
+\index{getTimestamp@{getTimestamp}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{getTimestamp()}{getTimestamp()}}
+{\footnotesize\ttfamily int Customer\+::get\+Timestamp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The timestamp member variable getter for the \mbox{\hyperlink{classCustomer}{Customer}} class. 
+
+\begin{DoxyReturn}{Returns}
+an int 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Douglas Porter (u21797545) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_a17a27a971cd4416b7cab534fd73586aa}\label{classCustomer_a17a27a971cd4416b7cab534fd73586aa}} 
+\index{Customer@{Customer}!getWaiter@{getWaiter}}
+\index{getWaiter@{getWaiter}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{getWaiter()}{getWaiter()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWaiter}{Waiter}} $\ast$ Customer\+::get\+Waiter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The waiter member variable getter the \mbox{\hyperlink{classCustomer}{Customer}} class. 
+
+\begin{DoxyReturn}{Returns}
+a waiter pointer 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classCustomer_a9fa5281800df8773520533bcea7350b0}\label{classCustomer_a9fa5281800df8773520533bcea7350b0}} 
+\index{Customer@{Customer}!receiveOrder@{receiveOrder}}
+\index{receiveOrder@{receiveOrder}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{receiveOrder()}{receiveOrder()}}
+{\footnotesize\ttfamily void Customer\+::receive\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}} $\ast$}]{order }\end{DoxyParamCaption})}
+
+
+
+Sets the order member variable to the passed in value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & an \mbox{\hyperlink{classOrder}{Order}} pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917), Douglas Porter (u21797545) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Customer_8h}{Customer.\+h}}\item 
+\mbox{\hyperlink{Customer_8cpp}{Customer.\+cpp}}\end{DoxyCompactItemize}

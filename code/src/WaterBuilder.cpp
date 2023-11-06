@@ -1,11 +1,31 @@
+/**
+ * @file WaterBuilder.cpp
+ * @brief Contains implementation for the WaterBuilder class
+ * 
+ * @authors
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
+ */
 #include "WaterBuilder.h"
 
+/**
+ * @fn WaterBuilder::WaterBuilder()
+ * @brief Construct a new Water Builder:: Water Builder object
+ */
 WaterBuilder::WaterBuilder() {
 }
 
+/**
+ * @fn WaterBuilder::~WaterBuilder()
+ * @brief Destroy the Water Builder:: Water Builder object
+ */
 WaterBuilder::~WaterBuilder() {
 }
 
+/**
+ * @fn void WaterBuilder::getGlass()
+ * @brief prepare the glass
+ */
 void WaterBuilder::getGlass() {
     water = new Water();
     drink = water;
@@ -14,11 +34,19 @@ void WaterBuilder::getGlass() {
     drink->gotGlass = true;
 }
 
+/**
+ * @fn void WaterBuilder::pourDrink()
+ * @brief Pour the Drink object
+ */
 void WaterBuilder::pourDrink() {
     pourWater();
     drink->pouredDrink = true;
 }
 
+/**
+ * @fn void WaterBuilder::assembleDrink()
+ * @brief Assemble the Drink object
+ */
 void WaterBuilder::assembleDrink() {
     assembleWater();
     drink->assembledDrink = true;
@@ -26,14 +54,26 @@ void WaterBuilder::assembleDrink() {
     item = drink;
 }
 
+/**
+ * @fn void WaterBuilder::getWaterGlass()
+ * @brief Get the Water Glass object
+ */
 void WaterBuilder::getWaterGlass() {
     water->gotWaterGlass = true;
 }
 
+/**
+ * @fn void WaterBuilder::pourWater()
+ * @brief Pour the Water object
+ */
 void WaterBuilder::pourWater() {
     water->pouredWater = true;
 }
 
+/**
+ * @fn void WaterBuilder::assembleWater()
+ * @brief Assemble the Water object
+ */
 void WaterBuilder::assembleWater() {
     water->assembledWater = true;
 }
