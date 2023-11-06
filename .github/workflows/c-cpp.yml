@@ -1,0 +1,40 @@
+name: C++ CI
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Out Code
+      uses: actions/checkout@v2
+
+    - name: Set up C++ compiler
+      run: |
+        sudo apt-get update -qy
+        sudo apt-get install -y g++
+      shell: bash
+
+    - name: Set up Valgrind
+      run: |
+        sudo apt-get install -y valgrind
+      shell: bash
+
+    - name: Build
+      run: |
+        make fresh
+      working-directory: code
+
+    - name: Test
+      run: |
+        make run
+      working-directory: code
+
+    - name: Memory leak checking
+      run: |
+        make valgrind_run
+      working-directory: code
+
