@@ -38,6 +38,7 @@ Kitchen::~Kitchen()
     if(this->chef != nullptr)
     {
         delete this->chef;
+        this->chef = nullptr;
     }
 }
 

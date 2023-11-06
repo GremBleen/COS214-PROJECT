@@ -35,7 +35,8 @@ int main()
         cin >> cont;
         cout << endl;
     } while (cont == 'Y' || cont == 'y');
-    
+
+    delete interface;    
 
     return 0;
 }

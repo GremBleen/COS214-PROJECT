@@ -40,10 +40,12 @@ Customer::~Customer()
     if (this->satisfaction != nullptr)
     {
         delete this->satisfaction;
+        this->satisfaction = nullptr;
     }
     if (this->order != nullptr)
     {
         delete this->order;
+        this->order = nullptr;
     }
 }
 
