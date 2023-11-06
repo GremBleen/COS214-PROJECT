@@ -8,7 +8,7 @@
  * @author 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)
- * - Sange Tshakumane
+ * - Sange Tshakumane (u21479748)
  */
 
 #include "ComplexOrder.h"

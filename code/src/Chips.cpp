@@ -1,6 +1,7 @@
 /**
  * @file Chips.cpp
  * @brief Contains implementation for the Chips class
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 

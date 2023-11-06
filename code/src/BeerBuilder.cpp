@@ -1,5 +1,3 @@
-
-
 /**
  * @file BeerBuilder.cpp
  * @brief Implementation of the BeerBuilder class.

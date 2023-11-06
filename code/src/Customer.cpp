@@ -1,6 +1,9 @@
 /**
  * @file Customer.cpp
  * @brief Contains implementation for the Customer class
+ * 
+ * This file contains the implementation of the Customer class, which is responsible for representing a customer in the restaurant.
+ * 
  * @authors Aidan Chapman (u22738917)
  */
 

@@ -1,7 +1,13 @@
 /**
  * @file SteakBuilder.h
  * @brief Contains declaration for the SteakBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * SteakBuilder is a concrete builder for the Steak class.
+ * Responsible for creating a Steak object.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "MainBuilder.h"
@@ -26,7 +32,7 @@ public:
     void cookSteak();
     void plateSteak();
 private:
-    Steak* steak;
+    Steak* steak; ///< Steak object
 };
 
 #endif

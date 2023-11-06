@@ -1,6 +1,9 @@
 /**
  * @file Burger.h
  * @brief Contains declaration for the Burger class
+ * 
+ * The Burger class is a subclass of the MainMeal class. It represents a burger
+ * 
  * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)

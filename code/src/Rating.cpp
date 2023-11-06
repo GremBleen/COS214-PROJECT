@@ -7,17 +7,22 @@
 #include <iostream>
 #include "Rating.h"
 
+
 /**
- * Constructor function for the rating class
-*/
+ * @fn Rating::Rating()
+ * @brief Default constructor for the Rating class.
+ * 
+ */
 Rating::Rating()
 {
 
 }
 
 /**
- * Destructor function for the rating class
-*/
+ * @fn Rating::~Rating()
+ * @brief Destructor for the Rating class.
+ * 
+ */
 Rating::~Rating() {
     
 }

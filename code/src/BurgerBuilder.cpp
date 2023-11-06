@@ -35,8 +35,6 @@ BurgerBuilder::~BurgerBuilder()
  * @fn void BurgerBuilder::prepareMeat()
  * @brief Prepares the meat for the burger
  * 
- * This function creates a new Burger object and sets it as the main item being prepared. It then calls the butterBun() and prepareVegetables() functions to prepare the bun and vegetables respectively. Finally, it sets the preparedMain flag of the Burger object to true.
- * 
  */
 void BurgerBuilder::prepareMeat()
 {
@@ -52,8 +50,6 @@ void BurgerBuilder::prepareMeat()
  * @fn void BurgerBuilder::seasonMeat()
  * @brief Seasons the meat for the burger
  * 
- * This function applies sauce to the burger and sets the seasonedMain flag of the Burger object to true.
- * 
  */
 void BurgerBuilder::seasonMeat()
 {
@@ -65,8 +61,6 @@ void BurgerBuilder::seasonMeat()
  * @fn void BurgerBuilder::cookMeat()
  * @brief Cooks the meat for the burger
  * 
- * This function cooks the patty for the burger and sets the cookedPatty flag of the Burger object to true.
- * 
  */
 void BurgerBuilder::cookMeat()
 {
@@ -77,8 +71,6 @@ void BurgerBuilder::cookMeat()
 /**
  * @fn void BurgerBuilder::plateMain()
  * @brief Plates the main item of the burger
- * 
- * This function assembles the burger and sets the assembledBurger flag of the Burger object to true. It then sets the item member variable to the main item being prepared.
  * 
  */
 void BurgerBuilder::plateMain()
@@ -93,8 +85,6 @@ void BurgerBuilder::plateMain()
  * @fn void BurgerBuilder::butterBun()
  * @brief Butters the bun for the burger
  * 
- * This function sets the butteredBun flag of the Burger object to true.
- * 
  */
 void BurgerBuilder::butterBun()
 {
@@ -104,8 +94,6 @@ void BurgerBuilder::butterBun()
 /**
  * @fn void BurgerBuilder::prepareVegetables()
  * @brief Prepares the vegetables for the burger
- * 
- * This function sets the preparedVegetables flag of the Burger object to true.
  * 
  */
 void BurgerBuilder::prepareVegetables()
@@ -117,8 +105,6 @@ void BurgerBuilder::prepareVegetables()
  * @fn void BurgerBuilder::cookPatty()
  * @brief Cooks the patty for the burger
  * 
- * This function sets the cookedPatty flag of the Burger object to true.
- * 
  */
 void BurgerBuilder::cookPatty()
 {
@@ -129,8 +115,6 @@ void BurgerBuilder::cookPatty()
  * @fn void BurgerBuilder::applySauce()
  * @brief Applies sauce to the burger
  * 
- * This function sets the assembledBurger flag of the Burger object to true.
- * 
  */
 void BurgerBuilder::applySauce()
 {
@@ -140,8 +124,6 @@ void BurgerBuilder::applySauce()
 /**
  * @fn void BurgerBuilder::assembleBurger()
  * @brief Assembles the burger
- * 
- * This function sets the assembledBurger flag of the Burger object to true.
  * 
  */
 void BurgerBuilder::assembleBurger()

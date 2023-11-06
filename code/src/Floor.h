@@ -1,6 +1,10 @@
 /**
  * @file Floor.h
  * @brief Contains declaration for the Floor class
+ * 
+ * Floor is a class that represents a floor in a restaurant. It contains a vector of Table pointers.
+ * It also contains a pointer to a Restaurant object.
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 

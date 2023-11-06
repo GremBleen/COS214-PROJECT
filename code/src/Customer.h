@@ -1,6 +1,9 @@
 /**
  * @file Customer.h
  * @brief Contains declaration for the Customer class
+ * 
+ * Contains the declaration of the Customer class, which represents a customer
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 

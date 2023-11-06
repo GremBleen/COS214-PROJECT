@@ -1,6 +1,9 @@
 /**
  * @file MainMeal.h
  * @brief Contains declaration for the MainMeal class
+ * 
+ * MainMeal is a derived class of Item, representing a main meal.
+ * 
  * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)

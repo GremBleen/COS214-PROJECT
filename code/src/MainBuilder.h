@@ -1,6 +1,9 @@
 /**
  * @file MainBuilder.h
  * @brief Contains declaration for the MainBuilder class
+ * 
+ * MainBuilder is a derived class of ItemBuilder, representing a builder that prepares main meals.
+ * 
  * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)

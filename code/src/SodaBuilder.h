@@ -1,7 +1,13 @@
 /**
  * @file SodaBuilder.h
  * @brief Contains delcaration for the SodaBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * SodaBuilder is a concrete builder for the DrinkBuilder interface. It is used to create a Soda object.
+ * It is responsible for building a Soda object using the template method pattern.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "DrinkBuilder.h"
@@ -26,7 +32,7 @@ class SodaBuilder : public DrinkBuilder
         void assembleSoda();
 
     private:
-        Soda* soda;
+        Soda* soda; ///< Soda object
 };
 
 #endif

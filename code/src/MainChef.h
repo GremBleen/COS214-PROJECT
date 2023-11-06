@@ -1,6 +1,10 @@
 /**
  * @file MainChef.h
  * @brief Contains declaration for the MainChef class
+ * 
+ * The MainChef class is a concrete class which inherits from the Chef class.
+ * It represents a chef that prepares main meals.
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 

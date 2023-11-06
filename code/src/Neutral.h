@@ -1,6 +1,10 @@
 /**
  * @file Neutral.h
  * @brief Contains declaration for the Neutral class
+ * 
+ * Neutral is a derived class of Rating, representing a neutral rating.
+ * Neutral ratings do not affect the tip.
+ * 
  * @authors
  * - Aidan Chapman (u22738917) 
  * - Sange Tshakumane (u21479748)

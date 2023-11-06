@@ -1,6 +1,10 @@
 /**
  * @file DrinkBuilder.h
  * @brief Contains declaration for the DrinkBuilder class
+ * 
+ * This file defines the DrinkBuilder class, which is a subclass of the ItemBuilder class.
+ * DrinkBuilder is used to build a Drink object, and contains functions to prepare ingredients,
+ * 
  * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)

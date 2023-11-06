@@ -1,6 +1,10 @@
 /**
  * @file ComplexOrder.h
  * @brief Contains declaration for the ComplexOrder class
+ * 
+ * ComplexOrder is a concrete class which inherits from Order. It is a composite in the composite pattern.
+ * It is responsible for storing a list of orders and calculating the total price of the order.
+ * 
  * @authors 
  * - Aidan Chapman (u22738917)
 */

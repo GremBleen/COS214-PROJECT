@@ -1,7 +1,12 @@
 /**
  * @file Chef.cpp
  * @brief Contains implementation for the Chef class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * This file contains the implementation for the Chef class. The Chef class is responsible for building the order.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "Chef.h"

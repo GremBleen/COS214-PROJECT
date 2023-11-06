@@ -1,6 +1,9 @@
 /**
  * @file ItemBuilder.h
  * @brief Contains declaration for the ItemBuilder class
+ * 
+ * Superclass for all ItemBuilders, which are used to build Items   
+ * 
  * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)

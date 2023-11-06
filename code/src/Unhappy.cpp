@@ -9,33 +9,48 @@
 #include "Customer.h"
 using namespace std;
 
+/**
+ * @fn Unhappy::Unhappy()
+ * @brief Construct a new Unhappy:: Unhappy object
+ */
 Unhappy::Unhappy() : Rating() {
 
 }
 
+/**
+ * @fn Unhappy::~Unhappy()
+ * @brief Destroy the Unhappy:: Unhappy object
+ */
 Unhappy::~Unhappy() {
 
 }
 
 /**
- * Function for changing the state of the passed in customer's rating to unhappy
-*/
+ * @fn Unhappy::changeState(Customer* customer)
+ * @brief Function for changing the state of the customer.
+ *
+ * @param customer
+ */
 void Unhappy::changeState(Customer* customer) {
     customer->changeRating(new Unhappy());
 }
 
 /**
- * Function for getting the rating of the current rating object
-*/
+ * @fn string Unhappy::getRating()
+ * @brief Function for getting the rating of the customer.
+ *
+ * @return string
+ */
 string Unhappy::getRating() {
     return "Unhappy";
 }
 
 /**
- * Function fo calculating the tip which will be added to the bill.
+ * @fn float Unhappy::calculateTip()
+ * @brief Function for calculating the tip of the customer.
  *
- * Neutral customer gives 10% tip, satisfied customer gives 25% tip and unhappy customer doesn't give a tip.
-*/
+ * @return float
+ */
 float Unhappy::calculateTip() {
     return 0.0F;
 }

@@ -1,7 +1,13 @@
 /**
  * @file SaladBuilder.h
  * @brief Contains declaration for the SaladBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * SaladBuilder is a concrete builder for the Salad class and inherits from SideBuilder.
+ * It is responsible for building a Salad object using the template method pattern.
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "SideBuilder.h"
@@ -31,7 +37,7 @@ class SaladBuilder : public SideBuilder
         void assembleSalad();
 
     private:
-        Salad* salad;
+        Salad* salad; ///< Salad object
 };
 
 #endif

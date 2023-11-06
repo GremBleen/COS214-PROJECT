@@ -1,6 +1,9 @@
 /**
  * @file Drink.h
  * @brief Contains declaration for the Drink class
+ * 
+ * Drink is a derived class of Item, representing a drink item on the menu.
+ * 
 * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)

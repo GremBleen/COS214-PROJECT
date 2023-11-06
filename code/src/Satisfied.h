@@ -1,6 +1,12 @@
 /**
  * @file Satisfied.h
  * @brief Contains declaration for the Satisfied class
+ * 
+ * This class is a concrete implementation of the Rating class.
+ * It is used to represent a satisfied customer.
+ * It is used to calculate the tip for a customer.
+ * Satified customers tip 25% of their bill.
+ * 
  * @authors Aidan Chapman (u22738917), Sange Tshakumane (u21479748)
 */
 

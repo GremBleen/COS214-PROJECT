@@ -1,6 +1,10 @@
 /**
  * @file Waiter.h
  * @brief Contains declaration for the Waiter class
+ * 
+ * The Waiter class is used to represent a waiter in the restaurant. It contains a pointer to a Customer object,
+ * which is used to represent the customer that the waiter is serving.
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 
@@ -26,8 +30,8 @@ class Waiter{
         Restaurant* getRestaurant();
         void cleanUp();
     private:
-        Restaurant* restaurant;
-        Customer* customer;
+        Restaurant* restaurant; ///< A pointer to the restaurant
+        Customer* customer; ///< A pointer to the customer
 };
 
 
