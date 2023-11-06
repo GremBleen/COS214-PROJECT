@@ -10,7 +10,6 @@
 
 #include "Customer.h"
 
-
 using namespace std;
 
 #ifndef FLOOR_H
