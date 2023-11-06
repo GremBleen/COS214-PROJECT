@@ -79,8 +79,8 @@
 \indexentry{Floor@{Floor}|hyperpage}{41}
 \indexentry{Floor@{Floor}!Floor@{Floor}|hyperpage}{41}
 \indexentry{Floor@{Floor}!Floor@{Floor}|hyperpage}{41}
-\indexentry{Floor@{Floor}!````~Floor@{$\sim$Floor}|hyperpage}{42}
-\indexentry{````~Floor@{$\sim$Floor}!Floor@{Floor}|hyperpage}{42}
+\indexentry{Floor@{Floor}!````~Floor@{$\sim$Floor}|hyperpage}{41}
+\indexentry{````~Floor@{$\sim$Floor}!Floor@{Floor}|hyperpage}{41}
 \indexentry{Floor@{Floor}!getNumTables@{getNumTables}|hyperpage}{42}
 \indexentry{getNumTables@{getNumTables}!Floor@{Floor}|hyperpage}{42}
 \indexentry{Floor@{Floor}!getTable@{getTable}|hyperpage}{42}
@@ -278,7 +278,7 @@
 \indexentry{Fish.cpp@{Fish.cpp}|hyperpage}{133}
 \indexentry{Fish.h@{Fish.h}|hyperpage}{135}
 \indexentry{FishBuilder.cpp@{FishBuilder.cpp}|hyperpage}{136}
-\indexentry{FishBuilder.h@{FishBuilder.h}|hyperpage}{138}
+\indexentry{FishBuilder.h@{FishBuilder.h}|hyperpage}{137}
 \indexentry{Floor.cpp@{Floor.cpp}|hyperpage}{139}
 \indexentry{Floor.h@{Floor.h}|hyperpage}{140}
 \indexentry{HeadChef.cpp@{HeadChef.cpp}|hyperpage}{142}
@@ -293,7 +293,7 @@
 \indexentry{main.cpp@{main.cpp}|hyperpage}{154}
 \indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{155}
 \indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{155}
-\indexentry{MainBuilder.cpp@{MainBuilder.cpp}|hyperpage}{156}
+\indexentry{MainBuilder.cpp@{MainBuilder.cpp}|hyperpage}{155}
 \indexentry{MainBuilder.h@{MainBuilder.h}|hyperpage}{157}
 \indexentry{MainChef.cpp@{MainChef.cpp}|hyperpage}{158}
 \indexentry{MainChef.h@{MainChef.h}|hyperpage}{159}
@@ -324,11 +324,11 @@
 \indexentry{Soda.cpp@{Soda.cpp}|hyperpage}{189}
 \indexentry{Soda.h@{Soda.h}|hyperpage}{191}
 \indexentry{SodaBuilder.cpp@{SodaBuilder.cpp}|hyperpage}{192}
-\indexentry{SodaBuilder.h@{SodaBuilder.h}|hyperpage}{194}
+\indexentry{SodaBuilder.h@{SodaBuilder.h}|hyperpage}{193}
 \indexentry{Steak.cpp@{Steak.cpp}|hyperpage}{195}
 \indexentry{Steak.h@{Steak.h}|hyperpage}{197}
 \indexentry{SteakBuilder.cpp@{SteakBuilder.cpp}|hyperpage}{198}
-\indexentry{SteakBuilder.h@{SteakBuilder.h}|hyperpage}{200}
+\indexentry{SteakBuilder.h@{SteakBuilder.h}|hyperpage}{199}
 \indexentry{Table.cpp@{Table.cpp}|hyperpage}{201}
 \indexentry{Table.h@{Table.h}|hyperpage}{202}
 \indexentry{Unhappy.cpp@{Unhappy.cpp}|hyperpage}{203}
@@ -338,4 +338,4 @@
 \indexentry{Water.cpp@{Water.cpp}|hyperpage}{207}
 \indexentry{Water.h@{Water.h}|hyperpage}{209}
 \indexentry{WaterBuilder.cpp@{WaterBuilder.cpp}|hyperpage}{210}
-\indexentry{WaterBuilder.h@{WaterBuilder.h}|hyperpage}{212}
+\indexentry{WaterBuilder.h@{WaterBuilder.h}|hyperpage}{211}

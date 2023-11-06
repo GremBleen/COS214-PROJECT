@@ -17,7 +17,7 @@
   \item {$\sim$Fish}
     \subitem {Fish}, \hyperpage{39}
   \item {$\sim$Floor}
-    \subitem {Floor}, \hyperpage{42}
+    \subitem {Floor}, \hyperpage{41}
   \item {$\sim$HeadChef}
     \subitem {HeadChef}, \hyperpage{45}
   \item {$\sim$Interface}
@@ -158,9 +158,9 @@
   \item {Fish.h}, \hyperpage{135}
   \item {FishBuilder}, \hyperpage{39}
   \item {FishBuilder.cpp}, \hyperpage{136}
-  \item {FishBuilder.h}, \hyperpage{138}
+  \item {FishBuilder.h}, \hyperpage{137}
   \item {Floor}, \hyperpage{41}
-    \subitem {$\sim$Floor}, \hyperpage{42}
+    \subitem {$\sim$Floor}, \hyperpage{41}
     \subitem {Floor}, \hyperpage{41}
     \subitem {getNumTables}, \hyperpage{42}
     \subitem {getTable}, \hyperpage{42}
@@ -255,7 +255,7 @@
     \subitem {main}, \hyperpage{155}
   \item {MainBuilder}, \hyperpage{53}
     \subitem {getItem}, \hyperpage{54}
-  \item {MainBuilder.cpp}, \hyperpage{156}
+  \item {MainBuilder.cpp}, \hyperpage{155}
   \item {MainBuilder.h}, \hyperpage{157}
   \item {MainChef}, \hyperpage{55}
     \subitem {$\sim$MainChef}, \hyperpage{56}
@@ -372,7 +372,7 @@
   \item {Soda.h}, \hyperpage{191}
   \item {SodaBuilder}, \hyperpage{83}
   \item {SodaBuilder.cpp}, \hyperpage{192}
-  \item {SodaBuilder.h}, \hyperpage{194}
+  \item {SodaBuilder.h}, \hyperpage{193}
   \item {Steak}, \hyperpage{84}
     \subitem {$\sim$Steak}, \hyperpage{86}
     \subitem {Steak}, \hyperpage{85}
@@ -380,7 +380,7 @@
   \item {Steak.h}, \hyperpage{197}
   \item {SteakBuilder}, \hyperpage{86}
   \item {SteakBuilder.cpp}, \hyperpage{198}
-  \item {SteakBuilder.h}, \hyperpage{200}
+  \item {SteakBuilder.h}, \hyperpage{199}
 
   \indexspace
 
@@ -423,6 +423,6 @@
   \item {Water.h}, \hyperpage{209}
   \item {WaterBuilder}, \hyperpage{97}
   \item {WaterBuilder.cpp}, \hyperpage{210}
-  \item {WaterBuilder.h}, \hyperpage{212}
+  \item {WaterBuilder.h}, \hyperpage{211}
 
 \end{theindex}

@@ -1,9 +1,9 @@
 <map id="Burger.h" name="Burger.h">
-<area shape="rect" id="node1" title="Contains declaration for the Burger class." alt="" coords="147,5,223,32"/>
-<area shape="rect" id="node2" href="$Burger_8cpp.html" title="Contains implementation for the Burger class." alt="" coords="9,80,99,107"/>
-<area shape="rect" id="node3" href="$BurgerBuilder_8h.html" title="Contains declaration for the BurgerBuilder class." alt="" coords="123,80,246,107"/>
-<area shape="rect" id="node6" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="270,80,393,107"/>
+<area shape="rect" id="node1" title="Contains declaration for the Burger class." alt="" coords="175,5,251,32"/>
+<area shape="rect" id="node2" href="$Burger_8cpp.html" title="Contains implementation for the Burger class." alt="" coords="37,80,127,107"/>
+<area shape="rect" id="node3" href="$BurgerBuilder_8h.html" title="Contains declaration for the BurgerBuilder class." alt="" coords="151,80,274,107"/>
+<area shape="rect" id="node6" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="270,155,393,181"/>
 <area shape="rect" id="node4" href="$BurgerBuilder_8cpp.html" title="Contains the implementation for the BurgerBuilder class." alt="" coords="5,155,143,181"/>
 <area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="167,155,245,181"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="290,155,373,181"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="290,229,373,256"/>
 </map>

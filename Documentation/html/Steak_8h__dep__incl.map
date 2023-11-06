@@ -1,9 +1,9 @@
 <map id="Steak.h" name="Steak.h">
 <area shape="rect" id="node1" title="Contains declaration for the Steak class." alt="" coords="143,5,213,32"/>
 <area shape="rect" id="node2" href="$Steak_8cpp.html" title="Contains implementation for the Steak class." alt="" coords="5,80,92,107"/>
-<area shape="rect" id="node3" href="$SteakBuilder_8cpp.html" title="Contains the implementation for the SteakBuilder class." alt="" coords="65,155,195,181"/>
+<area shape="rect" id="node3" href="$SteakBuilder_8cpp.html" title="Contains the implementation for the SteakBuilder class." alt="" coords="31,155,162,181"/>
 <area shape="rect" id="node4" href="$SteakBuilder_8h.html" title="Contains declaration for the SteakBuilder class." alt="" coords="168,80,284,107"/>
-<area shape="rect" id="node6" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="309,80,431,107"/>
-<area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="220,155,299,181"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="329,155,411,181"/>
+<area shape="rect" id="node6" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="290,155,413,181"/>
+<area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="187,155,265,181"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="310,229,393,256"/>
 </map>

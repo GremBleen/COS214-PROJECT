@@ -1,5 +1,7 @@
 <map id="FishBuilder.h" name="FishBuilder.h">
-<area shape="rect" id="node1" title="Contains declaration for the FishBuilder class." alt="" coords="53,5,159,32"/>
+<area shape="rect" id="node1" title="Contains declaration for the FishBuilder class." alt="" coords="116,5,221,32"/>
 <area shape="rect" id="node2" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="5,80,84,107"/>
 <area shape="rect" id="node3" href="$FishBuilder_8cpp.html" title="Contains the implementation for the FishBuilder class." alt="" coords="109,80,229,107"/>
+<area shape="rect" id="node4" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="253,80,375,107"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="273,155,355,181"/>
 </map>
