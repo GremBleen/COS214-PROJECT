@@ -39,7 +39,7 @@ public:
     void applySauce();
     void assembleBurger();
 
-protected:
+private:
     Burger *burger; ///< Burger object
 };
 

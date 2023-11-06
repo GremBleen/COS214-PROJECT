@@ -10,6 +10,7 @@
  * - Graeme Blain (u22625462)
  */
 #include "BeerBuilder.h"
+#include <unistd.h>
 
 /**
  * @fn BeerBuilder::BeerBuilder()
@@ -68,6 +69,7 @@ void BeerBuilder::assembleDrink() {
  */
 void BeerBuilder::getBeerGlass() {
     beer->gotBeerGlass = true;
+    sleep(1);
 }
 
 /**
@@ -77,6 +79,7 @@ void BeerBuilder::getBeerGlass() {
  */
 void BeerBuilder::pourBeer() {
     beer->pouredBeer = true;
+    sleep(2);
 }
 
 /**
@@ -86,4 +89,5 @@ void BeerBuilder::pourBeer() {
  */
 void BeerBuilder::assembleBeer() {
     beer->assembledBeer = true;
+    sleep(1);
 }

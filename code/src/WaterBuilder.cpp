@@ -7,6 +7,7 @@
  * - Graeme Blain (u22625462)
  */
 #include "WaterBuilder.h"
+#include <unistd.h>
 
 /**
  * @fn WaterBuilder::WaterBuilder()
@@ -60,6 +61,7 @@ void WaterBuilder::assembleDrink() {
  */
 void WaterBuilder::getWaterGlass() {
     water->gotWaterGlass = true;
+    sleep(1);
 }
 
 /**
@@ -68,6 +70,7 @@ void WaterBuilder::getWaterGlass() {
  */
 void WaterBuilder::pourWater() {
     water->pouredWater = true;
+    sleep(1);
 }
 
 /**
@@ -76,5 +79,6 @@ void WaterBuilder::pourWater() {
  */
 void WaterBuilder::assembleWater() {
     water->assembledWater = true;
+    sleep(1);
 }
 

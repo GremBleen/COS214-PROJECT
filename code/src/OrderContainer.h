@@ -19,7 +19,7 @@ using namespace std;
 
 class OrderContainer{
     public:
-                OrderContainer(string o, Order* order);
+        OrderContainer(string o, Order* order);
         ~OrderContainer();
         Order* getOrder();
         string getRequestedOrder();

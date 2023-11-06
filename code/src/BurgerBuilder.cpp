@@ -10,6 +10,7 @@
  */
 
 #include "BurgerBuilder.h"
+#include <unistd.h>
 
 /**
  * @fn BurgerBuilder::BurgerBuilder()
@@ -87,6 +88,7 @@ void BurgerBuilder::plateMain()
 void BurgerBuilder::butterBun()
 {
     this->burger->butteredBun = true;
+    sleep(1);
 }
 
 /**
@@ -97,6 +99,7 @@ void BurgerBuilder::butterBun()
 void BurgerBuilder::prepareVegetables()
 {
     this->burger->preparedVegetables = true;
+    sleep(2);
 }
 
 /**
@@ -107,6 +110,7 @@ void BurgerBuilder::prepareVegetables()
 void BurgerBuilder::cookPatty()
 {
     this->burger->cookedPatty = true;
+    sleep(3);
 }
 
 /**
@@ -117,6 +121,7 @@ void BurgerBuilder::cookPatty()
 void BurgerBuilder::applySauce()
 {
     this->burger->assembledBurger = true;
+    sleep(1);
 }
 
 /**
@@ -127,4 +132,5 @@ void BurgerBuilder::applySauce()
 void BurgerBuilder::assembleBurger()
 {
     this->burger->assembledBurger = true;
+    sleep(1);
 }

@@ -1,7 +1,9 @@
 <map id="Water.h" name="Water.h">
-<area shape="rect" id="node1" title="Contains declaration for the Water class." alt="" coords="76,5,147,32"/>
-<area shape="rect" id="node2" href="$Water_8cpp.html" title="Contains implementation for the Water class." alt="" coords="5,80,92,107"/>
-<area shape="rect" id="node3" href="$WaterBuilder_8h.html" title="Contains declaration for the WaterBuilder class." alt="" coords="117,80,234,107"/>
-<area shape="rect" id="node4" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="71,155,149,181"/>
-<area shape="rect" id="node5" href="$WaterBuilder_8cpp.html" title="Contains implementation for the WaterBuilder class." alt="" coords="173,155,305,181"/>
+<area shape="rect" id="node1" title="Contains declaration for the Water class." alt="" coords="161,5,231,32"/>
+<area shape="rect" id="node2" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node4" href="$Water_8cpp.html" title="Contains implementation for the Water class." alt="" coords="153,80,239,107"/>
+<area shape="rect" id="node5" href="$WaterBuilder_8h.html" title="Contains declaration for the WaterBuilder class." alt="" coords="264,80,381,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="25,155,108,181"/>
+<area shape="rect" id="node6" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="218,155,297,181"/>
+<area shape="rect" id="node7" href="$WaterBuilder_8cpp.html" title="Contains implementation for the WaterBuilder class." alt="" coords="321,155,453,181"/>
 </map>
