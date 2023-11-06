@@ -8,6 +8,8 @@
 
 #include "FishBuilder.h"
 #include <unistd.h>
+#include <cstdlib>
+#include <iostream>
 
 /**
  * @fn FishBuilder::FishBuilder()
@@ -34,6 +36,7 @@ FishBuilder::~FishBuilder()
  */
 void FishBuilder::prepareMeat()
 {
+    cout << "Fish Order"<<endl;
     this->fish = new Fish();
     this->main = fish;
 
@@ -83,6 +86,7 @@ void FishBuilder::plateMain()
  */
 void FishBuilder::descaleFish()
 {
+    cout << "\tDescaling Fish..."<<endl;
     fish->descaledFish = true;
     sleep(1);
 }
@@ -94,6 +98,7 @@ void FishBuilder::descaleFish()
  */
 void FishBuilder::seasonFish()
 {
+    cout << "\tSeasoning Fish..."<<endl;
     fish->seasonedFish = true;
     sleep(1);
 }
@@ -105,6 +110,7 @@ void FishBuilder::seasonFish()
  */
 void FishBuilder::cookFish()
 {
+    cout << "\tCooking fish..."<<endl;
     fish->cookedFish = true;
     sleep(2);
 }
@@ -118,4 +124,5 @@ void FishBuilder::plateFish()
 {
     fish->platedFish = true;
     sleep(1);
+    cout << "Fish Ready"<<endl;
 }
