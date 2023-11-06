@@ -303,16 +303,16 @@ void TestComposite()
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests==passed?"true":"false") << endl << endl;
 }
 
-void TestChain()
-{
-    int numTests = ;
-    int passed = 0;
-    cout << "Testing Chain : " << endl;
+// void TestChain()
+// {
+//     int numTests = ;
+//     int passed = 0;
+//     cout << "Testing Chain : " << endl;
 
 
 
-    cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests==passed?"true":"false") << endl<< endl;
-}
+//     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests==passed?"true":"false") << endl<< endl;
+// }
 
 void test()
 {
