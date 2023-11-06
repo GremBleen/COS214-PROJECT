@@ -13,7 +13,7 @@ class Item : public Order
 {
     public:
         Item(float price);
-        virtual ~Item();
+        ~Item();
         float calculatePrice();
     protected:
         float price;

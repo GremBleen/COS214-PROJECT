@@ -12,8 +12,6 @@
 
 class DrinkBuilder : public ItemBuilder {
 public:
-    DrinkBuilder();
-    virtual ~DrinkBuilder();
     virtual void prepareIngredients();
     virtual void assembleItem();
     virtual Item* getItem();

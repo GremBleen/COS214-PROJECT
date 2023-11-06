@@ -13,7 +13,7 @@ class Side : public Item
 {
     public:
         Side(float price);
-        virtual ~Side();
+        ~Side();
 
         bool washedVegetables = false;
         bool cutVegetables = false;

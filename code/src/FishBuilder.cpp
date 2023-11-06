@@ -9,17 +9,17 @@
 
 FishBuilder::FishBuilder()
 {
-    this->fish = new Fish();
-    this->main = fish;
 }
 
 FishBuilder::~FishBuilder()
 {
-    delete fish;
 }
 
 void FishBuilder::prepareMeat()
 {
+    this->fish = new Fish();
+    this->main = fish;
+
     this->descaleFish();
     main->preparedMain = true;
 }
@@ -61,9 +61,3 @@ void FishBuilder::plateFish()
 {
     fish->platedFish = true;
 }
-
-
-
-
-
-

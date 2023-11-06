@@ -2,7 +2,7 @@ CXX := g++
 CPP_SOURCES := $(wildcard src/*.cpp)
 OBJ_DIR := obj
 BIN_DIR := bin
-EXECUTABLE := $(BIN_DIR)/task_1
+EXECUTABLE := $(BIN_DIR)/main
 CPP_OBJECTS := $(addprefix $(OBJ_DIR)/, $(notdir $(CPP_SOURCES:.cpp=.o)))
 
 all: $(OBJ_DIR) $(BIN_DIR) $(EXECUTABLE)

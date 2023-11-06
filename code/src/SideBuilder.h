@@ -13,8 +13,6 @@
 class SideBuilder : public ItemBuilder
 {
     public:
-        SideBuilder();
-        virtual ~SideBuilder();
         virtual void prepareIngredients();
         virtual void assembleItem();
         virtual Item* getItem();
