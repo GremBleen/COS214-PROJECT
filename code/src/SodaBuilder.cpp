@@ -7,6 +7,8 @@
  */
 #include "SodaBuilder.h"
 #include <unistd.h>
+#include <cstdlib>
+#include <iostream>
 
 /**
  * @fn SodaBuilder::SodaBuilder() 
@@ -27,6 +29,7 @@ SodaBuilder::~SodaBuilder() {
  * @brief Get the Glass object
  */
 void SodaBuilder::getGlass() {
+    cout << "Soda Order"<<endl;
     soda = new Soda();
     drink = soda;
 
@@ -59,6 +62,7 @@ void SodaBuilder::assembleDrink() {
  * @brief Get the Soda Glass object
  */
 void SodaBuilder::getSodaGlass() {
+    cout << "\tGetting Glass..."<<endl;
     soda->gotSodaGlass = true;
     sleep(1);
 }
@@ -68,6 +72,7 @@ void SodaBuilder::getSodaGlass() {
  * @brief Pour Soda object
  */
 void SodaBuilder::pourSoda() {
+    cout << "\tPouring Soda..."<<endl;
     soda->pouredSoda = true;
     sleep(1);
 }
@@ -79,5 +84,6 @@ void SodaBuilder::pourSoda() {
 void SodaBuilder::assembleSoda() {
     soda->assembledSoda = true;
     sleep(1);
+    cout << "Soda Ready"<<endl;
 }
 
