@@ -6,6 +6,7 @@
  * - Graeme Blain (u22625462)
  */
 #include "SaladBuilder.h"
+#include <unistd.h>
 
 /**
  * @fn SaladBuilder::SaladBuilder()x
@@ -78,6 +79,7 @@ void SaladBuilder::plateSide() {
  */
 void SaladBuilder::washLettuce() {
     salad->washedLettuce = true;
+    sleep(1);
 }
 
 /**
@@ -87,6 +89,7 @@ void SaladBuilder::washLettuce() {
  */
 void SaladBuilder::cutLettuce() {
     salad->cutLettuce = true;
+    sleep(1);
 }
 
 /**
@@ -96,6 +99,7 @@ void SaladBuilder::cutLettuce() {
  */
 void SaladBuilder::washTomato() {
     salad->washedTomato = true;
+    sleep(1);
 }
 
 /**
@@ -105,6 +109,7 @@ void SaladBuilder::washTomato() {
  */
 void SaladBuilder::cutTomato() {
     salad->cutTomato = true;
+    sleep(1);
 }
 
 /**
@@ -114,6 +119,7 @@ void SaladBuilder::cutTomato() {
  */
 void SaladBuilder::washCucumber() {
     salad->washedCucumber = true;
+    sleep(1);
 }
 
 /**
@@ -123,6 +129,7 @@ void SaladBuilder::washCucumber() {
  */
 void SaladBuilder::cutCucumber() {
     salad->cutCucumber = true;
+    sleep(1);
 }
 
 /**
@@ -132,6 +139,7 @@ void SaladBuilder::cutCucumber() {
  */
 void SaladBuilder::cutFeta() {
     salad->cutFeta = true;
+    sleep(1);
 }
 
 /**
@@ -141,4 +149,5 @@ void SaladBuilder::cutFeta() {
  */
 void SaladBuilder::assembleSalad() {
     salad->assembledSalad = true;
+    sleep(1);
 }

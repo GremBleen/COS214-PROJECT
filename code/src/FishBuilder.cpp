@@ -7,6 +7,7 @@
  */
 
 #include "FishBuilder.h"
+#include <unistd.h>
 
 /**
  * @fn FishBuilder::FishBuilder()
@@ -83,6 +84,7 @@ void FishBuilder::plateMain()
 void FishBuilder::descaleFish()
 {
     fish->descaledFish = true;
+    sleep(1);
 }
 
 /**
@@ -93,6 +95,7 @@ void FishBuilder::descaleFish()
 void FishBuilder::seasonFish()
 {
     fish->seasonedFish = true;
+    sleep(1);
 }
 
 /**
@@ -103,6 +106,7 @@ void FishBuilder::seasonFish()
 void FishBuilder::cookFish()
 {
     fish->cookedFish = true;
+    sleep(2);
 }
 
 /**
@@ -113,4 +117,5 @@ void FishBuilder::cookFish()
 void FishBuilder::plateFish()
 {
     fish->platedFish = true;
+    sleep(1);
 }

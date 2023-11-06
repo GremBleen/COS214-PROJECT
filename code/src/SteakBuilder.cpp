@@ -8,6 +8,7 @@
 
 #include "SteakBuilder.h"
 #include "Steak.h"
+#include <unistd.h>
 
 /**
  * @fn SteakBuilder::SteakBuilder()
@@ -72,6 +73,7 @@ void SteakBuilder::plateMain() {
  */
 void SteakBuilder::tenderiseSteak() {
     this->steak->tenderisedSteak = true;
+    sleep(2);
 }
 
 /**
@@ -80,6 +82,7 @@ void SteakBuilder::tenderiseSteak() {
  */
 void SteakBuilder::seasonSteak() {
     this->steak->seasonedSteak = true;
+    sleep(1);
 }
 
 /**
@@ -88,6 +91,7 @@ void SteakBuilder::seasonSteak() {
  */
 void SteakBuilder::cookSteak() {
     this->steak->cookedSteak = true;
+    sleep(3);
 }
 
 /**
@@ -96,5 +100,6 @@ void SteakBuilder::cookSteak() {
  */
 void SteakBuilder::plateSteak() {
     this->steak->platedSteak = true;
+    sleep(1);
 }
 
