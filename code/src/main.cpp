@@ -20,8 +20,8 @@ void run();
 */
 int main()
 {
-    // run();
-    test();
+    run();
+    // test();
 
     return 0;
 }
