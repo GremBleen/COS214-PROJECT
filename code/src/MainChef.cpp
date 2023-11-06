@@ -51,8 +51,8 @@ void MainChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        Order* temp = new ComplexOrder(w);
-        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), temp));
+        Order* obj = new ComplexOrder(w);
+        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), obj));
         w->getRestaurant()->makeNextOrder();
     }
     else

@@ -42,7 +42,7 @@ void BurgerBuilder::plateMain()
     assembleBurger();
     this->burger->assembledBurger = true;
 
-    item = main;
+    this->item = main;
 }
 
 void BurgerBuilder::butterBun()

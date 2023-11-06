@@ -29,10 +29,6 @@ Waiter::Waiter(Restaurant* restaurant)
 */
 Waiter::~Waiter()
 {
-    if (this->customer == nullptr)
-    {
-        delete this->restaurant;
-    }
 }
 
 /**

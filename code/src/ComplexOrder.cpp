@@ -15,7 +15,8 @@ using namespace std;
 */
 ComplexOrder::ComplexOrder(Waiter* waiter) : Order(waiter)
 {
-
+    this->item = nullptr;
+    this->nextOrderItem = nullptr;
 }
 
 /**
@@ -23,15 +24,15 @@ ComplexOrder::ComplexOrder(Waiter* waiter) : Order(waiter)
 */
 ComplexOrder::~ComplexOrder()
 {
-    if(this->nextOrderItem != nullptr)
-    {
-        delete this->nextOrderItem;
-        this->nextOrderItem = nullptr;
-    }
     if(this->item != nullptr)
     {
         delete this->item;
         this->item = nullptr;
+    }
+    if(this->nextOrderItem != nullptr)
+    {
+        delete this->nextOrderItem;
+        this->nextOrderItem = nullptr;
     }
 }
 
@@ -46,11 +47,9 @@ void ComplexOrder::addToOrder(Order* item)
     }
     else
     {
-        if(this->nextOrderItem == nullptr)
-        {
-            this->nextOrderItem = new ComplexOrder(this->getWaiter());
-        }
-        this->nextOrderItem->addToOrder(item);
+        Order* obj = new ComplexOrder(this->getWaiter());
+        obj->addToOrder(item);
+        this->appendToOrder(obj);
     }
 }
 

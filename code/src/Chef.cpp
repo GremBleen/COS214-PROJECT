@@ -43,21 +43,30 @@ Chef::~Chef()
     {
         delete builders[i];
     }
+    
+    if(this->nextChef != nullptr)
+    {
+        delete this->nextChef;
+    }
 }
 
 /**
  * @fn int Chef::request(string order)
- * @param order a string
+ * @param order : string&
  * @brief member function of the Chef class, implementing Adapter functionality
  * @authors Aidan Chapman (u22738917)
 */
-int Chef::request(string order)
+int Chef::request(string& order)
 {
     char temp = order[0];
     if(temp >= '0' && temp <= '9')
     {
         order = order.substr(1);
         return temp - '0';
+    }
+    else if(temp == '\0')
+    {
+        return -2;
     }
     else
     {

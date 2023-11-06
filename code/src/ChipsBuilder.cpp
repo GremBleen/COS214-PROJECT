@@ -28,8 +28,8 @@ void ChipsBuilder::assembleSide() {
 }
 
 void ChipsBuilder::plateSide() {
-    item = side;
     side->platedSide = true;
+    item = side;
 }
 
 void ChipsBuilder::washPotato() {

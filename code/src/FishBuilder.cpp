@@ -40,6 +40,8 @@ void FishBuilder::plateMain()
 {
     this->plateFish();
     main->platedMain = true;
+
+    this->item = main;
 }
 
 void FishBuilder::descaleFish()
