@@ -1,7 +1,9 @@
 /**
  * @file ChipsBuilder.h
  * @brief Contains declaration for the ChipsBuilder class
- * @authors Aidan Chapman (u22738917)
+ * @author 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "SideBuilder.h"
@@ -27,7 +29,7 @@ class ChipsBuilder : public SideBuilder
         void seasonChips();
 
     private:
-        Chips* chips;
+        Chips* chips; ///< Chips object
 };
 
 #endif

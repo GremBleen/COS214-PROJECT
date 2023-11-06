@@ -1,7 +1,9 @@
 /**
  * @file BeerBuilder.h
  * @brief Contains declaration for the BeerBuilder class
- * @authors Aidan Chapman (u22738917)
+ * @author 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "DrinkBuilder.h"
@@ -25,7 +27,7 @@ class BeerBuilder : public DrinkBuilder
         void assembleBeer();
 
     private:
-        Beer* beer;
+        Beer* beer; ///< Beer object
 };
 
 #endif

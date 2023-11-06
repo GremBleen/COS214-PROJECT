@@ -35,7 +35,9 @@ Chef::Chef()
 /**
  * @fn Chef::~Chef()
  * @brief Destructor of the Chef class
- * @authors Aidan Chapman (u22738917)
+ * @author 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 Chef::~Chef()
 {

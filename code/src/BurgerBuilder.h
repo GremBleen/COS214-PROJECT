@@ -1,7 +1,18 @@
 /**
  * @file BurgerBuilder.h
  * @brief Contains declaration for the BurgerBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * This file contains the declaration for the BurgerBuilder class. 
+ * BurgerBuilder is a concrete builder class that inherits from the MainBuilder class.
+ * It is responsible for building a Burger object using the template method pattern.
+ * 
+ * @see MainBuilder
+ * @see Burger
+ * 
+ *@author 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
+ * - Douglas Porter (u21797545)
 */
 
 #include "MainBuilder.h"
@@ -29,7 +40,7 @@ public:
     void assembleBurger();
 
 protected:
-    Burger *burger;
+    Burger *burger; ///< Burger object
 };
 
 #endif
