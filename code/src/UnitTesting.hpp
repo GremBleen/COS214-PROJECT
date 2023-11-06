@@ -747,7 +747,7 @@ void test() {
     TestSteak();
     TestFish();
     TestComposite();
-    // TestChain();
+    TestChain();
 //     TestBurgerBuilder();
 //     TestSteakBuilder();
 //     TestFishBuilder();
