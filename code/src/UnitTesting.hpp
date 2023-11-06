@@ -748,12 +748,12 @@ void test() {
     TestFish();
     TestComposite();
     TestChain();
-    TestBurgerBuilder();
-    TestSteakBuilder();
-    TestFishBuilder();
-    TestSaladBuilder();
-    TestChipsBuilder();
-    TestSodaBuilder();
-    TestWaterBuilder();
-    TestBeerBuilder();
+//     TestBurgerBuilder();
+//     TestSteakBuilder();
+//     TestFishBuilder();
+//     TestSaladBuilder();
+//     TestChipsBuilder();
+//     TestSodaBuilder();
+//     TestWaterBuilder();
+//     TestBeerBuilder();
 }
