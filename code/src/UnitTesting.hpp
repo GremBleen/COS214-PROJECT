@@ -318,61 +318,46 @@ void TestBurgerBuilder() {
 
     passed++;
 
-    cout << "Testing BurgerBuilder Destructor : ";
-
-    delete burgerBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing BurgerBuilder prepareMeat() : ";
 
-    BurgerBuilder* burgerBuilder2 = new BurgerBuilder();
-
-    burgerBuilder2->prepareMeat();
+    burgerBuilder->prepareMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete burgerBuilder2;
 
     cout << "Testing BurgerBuilder seasonMeat() : ";
 
-    BurgerBuilder* burgerBuilder3 = new BurgerBuilder();
-
-    burgerBuilder3->seasonMeat();
+    burgerBuilder->seasonMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete burgerBuilder3;
 
     cout << "Testing BurgerBuilder cookMeat() : ";
 
-    BurgerBuilder* burgerBuilder4 = new BurgerBuilder();
-
-    burgerBuilder4->cookMeat();
+    burgerBuilder->cookMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete burgerBuilder4;
 
     cout << "Testing BurgerBuilder plateMain() : ";
 
-    BurgerBuilder* burgerBuilder5 = new BurgerBuilder();
-
-    burgerBuilder5->plateMain();
+    burgerBuilder->plateMain();
 
     cout << true << endl;
 
     passed++;
 
-    delete burgerBuilder5;
+    cout << "Testing BurgerBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+    
+    delete burgerBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
@@ -390,61 +375,46 @@ void TestSteakBuilder() {
 
     passed++;
 
-    cout << "Testing SteakBuilder Destructor : ";
-
-    delete steakBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing SteakBuilder prepareMeat() : ";
 
-    SteakBuilder* steakBuilder2 = new SteakBuilder();
-
-    steakBuilder2->prepareMeat();
+    steakBuilder->prepareMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete steakBuilder2;
 
     cout << "Testing SteakBuilder seasonMeat() : ";
 
-    SteakBuilder* steakBuilder3 = new SteakBuilder();
-
-    steakBuilder3->seasonMeat();
+    steakBuilder->seasonMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete steakBuilder3;
 
     cout << "Testing SteakBuilder cookMeat() : ";
 
-    SteakBuilder* steakBuilder4 = new SteakBuilder();
-
-    steakBuilder4->cookMeat();
+    steakBuilder->cookMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete steakBuilder4;
 
     cout << "Testing SteakBuilder plateMain() : ";
 
-    SteakBuilder* steakBuilder5 = new SteakBuilder();
-
-    steakBuilder5->plateMain();
+    steakBuilder->plateMain();
 
     cout << true << endl;
 
     passed++;
 
-    delete steakBuilder5;
+    cout << "Testing SteakBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+
+    delete steakBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
@@ -462,61 +432,46 @@ void TestFishBuilder() {
 
     passed++;
 
-    cout << "Testing FishBuilder Destructor : ";
-
-    delete fishBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing FishBuilder prepareMeat() : ";
 
-    FishBuilder* fishBuilder2 = new FishBuilder();
-
-    fishBuilder2->prepareMeat();
+    fishBuilder->prepareMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete fishBuilder2;
 
     cout << "Testing FishBuilder seasonMeat() : ";
 
-    FishBuilder* fishBuilder3 = new FishBuilder();
-
-    fishBuilder3->seasonMeat();
+    fishBuilder->seasonMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete fishBuilder3;
 
     cout << "Testing FishBuilder cookMeat() : ";
 
-    FishBuilder* fishBuilder4 = new FishBuilder();
-
-    fishBuilder4->cookMeat();
+    fishBuilder->cookMeat();
 
     cout << true << endl;
 
     passed++;
-
-    delete fishBuilder4;
 
     cout << "Testing FishBuilder plateMain() : ";
 
-    FishBuilder* fishBuilder5 = new FishBuilder();
-
-    fishBuilder5->plateMain();
+    fishBuilder->plateMain();
 
     cout << true << endl;
 
     passed++;
 
-    delete fishBuilder5;
+    cout << "Testing FishBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+
+    delete fishBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
@@ -534,61 +489,46 @@ void TestSaladBuilder() {
 
     passed++;
 
-    cout << "Testing SaladBuilder Destructor : ";
-
-    delete saladBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing SaladBuilder chopVegetables() : ";
 
-    SaladBuilder* saladBuilder2 = new SaladBuilder();
-
-    saladBuilder2->chopVegetables();
+    saladBuilder->chopVegetables();
 
     cout << true << endl;
 
     passed++;
-
-    delete saladBuilder2;
 
     cout << "Testing SaladBuilder washVegetables() : ";
 
-    SaladBuilder* saladBuilder3 = new SaladBuilder();
-
-    saladBuilder3->washVegetables();
+    saladBuilder->washVegetables();
 
     cout << true << endl;
 
     passed++;
-
-    delete saladBuilder3;
 
     cout << "Testing SaladBuilder assembleSide() : ";
 
-    SaladBuilder* saladBuilder4 = new SaladBuilder();
-
-    saladBuilder4->assembleSide();
+    saladBuilder->assembleSide();
 
     cout << true << endl;
 
     passed++;
-
-    delete saladBuilder4;
 
     cout << "Testing SaladBuilder plateSide() : ";
 
-    SaladBuilder* saladBuilder5 = new SaladBuilder();
-
-    saladBuilder5->plateSide();
+    saladBuilder->plateSide();
 
     cout << true << endl;
 
     passed++;
 
-    delete saladBuilder5;
+    cout << "Testing SaladBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+
+    delete saladBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
@@ -606,61 +546,46 @@ void TestChipsBuilder() {
 
     passed++;
 
-    cout << "Testing ChipsBuilder Destructor : ";
-
-    delete chipsBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing ChipsBuilder washVegetables() : ";
 
-    ChipsBuilder* chipsBuilder2 = new ChipsBuilder();
-
-    chipsBuilder2->washVegetables();
+    chipsBuilder->washVegetables();
 
     cout << true << endl;
 
     passed++;
-
-    delete chipsBuilder2;
 
     cout << "Testing ChipsBuilder chopVegetables() : ";
 
-    ChipsBuilder* chipsBuilder3 = new ChipsBuilder();
-
-    chipsBuilder3->chopVegetables();
+    chipsBuilder->chopVegetables();
 
     cout << true << endl;
 
     passed++;
-
-    delete chipsBuilder3;
 
     cout << "Testing ChipsBuilder assembleSide() : ";
 
-    ChipsBuilder* chipsBuilder4 = new ChipsBuilder();
-
-    chipsBuilder4->assembleSide();
+    chipsBuilder->assembleSide();
 
     cout << true << endl;
 
     passed++;
-
-    delete chipsBuilder4;
 
     cout << "Testing ChipsBuilder plateSide() : ";
 
-    ChipsBuilder* chipsBuilder5 = new ChipsBuilder();
-
-    chipsBuilder5->plateSide();
+    chipsBuilder->plateSide();
 
     cout << true << endl;
 
     passed++;
 
-    delete chipsBuilder5;
+    cout << "Testing ChipsBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+
+    delete chipsBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
@@ -678,49 +603,38 @@ void TestSodaBuilder() {
 
     passed++;
 
-    cout << "Testing SodaBuilder Destructor : ";
-
-    delete sodaBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing SodaBuilder getGlass() : ";
 
-    SodaBuilder* sodaBuilder2 = new SodaBuilder();
-
-    sodaBuilder2->getGlass();
+    sodaBuilder->getGlass();
 
     cout << true << endl;
 
     passed++;
-
-    delete sodaBuilder2;
 
     cout << "Testing SodaBuilder pourDrink() : ";
 
-    SodaBuilder* sodaBuilder3 = new SodaBuilder();
-
-    sodaBuilder3->pourDrink();
+    sodaBuilder->pourDrink();
 
     cout << true << endl;
 
     passed++;
-
-    delete sodaBuilder3;
 
     cout << "Testing SodaBuilder assembleDrink() : ";
 
-    SodaBuilder* sodaBuilder4 = new SodaBuilder();
-
-    sodaBuilder4->assembleDrink();
+    sodaBuilder->assembleDrink();
 
     cout << true << endl;
 
     passed++;
 
-    delete sodaBuilder4;
+    cout << "Testing SodaBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+
+    delete sodaBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
@@ -738,19 +652,10 @@ void TestWaterBuilder() {
 
     passed++;
 
-    cout << "Testing WaterBuilder Destructor : ";
-
-    delete waterBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing WaterBuilder getGlass() : ";
 
-    WaterBuilder* waterBuilder2 = new WaterBuilder();
-
-    waterBuilder2->getGlass();
+    waterBuilder->getGlass();
 
     cout << true << endl;
 
@@ -758,7 +663,7 @@ void TestWaterBuilder() {
 
     cout << "Testing WaterBuilder pourDrink() : ";
 
-    waterBuilder2->pourDrink();
+    waterBuilder->pourDrink();
 
     cout << true << endl;
 
@@ -766,13 +671,19 @@ void TestWaterBuilder() {
 
     cout << "Testing WaterBuilder assembleDrink() : ";
 
-    waterBuilder2->assembleDrink();
+    waterBuilder->assembleDrink();
 
     cout << true << endl;
 
     passed++;
 
-    delete waterBuilder2;
+    cout << "Testing WaterBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+
+    delete waterBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
@@ -790,49 +701,38 @@ void TestBeerBuilder() {
 
     passed++;
 
-    cout << "Testing BeerBuilder Destructor : ";
-
-    delete beerBuilder;
-
-    cout << true << endl;
-
-    passed++;
 
     cout << "Testing BeerBuilder getGlass() : ";
 
-    BeerBuilder* beerBuilder2 = new BeerBuilder();
-
-    beerBuilder2->getGlass();
+    beerBuilder->getGlass();
 
     cout << true << endl;
 
     passed++;
-
-    delete beerBuilder2;
 
     cout << "Testing BeerBuilder pourDrink() : ";
 
-    BeerBuilder* beerBuilder3 = new BeerBuilder();
-
-    beerBuilder3->pourDrink();
+    beerBuilder->pourDrink();
 
     cout << true << endl;
 
     passed++;
-
-    delete beerBuilder3;
 
     cout << "Testing BeerBuilder assembleDrink() : ";
 
-    BeerBuilder* beerBuilder4 = new BeerBuilder();
-
-    beerBuilder4->assembleDrink();
+    beerBuilder->assembleDrink();
 
     cout << true << endl;
 
     passed++;
 
-    delete beerBuilder4;
+    cout << "Testing BeerBuilder Destructor : ";
+
+    cout << true << endl;
+
+    passed++;
+
+    delete beerBuilder;
 
     cout << "Total Tests : " << numTests << "\tTests Passed : " << passed << " -> " << (numTests == passed ? "true" : "false") << endl << endl;
 }
