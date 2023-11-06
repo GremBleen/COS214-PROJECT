@@ -1,0 +1,120 @@
+\hypertarget{classChef}{}\doxysection{Chef Class Reference}
+\label{classChef}\index{Chef@{Chef}}
+
+
+Inheritance diagram for Chef\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classChef__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Chef\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{classChef__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classChef_a0e2fc09d0b9acc0b0b2976ae59458879}\label{classChef_a0e2fc09d0b9acc0b0b2976ae59458879}} 
+enum {\bfseries item\+Builders} \{ \newline
+{\bfseries steak}
+, {\bfseries burger}
+, {\bfseries fish}
+, {\bfseries chips}
+, \newline
+{\bfseries salad}
+, {\bfseries beer}
+, {\bfseries water}
+, {\bfseries soda}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classChef_ad0c323baebe44970f64d824aa7f20d35}{Chef}} ()
+\begin{DoxyCompactList}\small\item\em Constructor of the \mbox{\hyperlink{classChef}{Chef}} class. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classChef_a01e11f9b766172fc8099573a01990386}{$\sim$\+Chef}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of the \mbox{\hyperlink{classChef}{Chef}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classChef_a175a45f14b8acd57ff76ba911a6e1bb7}\label{classChef_a175a45f14b8acd57ff76ba911a6e1bb7}} 
+virtual void {\bfseries prepare\+Part} (string order, \mbox{\hyperlink{classOrder}{Order}} $\ast$o)=0
+\item 
+int \mbox{\hyperlink{classChef_a7fc313a52ebc4de5be882ab7b5e6e8b3}{request}} (string \&order)
+\begin{DoxyCompactList}\small\item\em member function of the \mbox{\hyperlink{classChef}{Chef}} class, implementing Adapter functionality \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classChef_afc06a34f1b5626899012395ed0c8a7f8}\label{classChef_afc06a34f1b5626899012395ed0c8a7f8}} 
+\mbox{\hyperlink{classChef}{Chef}} $\ast$ \mbox{\hyperlink{classChef_afc06a34f1b5626899012395ed0c8a7f8}{next\+Chef}}
+\begin{DoxyCompactList}\small\item\em Pointer to next chef in chain of responsibility. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classChef_a523bc5d7e62d38ca54fa7a93721d652c}\label{classChef_a523bc5d7e62d38ca54fa7a93721d652c}} 
+\mbox{\hyperlink{classItemBuilder}{Item\+Builder}} $\ast$ \mbox{\hyperlink{classChef_a523bc5d7e62d38ca54fa7a93721d652c}{builders}} \mbox{[}8\mbox{]}
+\begin{DoxyCompactList}\small\item\em Array of \mbox{\hyperlink{classItemBuilder}{Item\+Builder}} pointers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classChef_ad0c323baebe44970f64d824aa7f20d35}\label{classChef_ad0c323baebe44970f64d824aa7f20d35}} 
+\index{Chef@{Chef}!Chef@{Chef}}
+\index{Chef@{Chef}!Chef@{Chef}}
+\doxysubsubsection{\texorpdfstring{Chef()}{Chef()}}
+{\footnotesize\ttfamily Chef\+::\+Chef (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor of the \mbox{\hyperlink{classChef}{Chef}} class. 
+
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classChef_a01e11f9b766172fc8099573a01990386}\label{classChef_a01e11f9b766172fc8099573a01990386}} 
+\index{Chef@{Chef}!````~Chef@{$\sim$Chef}}
+\index{````~Chef@{$\sim$Chef}!Chef@{Chef}}
+\doxysubsubsection{\texorpdfstring{$\sim$Chef()}{~Chef()}}
+{\footnotesize\ttfamily Chef\+::$\sim$\+Chef (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor of the \mbox{\hyperlink{classChef}{Chef}} class. 
+
+\begin{DoxyAuthor}{Author}
+
+\begin{DoxyItemize}
+\item Aidan Chapman (u22738917)
+\item Graeme Blain (u22625462) 
+\end{DoxyItemize}
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classChef_a7fc313a52ebc4de5be882ab7b5e6e8b3}\label{classChef_a7fc313a52ebc4de5be882ab7b5e6e8b3}} 
+\index{Chef@{Chef}!request@{request}}
+\index{request@{request}!Chef@{Chef}}
+\doxysubsubsection{\texorpdfstring{request()}{request()}}
+{\footnotesize\ttfamily int Chef\+::request (\begin{DoxyParamCaption}\item[{string \&}]{order }\end{DoxyParamCaption})}
+
+
+
+member function of the \mbox{\hyperlink{classChef}{Chef}} class, implementing Adapter functionality 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & \+: string\& \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Chef_8h}{Chef.\+h}}\item 
+\mbox{\hyperlink{Chef_8cpp}{Chef.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="Steak.h" name="Steak.h">
+<area shape="rect" id="node1" title="Contains declaration for the Steak class." alt="" coords="95,5,165,32"/>
+<area shape="rect" id="node2" href="$Steak_8cpp.html" title="Contains implementation for the Steak class." alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node3" href="$SteakBuilder_8cpp.html" title="Contains the implementation for the SteakBuilder class." alt="" coords="65,155,195,181"/>
+<area shape="rect" id="node4" href="$SteakBuilder_8h.html" title="Contains declaration for the SteakBuilder class." alt="" coords="168,80,284,107"/>
+<area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="220,155,299,181"/>
+</map>

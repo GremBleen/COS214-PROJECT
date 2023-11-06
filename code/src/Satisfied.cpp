@@ -9,35 +9,52 @@
 #include "Customer.h"
 using namespace std;
 
+/**
+ * @fn Satisfied::Satisfied()
+ * @brief Default constructor for the Satisfied class.
+ * 
+ */
 Satisfied::Satisfied()
 {
 
 }
 
+/**
+ * @fn Satisfied::~Satisfied()
+ * @brief Destructor for the Satisfied class.
+ * 
+ */
 Satisfied::~Satisfied()
 {
     
 }
 
 /**
- * Function for changing the state of the passed in customer's rating to satisfied
-*/
+ * @fn Satisfied::changeState(Customer* customer)
+ * @brief Function for changing the rating of the customer.
+ * 
+ * @param customer 
+ */
 void Satisfied::changeState(Customer* customer) {
     customer->changeRating(new Satisfied());
 }
 
 /**
- * Function for getting the rating of the current rating object
-*/
+ * @fn Satisfied::getRating()
+ * @brief Function for getting the rating of the customer.
+ * 
+ * @return string 
+ */
 string Satisfied::getRating() {
     return "Satisfied";
 }
 
 /**
- * Function fo calculating the tip which will be added to the bill.
+ * @fn Satisfied::calculateTip()
+ * @brief Function for calculating the tip of the customer.
  * 
- * Neutral customer gives 10% tip, satisfied customer gives 25% tip and unhappy customer doesn't give a tip.
-*/
+ * @return float 
+ */
 float Satisfied::calculateTip() {
     return 0.25F;
 }

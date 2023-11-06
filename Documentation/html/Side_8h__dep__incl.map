@@ -1,0 +1,15 @@
+<map id="Side.h" name="Side.h">
+<area shape="rect" id="node1" title="Contains declaration for the Side class." alt="" coords="241,5,303,32"/>
+<area shape="rect" id="node2" href="$Chips_8h.html" title="Contains declaration for the Chips class." alt="" coords="66,80,137,107"/>
+<area shape="rect" id="node7" href="$Salad_8h.html" title="Contains declaration for the Salad class." alt="" coords="394,80,465,107"/>
+<area shape="rect" id="node12" href="$Side_8cpp.html" title="Contains implementation for the Side class." alt="" coords="292,80,369,107"/>
+<area shape="rect" id="node13" href="$SideBuilder_8h.html" title="Contains declaration for the SideBuilder class." alt="" coords="161,80,268,107"/>
+<area shape="rect" id="node3" href="$Chips_8cpp.html" title="Contains implementation for the Chips class." alt="" coords="24,155,109,181"/>
+<area shape="rect" id="node4" href="$ChipsBuilder_8h.html" title="Contains declaration for the ChipsBuilder class." alt="" coords="133,155,248,181"/>
+<area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="161,229,239,256"/>
+<area shape="rect" id="node6" href="$ChipsBuilder_8cpp.html" title="Implementation of the ChipsBuilder class." alt="" coords="5,229,136,256"/>
+<area shape="rect" id="node8" href="$Salad_8cpp.html" title="Contains implementation for the Salad class." alt="" coords="411,155,496,181"/>
+<area shape="rect" id="node9" href="$SaladBuilder_8h.html" title="Contains declaration for the SaladBuilder class." alt="" coords="272,155,387,181"/>
+<area shape="rect" id="node10" href="$SaladBuilder_8cpp.html" title="Contains implementation for the SaladBuilder class." alt="" coords="264,229,395,256"/>
+<area shape="rect" id="node11" href="$SideBuilder_8cpp.html" title="Contains implementation for the SideBuilder class." alt="" coords="419,229,541,256"/>
+</map>

@@ -1,0 +1,125 @@
+\hypertarget{classOrder}{}\doxysection{Order Class Reference}
+\label{classOrder}\index{Order@{Order}}
+
+
+Inheritance diagram for Order\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classOrder__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classOrder_a7b6a660b03708ed5b4e1c4a6dc2a664a}\label{classOrder_a7b6a660b03708ed5b4e1c4a6dc2a664a}} 
+\mbox{\hyperlink{classOrder_a7b6a660b03708ed5b4e1c4a6dc2a664a}{Order}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for the \mbox{\hyperlink{classOrder}{Order}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOrder_a9249d37351ff00ba4654be22b1318d1f}{Order}} (\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$waiter)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classOrder}{Order}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classOrder_a8fb25876ccbd534465f5f96ef9bb2212}\label{classOrder_a8fb25876ccbd534465f5f96ef9bb2212}} 
+virtual \mbox{\hyperlink{classOrder_a8fb25876ccbd534465f5f96ef9bb2212}{$\sim$\+Order}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classOrder}{Order}} class. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classOrder_a680e265af8078d242501ee0c4799d7ca}{add\+To\+Order}} (\mbox{\hyperlink{classOrder}{Order}} $\ast$item)
+\begin{DoxyCompactList}\small\item\em Adds an \mbox{\hyperlink{classOrder}{Order}} object to the order. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classOrder_ac7f100ac0ec4a4562f722e5c03e86fca}{append\+To\+Order}} (\mbox{\hyperlink{classOrder}{Order}} $\ast$order)
+\begin{DoxyCompactList}\small\item\em Appends an \mbox{\hyperlink{classOrder}{Order}} object to the order. \end{DoxyCompactList}\item 
+virtual float \mbox{\hyperlink{classOrder_ad644d98ba68a6c9947a33fa188f51ca3}{calculate\+Price}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the price of the order. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$ \mbox{\hyperlink{classOrder_adbe28ed4cee3d739f10ccbe0962612c7}{get\+Waiter}} ()
+\begin{DoxyCompactList}\small\item\em Gets the waiter that is attached to the order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOrder_a9249d37351ff00ba4654be22b1318d1f}\label{classOrder_a9249d37351ff00ba4654be22b1318d1f}} 
+\index{Order@{Order}!Order@{Order}}
+\index{Order@{Order}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{Order()}{Order()}}
+{\footnotesize\ttfamily Order\+::\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classWaiter}{Waiter}} $\ast$}]{waiter }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classOrder}{Order}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em waiter} & The waiter that is attached to the order. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOrder_a680e265af8078d242501ee0c4799d7ca}\label{classOrder_a680e265af8078d242501ee0c4799d7ca}} 
+\index{Order@{Order}!addToOrder@{addToOrder}}
+\index{addToOrder@{addToOrder}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{addToOrder()}{addToOrder()}}
+{\footnotesize\ttfamily void Order\+::add\+To\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}} $\ast$}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Adds an \mbox{\hyperlink{classOrder}{Order}} object to the order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & An \mbox{\hyperlink{classOrder}{Order}} pointer representing the \mbox{\hyperlink{classOrder}{Order}} object to be added to the order. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classComplexOrder_a7e09f3bdc40e186c2e35c2b83fdc60fe}{Complex\+Order}}.
+
+\mbox{\Hypertarget{classOrder_ac7f100ac0ec4a4562f722e5c03e86fca}\label{classOrder_ac7f100ac0ec4a4562f722e5c03e86fca}} 
+\index{Order@{Order}!appendToOrder@{appendToOrder}}
+\index{appendToOrder@{appendToOrder}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{appendToOrder()}{appendToOrder()}}
+{\footnotesize\ttfamily void Order\+::append\+To\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}} $\ast$}]{order }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Appends an \mbox{\hyperlink{classOrder}{Order}} object to the order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & An \mbox{\hyperlink{classOrder}{Order}} pointer representing the \mbox{\hyperlink{classOrder}{Order}} object to be appended to the order. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classComplexOrder_a5d6cb519b5468ec30526906263f0bfd7}{Complex\+Order}}.
+
+\mbox{\Hypertarget{classOrder_ad644d98ba68a6c9947a33fa188f51ca3}\label{classOrder_ad644d98ba68a6c9947a33fa188f51ca3}} 
+\index{Order@{Order}!calculatePrice@{calculatePrice}}
+\index{calculatePrice@{calculatePrice}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{calculatePrice()}{calculatePrice()}}
+{\footnotesize\ttfamily float Order\+::calculate\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calculates the price of the order. 
+
+\begin{DoxyReturn}{Returns}
+float The price of the order. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classItem_aa591bf2f7a4e640ff3661f7965c88753}{Item}}, and \mbox{\hyperlink{classComplexOrder_ad349a98e6c653bee09df2d32568ed3a4}{Complex\+Order}}.
+
+\mbox{\Hypertarget{classOrder_adbe28ed4cee3d739f10ccbe0962612c7}\label{classOrder_adbe28ed4cee3d739f10ccbe0962612c7}} 
+\index{Order@{Order}!getWaiter@{getWaiter}}
+\index{getWaiter@{getWaiter}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{getWaiter()}{getWaiter()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWaiter}{Waiter}} $\ast$ Order\+::get\+Waiter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the waiter that is attached to the order. 
+
+\begin{DoxyReturn}{Returns}
+Waiter$\ast$ A pointer to the waiter that is attached to the order. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Order_8h}{Order.\+h}}\item 
+\mbox{\hyperlink{Order_8cpp}{Order.\+cpp}}\end{DoxyCompactItemize}

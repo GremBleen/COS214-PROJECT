@@ -1,0 +1,133 @@
+\hypertarget{classFloor}{}\doxysection{Floor Class Reference}
+\label{classFloor}\index{Floor@{Floor}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFloor_a1e2ade7bb5088723b1b52efc10320595}{Floor}} (int num\+Tables)
+\begin{DoxyCompactList}\small\item\em Constructor of the \mbox{\hyperlink{classFloor}{Floor}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFloor_ae1b805579f18a76fe2754a3601202e80}{$\sim$\+Floor}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of the \mbox{\hyperlink{classFloor}{Floor}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFloor_a3d0c380f0c36011e26cdc67448b80273}{seat\+Customer}} (\mbox{\hyperlink{classCustomer}{Customer}} $\ast$customer)
+\begin{DoxyCompactList}\small\item\em A member function of the \mbox{\hyperlink{classFloor}{Floor}} class, finding an available table for the customer to sit at. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFloor_ab211fa746abaee9ee50450413bed8667}{set\+Restaurant}} (\mbox{\hyperlink{classRestaurant}{Restaurant}} $\ast$restaurant)
+\begin{DoxyCompactList}\small\item\em Member function of the \mbox{\hyperlink{classFloor}{Floor}} class, allowing for the setting of the \mbox{\hyperlink{classRestaurant}{Restaurant}} in the context of the Mediator pattern. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classFloor_ae44b7f2c5119397d7cdb52a6b4cf10cf}{get\+Num\+Tables}} ()
+\begin{DoxyCompactList}\small\item\em A member function of the \mbox{\hyperlink{classFloor}{Floor}} class, returning the number of tables. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classTable}{Table}} $\ast$ \mbox{\hyperlink{classFloor_a6aba6c1e262728d441d29e8259a71f27}{get\+Table}} (\mbox{\hyperlink{classCustomer}{Customer}} $\ast$customer)
+\begin{DoxyCompactList}\small\item\em A member function of the \mbox{\hyperlink{classFloor}{Floor}} class, returns the table that a customer is at. Returns nullptr if no customer is found at any table. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFloor_a1e2ade7bb5088723b1b52efc10320595}\label{classFloor_a1e2ade7bb5088723b1b52efc10320595}} 
+\index{Floor@{Floor}!Floor@{Floor}}
+\index{Floor@{Floor}!Floor@{Floor}}
+\doxysubsubsection{\texorpdfstring{Floor()}{Floor()}}
+{\footnotesize\ttfamily Floor\+::\+Floor (\begin{DoxyParamCaption}\item[{int}]{num\+Tables }\end{DoxyParamCaption})}
+
+
+
+Constructor of the \mbox{\hyperlink{classFloor}{Floor}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Tables} & an integer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classFloor_ae1b805579f18a76fe2754a3601202e80}\label{classFloor_ae1b805579f18a76fe2754a3601202e80}} 
+\index{Floor@{Floor}!````~Floor@{$\sim$Floor}}
+\index{````~Floor@{$\sim$Floor}!Floor@{Floor}}
+\doxysubsubsection{\texorpdfstring{$\sim$Floor()}{~Floor()}}
+{\footnotesize\ttfamily Floor\+::$\sim$\+Floor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor of the \mbox{\hyperlink{classFloor}{Floor}} class. 
+
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFloor_ae44b7f2c5119397d7cdb52a6b4cf10cf}\label{classFloor_ae44b7f2c5119397d7cdb52a6b4cf10cf}} 
+\index{Floor@{Floor}!getNumTables@{getNumTables}}
+\index{getNumTables@{getNumTables}!Floor@{Floor}}
+\doxysubsubsection{\texorpdfstring{getNumTables()}{getNumTables()}}
+{\footnotesize\ttfamily int Floor\+::get\+Num\+Tables (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A member function of the \mbox{\hyperlink{classFloor}{Floor}} class, returning the number of tables. 
+
+\begin{DoxyReturn}{Returns}
+an integer 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classFloor_a6aba6c1e262728d441d29e8259a71f27}\label{classFloor_a6aba6c1e262728d441d29e8259a71f27}} 
+\index{Floor@{Floor}!getTable@{getTable}}
+\index{getTable@{getTable}!Floor@{Floor}}
+\doxysubsubsection{\texorpdfstring{getTable()}{getTable()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTable}{Table}} $\ast$ Floor\+::get\+Table (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomer}{Customer}} $\ast$}]{customer }\end{DoxyParamCaption})}
+
+
+
+A member function of the \mbox{\hyperlink{classFloor}{Floor}} class, returns the table that a customer is at. Returns nullptr if no customer is found at any table. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & a \mbox{\hyperlink{classCustomer}{Customer}} pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a \mbox{\hyperlink{classTable}{Table}} pointer 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classFloor_a3d0c380f0c36011e26cdc67448b80273}\label{classFloor_a3d0c380f0c36011e26cdc67448b80273}} 
+\index{Floor@{Floor}!seatCustomer@{seatCustomer}}
+\index{seatCustomer@{seatCustomer}!Floor@{Floor}}
+\doxysubsubsection{\texorpdfstring{seatCustomer()}{seatCustomer()}}
+{\footnotesize\ttfamily void Floor\+::seat\+Customer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomer}{Customer}} $\ast$}]{customer }\end{DoxyParamCaption})}
+
+
+
+A member function of the \mbox{\hyperlink{classFloor}{Floor}} class, finding an available table for the customer to sit at. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & a \mbox{\hyperlink{classCustomer}{Customer}} pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classFloor_ab211fa746abaee9ee50450413bed8667}\label{classFloor_ab211fa746abaee9ee50450413bed8667}} 
+\index{Floor@{Floor}!setRestaurant@{setRestaurant}}
+\index{setRestaurant@{setRestaurant}!Floor@{Floor}}
+\doxysubsubsection{\texorpdfstring{setRestaurant()}{setRestaurant()}}
+{\footnotesize\ttfamily void Floor\+::set\+Restaurant (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRestaurant}{Restaurant}} $\ast$}]{restaurant }\end{DoxyParamCaption})}
+
+
+
+Member function of the \mbox{\hyperlink{classFloor}{Floor}} class, allowing for the setting of the \mbox{\hyperlink{classRestaurant}{Restaurant}} in the context of the Mediator pattern. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em restaurant} & a \mbox{\hyperlink{classRestaurant}{Restaurant}} pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Authors}
+Aidan Chapman (u22738917) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Floor_8h}{Floor.\+h}}\item 
+\mbox{\hyperlink{Floor_8cpp}{Floor.\+cpp}}\end{DoxyCompactItemize}

@@ -26,10 +26,12 @@ int main()
         int num = interface->generateNumberOfCustomers();
         for(int i = 0; i < num; i++)
         {
-            dailyTotal += interface->runCustomer();
+            float num = interface->runCustomer();
+            cout << "Customer was served and paid R" << num << endl;
+            dailyTotal += num;
         }
         total += dailyTotal;
-        cout << "Total for the day: R" << dailyTotal << endl << "Total: R" << total << endl << "Continue to next day [y]:";
+        cout << "Number of Customers: " << num << endl << "Total for the day: R" << dailyTotal << endl << "Total: R" << total << endl << "Continue to next day [y]:";
         cin >> cont;
         cout << endl;
     } while (cont == 'Y' || cont == 'y');

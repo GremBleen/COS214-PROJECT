@@ -1,0 +1,8 @@
+<map id="MainMeal" name="MainMeal">
+<area shape="rect" id="node1" title=" " alt="" coords="76,155,163,181"/>
+<area shape="rect" id="node4" href="$classBurger.html" title=" " alt="" coords="5,229,71,256"/>
+<area shape="rect" id="node5" href="$classFish.html" title=" " alt="" coords="95,229,143,256"/>
+<area shape="rect" id="node6" href="$classSteak.html" title=" " alt="" coords="167,229,226,256"/>
+<area shape="rect" id="node2" href="$classItem.html" title=" " alt="" coords="93,80,145,107"/>
+<area shape="rect" id="node3" href="$classOrder.html" title=" " alt="" coords="90,5,149,32"/>
+</map>

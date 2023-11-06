@@ -1,0 +1,14 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classItemBuilder.html" title=" " alt="" coords="5,208,104,235"/>
+<area shape="rect" id="node2" href="$classDrinkBuilder.html" title=" " alt="" coords="152,81,255,108"/>
+<area shape="rect" id="node6" href="$classMainBuilder.html" title=" " alt="" coords="153,208,253,235"/>
+<area shape="rect" id="node10" href="$classSideBuilder.html" title=" " alt="" coords="155,309,251,336"/>
+<area shape="rect" id="node3" href="$classBeerBuilder.html" title=" " alt="" coords="309,5,407,32"/>
+<area shape="rect" id="node4" href="$classSodaBuilder.html" title=" " alt="" coords="308,56,408,83"/>
+<area shape="rect" id="node5" href="$classWaterBuilder.html" title=" " alt="" coords="305,107,411,133"/>
+<area shape="rect" id="node7" href="$classBurgerBuilder.html" title=" " alt="" coords="303,157,413,184"/>
+<area shape="rect" id="node8" href="$classFishBuilder.html" title=" " alt="" coords="311,208,405,235"/>
+<area shape="rect" id="node9" href="$classSteakBuilder.html" title=" " alt="" coords="305,259,411,285"/>
+<area shape="rect" id="node11" href="$classChipsBuilder.html" title=" " alt="" coords="306,309,410,336"/>
+<area shape="rect" id="node12" href="$classSaladBuilder.html" title=" " alt="" coords="306,360,410,387"/>
+</map>

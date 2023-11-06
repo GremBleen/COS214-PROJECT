@@ -1,0 +1,10 @@
+<map id="Floor.h" name="Floor.h">
+<area shape="rect" id="node1" title="Contains declaration for the Floor class." alt="" coords="110,5,177,32"/>
+<area shape="rect" id="node2" href="$Customer_8h.html" title="Contains declaration for the Customer class." alt="" coords="95,80,191,107"/>
+<area shape="rect" id="node3" href="$Rating_8h.html" title="Contains declaration for the Rating class." alt="" coords="5,155,81,181"/>
+<area shape="rect" id="node4" href="$Waiter_8h.html" title="Contains declaration for the Waiter class." alt="" coords="106,155,181,181"/>
+<area shape="rect" id="node8" href="$Table_8h.html" title="Contains declaration for the Table class." alt="" coords="205,155,273,181"/>
+<area shape="rect" id="node5" href="$Restaurant_8h.html" title="Contains declaration for the Restaurant class." alt="" coords="91,229,196,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="71,304,130,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="155,304,217,331"/>
+</map>

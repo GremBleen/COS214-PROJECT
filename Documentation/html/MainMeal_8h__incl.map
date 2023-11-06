@@ -1,0 +1,9 @@
+<map id="MainMeal.h" name="MainMeal.h">
+<area shape="rect" id="node1" title="Contains declaration for the MainMeal class." alt="" coords="28,5,127,32"/>
+<area shape="rect" id="node2" href="$Item_8h.html" title="Contains declaration for the Item class." alt="" coords="45,80,109,107"/>
+<area shape="rect" id="node3" href="$Order_8h.html" title="Contains declaration for the Order class." alt="" coords="43,155,112,181"/>
+<area shape="rect" id="node4" href="$Waiter_8h.html" title="Contains declaration for the Waiter class." alt="" coords="40,229,115,256"/>
+<area shape="rect" id="node5" href="$Restaurant_8h.html" title="Contains declaration for the Restaurant class." alt="" coords="25,304,130,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,379,64,405"/>
+<area shape="rect" id="node7" title=" " alt="" coords="89,379,151,405"/>
+</map>

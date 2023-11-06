@@ -7,6 +7,7 @@
 #include "DrinkChef.h"
 #include "Customer.h"
 #include "OrderContainer.h"
+#include "ComplexOrder.h"
 
 /**
  * @fn DrinkChef::DrinkChef()
@@ -50,7 +51,8 @@ void DrinkChef::preparePart(string order, Order* o)
     {
         Waiter* w = o->getWaiter();
         delete o;
-        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), new Order(w)));        
+        Order* obj = new ComplexOrder(w);
+        w->takeOrder(new OrderContainer(w->getCustomer()->getOrderRequest(), obj));        
         w->getRestaurant()->makeNextOrder();
     }
     else

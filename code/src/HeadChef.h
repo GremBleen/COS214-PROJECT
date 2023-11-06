@@ -1,6 +1,9 @@
 /**
  * @file HeadChef.h
  * @brief Contains declaration for the HeadChef class
+ * 
+ * HeadChef is a derived class of Chef, representing a chef that prepares finishes meals.
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 

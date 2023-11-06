@@ -1,0 +1,11 @@
+<map id="SideBuilder.h" name="SideBuilder.h">
+<area shape="rect" id="node1" title="Contains declaration for the SideBuilder class." alt="" coords="61,5,168,32"/>
+<area shape="rect" id="node2" href="$ItemBuilder_8h.html" title="Contains declaration for the ItemBuilder class." alt="" coords="5,80,115,107"/>
+<area shape="rect" id="node9" href="$Side_8h.html" title="Contains declaration for the Side class." alt="" coords="139,80,202,107"/>
+<area shape="rect" id="node3" href="$Item_8h.html" title="Contains declaration for the Item class." alt="" coords="83,155,147,181"/>
+<area shape="rect" id="node4" href="$Order_8h.html" title="Contains declaration for the Order class." alt="" coords="80,229,149,256"/>
+<area shape="rect" id="node5" href="$Waiter_8h.html" title="Contains declaration for the Waiter class." alt="" coords="77,304,152,331"/>
+<area shape="rect" id="node6" href="$Restaurant_8h.html" title="Contains declaration for the Restaurant class." alt="" coords="62,379,167,405"/>
+<area shape="rect" id="node7" title=" " alt="" coords="43,453,101,480"/>
+<area shape="rect" id="node8" title=" " alt="" coords="126,453,189,480"/>
+</map>

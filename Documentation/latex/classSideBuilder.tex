@@ -1,0 +1,75 @@
+\hypertarget{classSideBuilder}{}\doxysection{Side\+Builder Class Reference}
+\label{classSideBuilder}\index{SideBuilder@{SideBuilder}}
+
+
+Inheritance diagram for Side\+Builder\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{classSideBuilder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Side\+Builder\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classSideBuilder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSideBuilder_aa7756f8a10f88cf5a5412a0394a436dc}\label{classSideBuilder_aa7756f8a10f88cf5a5412a0394a436dc}} 
+virtual void \mbox{\hyperlink{classSideBuilder_aa7756f8a10f88cf5a5412a0394a436dc}{prepare\+Ingredients}} ()
+\begin{DoxyCompactList}\small\item\em Prepares the ingredients for the side dish by washing and chopping the vegetables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSideBuilder_a5460db57f7c35a72809a90713cde20ae}\label{classSideBuilder_a5460db57f7c35a72809a90713cde20ae}} 
+virtual void \mbox{\hyperlink{classSideBuilder_a5460db57f7c35a72809a90713cde20ae}{assemble\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Assembles the side dish by calling the assemble\+Side() and plate\+Side() functions. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classItem}{Item}} $\ast$ \mbox{\hyperlink{classSideBuilder_ae4001eb00e5c58ae5009776839638320}{get\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Returns the item that was built by the \mbox{\hyperlink{classSideBuilder}{Side\+Builder}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSideBuilder_aa7c78da800b50d8c276bfa7b29fa855b}\label{classSideBuilder_aa7c78da800b50d8c276bfa7b29fa855b}} 
+virtual void {\bfseries wash\+Vegetables} ()=0
+\item 
+\mbox{\Hypertarget{classSideBuilder_a5c5af20285818ef9c8def119b6cee716}\label{classSideBuilder_a5c5af20285818ef9c8def119b6cee716}} 
+virtual void {\bfseries chop\+Vegetables} ()=0
+\item 
+\mbox{\Hypertarget{classSideBuilder_a178a019178293635522ef4ad4d8a830d}\label{classSideBuilder_a178a019178293635522ef4ad4d8a830d}} 
+virtual void {\bfseries assemble\+Side} ()=0
+\item 
+\mbox{\Hypertarget{classSideBuilder_a2c9b8158538fd634a2c841ff99db601a}\label{classSideBuilder_a2c9b8158538fd634a2c841ff99db601a}} 
+virtual void {\bfseries plate\+Side} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSideBuilder_a50c63dc6fe2e9d2f76ff1e4a61cc4a3a}\label{classSideBuilder_a50c63dc6fe2e9d2f76ff1e4a61cc4a3a}} 
+\mbox{\hyperlink{classSide}{Side}} $\ast$ \mbox{\hyperlink{classSideBuilder_a50c63dc6fe2e9d2f76ff1e4a61cc4a3a}{side}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classSide}{Side}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSideBuilder_ae4001eb00e5c58ae5009776839638320}\label{classSideBuilder_ae4001eb00e5c58ae5009776839638320}} 
+\index{SideBuilder@{SideBuilder}!getItem@{getItem}}
+\index{getItem@{getItem}!SideBuilder@{SideBuilder}}
+\doxysubsubsection{\texorpdfstring{getItem()}{getItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classItem}{Item}} $\ast$ Side\+Builder\+::get\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns the item that was built by the \mbox{\hyperlink{classSideBuilder}{Side\+Builder}}. 
+
+\begin{DoxyReturn}{Returns}
+Item$\ast$ A pointer to the item that was built. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classItemBuilder}{Item\+Builder}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{SideBuilder_8h}{Side\+Builder.\+h}}\item 
+\mbox{\hyperlink{SideBuilder_8cpp}{Side\+Builder.\+cpp}}\end{DoxyCompactItemize}

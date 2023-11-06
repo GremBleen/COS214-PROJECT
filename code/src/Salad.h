@@ -1,6 +1,7 @@
 /**
  * @file Salad.h
  * @brief Contains declaration for the Salad class
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 
@@ -15,15 +16,15 @@ class Salad : public Side
         Salad();
         ~Salad();
 
-        bool washedLettuce = false;
-        bool cutLettuce = false;
-        bool washedTomato = false;
-        bool cutTomato = false;
-        bool washedCucumber = false;
-        bool cutCucumber = false;
-        bool cutFeta = false;
-        bool assembledSalad = false;
-        bool platedSalad = false;
+        bool washedLettuce = false; ///< Whether the lettuce has been washed
+        bool cutLettuce = false; ///< Whether the lettuce has been cut
+        bool washedTomato = false; ///< Whether the tomato has been washed
+        bool cutTomato = false; ///< Whether the tomato has been cut
+        bool washedCucumber = false; ///< Whether the cucumber has been washed
+        bool cutCucumber = false; ///< Whether the cucumber has been cut
+        bool cutFeta = false; ///< Whether the feta has been cut
+        bool assembledSalad = false; ///< Whether the salad has been assembled
+        bool platedSalad = false; ///< Whether the salad has been plated
 };
 
 #endif

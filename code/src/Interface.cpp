@@ -10,7 +10,6 @@
 #include <cstdlib> // for random numbers
 #include <chrono>  // for unix timestamp
 #include <ctime>   // for unix timestamp
-#include <string>
 #include <sstream>
 
 /**
@@ -126,10 +125,10 @@ float Interface::runCustomer()
 string Interface::generateOrderString()
 {
     stringstream s;
-    int numMain = ((getCurrentUnixTime() * rand()) % 6) + 1;
+    int numMain = abs((getCurrentUnixTime() * rand()) % 6) + 1;
     for (int i = 0; i < numMain; i++)
     {
-        int num = ((getCurrentUnixTime() * rand()) % 3) + 1;
+        int num = abs((getCurrentUnixTime() * rand()) % 3) + 1;
         switch (num)
         {
         case 1:
@@ -144,10 +143,10 @@ string Interface::generateOrderString()
         }
     }
 
-    int numSide = ((getCurrentUnixTime() * rand()) % 7);
+    int numSide = abs((getCurrentUnixTime() * rand()) % 7);
     for (int i = 0; i < numSide; i++)
     {
-        int num = ((getCurrentUnixTime() * rand()) % 2) + 1;
+        int num = abs((getCurrentUnixTime() * rand()) % 2) + 1;
         switch (num)
         {
         case 1:
@@ -159,10 +158,10 @@ string Interface::generateOrderString()
         }
     }
 
-    int numDrink = ((getCurrentUnixTime() * rand()) % 7);
+    int numDrink = abs((getCurrentUnixTime() * rand()) % 7);
     for (int i = 0; i < numDrink; i++)
     {
-        int num = ((getCurrentUnixTime() * rand()) % 3) + 1;
+        int num = abs((getCurrentUnixTime() * rand()) % 3) + 1;
         switch (num)
         {
         case 1:

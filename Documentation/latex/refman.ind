@@ -1,0 +1,431 @@
+\begin{theindex}
+
+  \item {$\sim$Beer}
+    \subitem {Beer}, \hyperpage{11}
+  \item {$\sim$Burger}
+    \subitem {Burger}, \hyperpage{15}
+  \item {$\sim$Chef}
+    \subitem {Chef}, \hyperpage{19}
+  \item {$\sim$Chips}
+    \subitem {Chips}, \hyperpage{21}
+  \item {$\sim$ComplexOrder}
+    \subitem {ComplexOrder}, \hyperpage{24}
+  \item {$\sim$Customer}
+    \subitem {Customer}, \hyperpage{27}
+  \item {$\sim$DrinkChef}
+    \subitem {DrinkChef}, \hyperpage{36}
+  \item {$\sim$Fish}
+    \subitem {Fish}, \hyperpage{39}
+  \item {$\sim$Floor}
+    \subitem {Floor}, \hyperpage{42}
+  \item {$\sim$HeadChef}
+    \subitem {HeadChef}, \hyperpage{45}
+  \item {$\sim$Interface}
+    \subitem {Interface}, \hyperpage{46}
+  \item {$\sim$MainChef}
+    \subitem {MainChef}, \hyperpage{56}
+  \item {$\sim$Restaurant}
+    \subitem {Restaurant}, \hyperpage{66}
+  \item {$\sim$Salad}
+    \subitem {Salad}, \hyperpage{69}
+  \item {$\sim$SideChef}
+    \subitem {SideChef}, \hyperpage{80}
+  \item {$\sim$Soda}
+    \subitem {Soda}, \hyperpage{82}
+  \item {$\sim$Steak}
+    \subitem {Steak}, \hyperpage{86}
+  \item {$\sim$Table}
+    \subitem {Table}, \hyperpage{88}
+  \item {$\sim$Waiter}
+    \subitem {Waiter}, \hyperpage{92}
+  \item {$\sim$Water}
+    \subitem {Water}, \hyperpage{96}
+
+  \indexspace
+
+  \item {acceptWaiter}
+    \subitem {Customer}, \hyperpage{27}
+  \item {addCustomer}
+    \subitem {Table}, \hyperpage{89}
+  \item {addToOrder}
+    \subitem {ComplexOrder}, \hyperpage{25}
+    \subitem {Order}, \hyperpage{62}
+  \item {appendToOrder}
+    \subitem {ComplexOrder}, \hyperpage{25}
+    \subitem {Order}, \hyperpage{62}
+
+  \indexspace
+
+  \item {Beer}, \hyperpage{9}
+    \subitem {$\sim$Beer}, \hyperpage{11}
+    \subitem {Beer}, \hyperpage{10}
+  \item {Beer.cpp}, \hyperpage{99}
+  \item {Beer.h}, \hyperpage{101}
+  \item {BeerBuilder}, \hyperpage{11}
+  \item {BeerBuilder.cpp}, \hyperpage{102}
+  \item {BeerBuilder.h}, \hyperpage{104}
+  \item {Burger}, \hyperpage{13}
+    \subitem {$\sim$Burger}, \hyperpage{15}
+    \subitem {Burger}, \hyperpage{14}
+  \item {Burger.cpp}, \hyperpage{105}
+  \item {Burger.h}, \hyperpage{107}
+  \item {BurgerBuilder}, \hyperpage{15}
+  \item {BurgerBuilder.cpp}, \hyperpage{108}
+  \item {BurgerBuilder.h}, \hyperpage{110}
+
+  \indexspace
+
+  \item {calculatePayment}
+    \subitem {Customer}, \hyperpage{27}
+  \item {calculatePrice}
+    \subitem {ComplexOrder}, \hyperpage{25}
+    \subitem {Item}, \hyperpage{49}
+    \subitem {Order}, \hyperpage{62}
+  \item {calculateTip}
+    \subitem {Neutral}, \hyperpage{60}
+    \subitem {Satisfied}, \hyperpage{73}
+    \subitem {Unhappy}, \hyperpage{90}
+  \item {changeRating}
+    \subitem {Customer}, \hyperpage{28}
+  \item {changeState}
+    \subitem {Neutral}, \hyperpage{60}
+    \subitem {Satisfied}, \hyperpage{73}
+    \subitem {Unhappy}, \hyperpage{91}
+  \item {Chef}, \hyperpage{17}
+    \subitem {$\sim$Chef}, \hyperpage{19}
+    \subitem {Chef}, \hyperpage{19}
+    \subitem {request}, \hyperpage{19}
+  \item {Chef.cpp}, \hyperpage{111}
+  \item {Chef.h}, \hyperpage{112}
+  \item {Chips}, \hyperpage{20}
+    \subitem {$\sim$Chips}, \hyperpage{21}
+    \subitem {Chips}, \hyperpage{21}
+  \item {Chips.cpp}, \hyperpage{114}
+  \item {Chips.h}, \hyperpage{116}
+  \item {ChipsBuilder}, \hyperpage{22}
+  \item {ChipsBuilder.cpp}, \hyperpage{117}
+  \item {ChipsBuilder.h}, \hyperpage{119}
+  \item {cleanUp}
+    \subitem {Restaurant}, \hyperpage{66}
+    \subitem {Table}, \hyperpage{89}
+    \subitem {Waiter}, \hyperpage{93}
+  \item {ComplexOrder}, \hyperpage{23}
+    \subitem {$\sim$ComplexOrder}, \hyperpage{24}
+    \subitem {addToOrder}, \hyperpage{25}
+    \subitem {appendToOrder}, \hyperpage{25}
+    \subitem {calculatePrice}, \hyperpage{25}
+    \subitem {ComplexOrder}, \hyperpage{24}
+  \item {ComplexOrder.cpp}, \hyperpage{120}
+  \item {ComplexOrder.h}, \hyperpage{121}
+  \item {Customer}, \hyperpage{26}
+    \subitem {$\sim$Customer}, \hyperpage{27}
+    \subitem {acceptWaiter}, \hyperpage{27}
+    \subitem {calculatePayment}, \hyperpage{27}
+    \subitem {changeRating}, \hyperpage{28}
+    \subitem {Customer}, \hyperpage{26}
+    \subitem {getOrder}, \hyperpage{28}
+    \subitem {getOrderRequest}, \hyperpage{28}
+    \subitem {getTable}, \hyperpage{29}
+    \subitem {getTimestamp}, \hyperpage{29}
+    \subitem {getWaiter}, \hyperpage{29}
+    \subitem {receiveOrder}, \hyperpage{30}
+  \item {Customer.cpp}, \hyperpage{123}
+  \item {Customer.h}, \hyperpage{124}
+  \item {cutFeta}
+    \subitem {SaladBuilder}, \hyperpage{72}
+
+  \indexspace
+
+  \item {Drink}, \hyperpage{31}
+    \subitem {Drink}, \hyperpage{32}
+  \item {Drink.cpp}, \hyperpage{125}
+  \item {Drink.h}, \hyperpage{126}
+  \item {DrinkBuilder}, \hyperpage{33}
+    \subitem {getItem}, \hyperpage{34}
+  \item {DrinkBuilder.cpp}, \hyperpage{127}
+  \item {DrinkBuilder.h}, \hyperpage{129}
+  \item {DrinkChef}, \hyperpage{35}
+    \subitem {$\sim$DrinkChef}, \hyperpage{36}
+    \subitem {DrinkChef}, \hyperpage{36}
+    \subitem {preparePart}, \hyperpage{36}
+  \item {DrinkChef.cpp}, \hyperpage{130}
+  \item {DrinkChef.h}, \hyperpage{131}
+
+  \indexspace
+
+  \item {Fish}, \hyperpage{37}
+    \subitem {$\sim$Fish}, \hyperpage{39}
+    \subitem {Fish}, \hyperpage{38}
+  \item {Fish.cpp}, \hyperpage{133}
+  \item {Fish.h}, \hyperpage{135}
+  \item {FishBuilder}, \hyperpage{39}
+  \item {FishBuilder.cpp}, \hyperpage{136}
+  \item {FishBuilder.h}, \hyperpage{138}
+  \item {Floor}, \hyperpage{41}
+    \subitem {$\sim$Floor}, \hyperpage{42}
+    \subitem {Floor}, \hyperpage{41}
+    \subitem {getNumTables}, \hyperpage{42}
+    \subitem {getTable}, \hyperpage{42}
+    \subitem {seatCustomer}, \hyperpage{43}
+    \subitem {setRestaurant}, \hyperpage{43}
+  \item {Floor.cpp}, \hyperpage{139}
+  \item {Floor.h}, \hyperpage{140}
+
+  \indexspace
+
+  \item {generateNumberOfCustomers}
+    \subitem {Interface}, \hyperpage{46}
+  \item {generateOrderString}
+    \subitem {Interface}, \hyperpage{46}
+  \item {getCurrentUnixTime}
+    \subitem {Interface}, \hyperpage{47}
+  \item {getCustomer}
+    \subitem {Table}, \hyperpage{89}
+    \subitem {Waiter}, \hyperpage{93}
+  \item {getItem}
+    \subitem {DrinkBuilder}, \hyperpage{34}
+    \subitem {MainBuilder}, \hyperpage{54}
+    \subitem {SideBuilder}, \hyperpage{77}
+  \item {getNumTables}
+    \subitem {Floor}, \hyperpage{42}
+  \item {getOrder}
+    \subitem {Customer}, \hyperpage{28}
+    \subitem {OrderContainer}, \hyperpage{64}
+  \item {getOrderRequest}
+    \subitem {Customer}, \hyperpage{28}
+  \item {getRating}
+    \subitem {Neutral}, \hyperpage{60}
+    \subitem {Satisfied}, \hyperpage{74}
+    \subitem {Unhappy}, \hyperpage{91}
+  \item {getRequestedOrder}
+    \subitem {OrderContainer}, \hyperpage{64}
+  \item {getRestaurant}
+    \subitem {Waiter}, \hyperpage{93}
+  \item {getTable}
+    \subitem {Customer}, \hyperpage{29}
+    \subitem {Floor}, \hyperpage{42}
+  \item {getTimestamp}
+    \subitem {Customer}, \hyperpage{29}
+  \item {getWaiter}
+    \subitem {Customer}, \hyperpage{29}
+    \subitem {Order}, \hyperpage{62}
+
+  \indexspace
+
+  \item {HeadChef}, \hyperpage{44}
+    \subitem {$\sim$HeadChef}, \hyperpage{45}
+    \subitem {HeadChef}, \hyperpage{45}
+  \item {HeadChef.cpp}, \hyperpage{142}
+  \item {HeadChef.h}, \hyperpage{144}
+
+  \indexspace
+
+  \item {initialise}
+    \subitem {Restaurant}, \hyperpage{66}
+  \item {Interface}, \hyperpage{45}
+    \subitem {$\sim$Interface}, \hyperpage{46}
+    \subitem {generateNumberOfCustomers}, \hyperpage{46}
+    \subitem {generateOrderString}, \hyperpage{46}
+    \subitem {getCurrentUnixTime}, \hyperpage{47}
+    \subitem {Interface}, \hyperpage{46}
+    \subitem {runCustomer}, \hyperpage{47}
+  \item {Interface.cpp}, \hyperpage{145}
+  \item {Interface.h}, \hyperpage{146}
+  \item {Item}, \hyperpage{48}
+    \subitem {calculatePrice}, \hyperpage{49}
+    \subitem {Item}, \hyperpage{49}
+  \item {Item.cpp}, \hyperpage{148}
+  \item {Item.h}, \hyperpage{149}
+  \item {ItemBuilder}, \hyperpage{50}
+  \item {ItemBuilder.h}, \hyperpage{150}
+
+  \indexspace
+
+  \item {Kitchen}, \hyperpage{51}
+    \subitem {Kitchen}, \hyperpage{51}
+    \subitem {makeNextOrder}, \hyperpage{51}
+    \subitem {receiveOrder}, \hyperpage{52}
+    \subitem {setRestaurant}, \hyperpage{52}
+  \item {Kitchen.cpp}, \hyperpage{151}
+  \item {Kitchen.h}, \hyperpage{152}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{156}
+  \item {main.cpp}, \hyperpage{154}
+    \subitem {main}, \hyperpage{156}
+  \item {MainBuilder}, \hyperpage{53}
+    \subitem {getItem}, \hyperpage{54}
+  \item {MainBuilder.cpp}, \hyperpage{156}
+  \item {MainBuilder.h}, \hyperpage{158}
+  \item {MainChef}, \hyperpage{55}
+    \subitem {$\sim$MainChef}, \hyperpage{56}
+    \subitem {MainChef}, \hyperpage{56}
+    \subitem {preparePart}, \hyperpage{56}
+  \item {MainChef.cpp}, \hyperpage{159}
+  \item {MainChef.h}, \hyperpage{160}
+  \item {MainMeal}, \hyperpage{57}
+    \subitem {MainMeal}, \hyperpage{58}
+  \item {MainMeal.cpp}, \hyperpage{162}
+  \item {MainMeal.h}, \hyperpage{163}
+  \item {makeNextOrder}
+    \subitem {Kitchen}, \hyperpage{51}
+
+  \indexspace
+
+  \item {Neutral}, \hyperpage{59}
+    \subitem {calculateTip}, \hyperpage{60}
+    \subitem {changeState}, \hyperpage{60}
+    \subitem {getRating}, \hyperpage{60}
+  \item {Neutral.cpp}, \hyperpage{165}
+  \item {Neutral.h}, \hyperpage{166}
+
+  \indexspace
+
+  \item {Order}, \hyperpage{61}
+    \subitem {addToOrder}, \hyperpage{62}
+    \subitem {appendToOrder}, \hyperpage{62}
+    \subitem {calculatePrice}, \hyperpage{62}
+    \subitem {getWaiter}, \hyperpage{62}
+    \subitem {Order}, \hyperpage{61}
+  \item {Order.cpp}, \hyperpage{167}
+  \item {Order.h}, \hyperpage{167}
+  \item {OrderContainer}, \hyperpage{63}
+    \subitem {getOrder}, \hyperpage{64}
+    \subitem {getRequestedOrder}, \hyperpage{64}
+    \subitem {OrderContainer}, \hyperpage{63}
+  \item {OrderContainer.cpp}, \hyperpage{169}
+  \item {OrderContainer.h}, \hyperpage{169}
+
+  \indexspace
+
+  \item {placeOrder}
+    \subitem {Restaurant}, \hyperpage{66}
+  \item {preparePart}
+    \subitem {DrinkChef}, \hyperpage{36}
+    \subitem {MainChef}, \hyperpage{56}
+    \subitem {SideChef}, \hyperpage{80}
+
+  \indexspace
+
+  \item {Rating}, \hyperpage{64}
+  \item {Rating.cpp}, \hyperpage{171}
+  \item {Rating.h}, \hyperpage{171}
+  \item {receiveOrder}
+    \subitem {Customer}, \hyperpage{30}
+    \subitem {Kitchen}, \hyperpage{52}
+  \item {request}
+    \subitem {Chef}, \hyperpage{19}
+  \item {Restaurant}, \hyperpage{65}
+    \subitem {$\sim$Restaurant}, \hyperpage{66}
+    \subitem {cleanUp}, \hyperpage{66}
+    \subitem {initialise}, \hyperpage{66}
+    \subitem {placeOrder}, \hyperpage{66}
+    \subitem {Restaurant}, \hyperpage{65}
+    \subitem {seatCustomer}, \hyperpage{67}
+  \item {Restaurant.cpp}, \hyperpage{172}
+  \item {Restaurant.h}, \hyperpage{173}
+  \item {runCustomer}
+    \subitem {Interface}, \hyperpage{47}
+
+  \indexspace
+
+  \item {Salad}, \hyperpage{68}
+    \subitem {$\sim$Salad}, \hyperpage{69}
+    \subitem {Salad}, \hyperpage{69}
+  \item {Salad.cpp}, \hyperpage{174}
+  \item {Salad.h}, \hyperpage{175}
+  \item {SaladBuilder}, \hyperpage{70}
+    \subitem {cutFeta}, \hyperpage{72}
+  \item {SaladBuilder.cpp}, \hyperpage{176}
+  \item {SaladBuilder.h}, \hyperpage{178}
+  \item {Satisfied}, \hyperpage{72}
+    \subitem {calculateTip}, \hyperpage{73}
+    \subitem {changeState}, \hyperpage{73}
+    \subitem {getRating}, \hyperpage{74}
+  \item {Satisfied.cpp}, \hyperpage{179}
+  \item {Satisfied.h}, \hyperpage{180}
+  \item {seatCustomer}
+    \subitem {Floor}, \hyperpage{43}
+    \subitem {Restaurant}, \hyperpage{67}
+  \item {serveCustomer}
+    \subitem {Waiter}, \hyperpage{93}
+  \item {setRestaurant}
+    \subitem {Floor}, \hyperpage{43}
+    \subitem {Kitchen}, \hyperpage{52}
+  \item {Side}, \hyperpage{74}
+    \subitem {Side}, \hyperpage{75}
+  \item {Side.cpp}, \hyperpage{182}
+  \item {Side.h}, \hyperpage{183}
+  \item {SideBuilder}, \hyperpage{76}
+    \subitem {getItem}, \hyperpage{77}
+  \item {SideBuilder.cpp}, \hyperpage{184}
+  \item {SideBuilder.h}, \hyperpage{186}
+  \item {SideChef}, \hyperpage{78}
+    \subitem {$\sim$SideChef}, \hyperpage{80}
+    \subitem {preparePart}, \hyperpage{80}
+    \subitem {SideChef}, \hyperpage{79}
+  \item {SideChef.cpp}, \hyperpage{187}
+  \item {SideChef.h}, \hyperpage{188}
+  \item {Soda}, \hyperpage{81}
+    \subitem {$\sim$Soda}, \hyperpage{82}
+    \subitem {Soda}, \hyperpage{82}
+  \item {Soda.cpp}, \hyperpage{190}
+  \item {Soda.h}, \hyperpage{192}
+  \item {SodaBuilder}, \hyperpage{83}
+  \item {SodaBuilder.cpp}, \hyperpage{193}
+  \item {SodaBuilder.h}, \hyperpage{195}
+  \item {Steak}, \hyperpage{84}
+    \subitem {$\sim$Steak}, \hyperpage{86}
+    \subitem {Steak}, \hyperpage{85}
+  \item {Steak.cpp}, \hyperpage{196}
+  \item {Steak.h}, \hyperpage{198}
+  \item {SteakBuilder}, \hyperpage{86}
+  \item {SteakBuilder.cpp}, \hyperpage{199}
+  \item {SteakBuilder.h}, \hyperpage{201}
+
+  \indexspace
+
+  \item {Table}, \hyperpage{88}
+    \subitem {$\sim$Table}, \hyperpage{88}
+    \subitem {addCustomer}, \hyperpage{89}
+    \subitem {cleanUp}, \hyperpage{89}
+    \subitem {getCustomer}, \hyperpage{89}
+    \subitem {Table}, \hyperpage{88}
+  \item {Table.cpp}, \hyperpage{202}
+  \item {Table.h}, \hyperpage{203}
+  \item {takeOrder}
+    \subitem {Waiter}, \hyperpage{94}
+
+  \indexspace
+
+  \item {Unhappy}, \hyperpage{90}
+    \subitem {calculateTip}, \hyperpage{90}
+    \subitem {changeState}, \hyperpage{91}
+    \subitem {getRating}, \hyperpage{91}
+  \item {Unhappy.cpp}, \hyperpage{204}
+  \item {Unhappy.h}, \hyperpage{205}
+
+  \indexspace
+
+  \item {Waiter}, \hyperpage{92}
+    \subitem {$\sim$Waiter}, \hyperpage{92}
+    \subitem {cleanUp}, \hyperpage{93}
+    \subitem {getCustomer}, \hyperpage{93}
+    \subitem {getRestaurant}, \hyperpage{93}
+    \subitem {serveCustomer}, \hyperpage{93}
+    \subitem {takeOrder}, \hyperpage{94}
+    \subitem {Waiter}, \hyperpage{92}
+  \item {Waiter.cpp}, \hyperpage{206}
+  \item {Waiter.h}, \hyperpage{207}
+  \item {Water}, \hyperpage{95}
+    \subitem {$\sim$Water}, \hyperpage{96}
+    \subitem {Water}, \hyperpage{96}
+  \item {Water.cpp}, \hyperpage{208}
+  \item {Water.h}, \hyperpage{209}
+  \item {WaterBuilder}, \hyperpage{97}
+  \item {WaterBuilder.cpp}, \hyperpage{210}
+  \item {WaterBuilder.h}, \hyperpage{212}
+
+\end{theindex}

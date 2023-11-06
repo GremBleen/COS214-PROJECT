@@ -1,7 +1,9 @@
 /**
  * @file Item.cpp
  * @brief Contains implementation for the Item class
- * @authors Sange Tshakumane (u21479748)
+ * @authors
+ * - Aidan Chapman (u22738917) 
+ * - Sange Tshakumane (u21479748)
 */
 
 #include "Item.h"
@@ -17,13 +19,19 @@ Item::Item(float price) : Order()
     this->price = price;
 }
 
+/**
+ * @fn Item::~Item()
+ * @brief Destructor of the Item class. Does nothing
+*/
 Item::~Item()
 {
     
 }
 
 /**
- * Function for getting the price of this item
+ * @fn float Item::calculatePrice()
+ * @brief Calculates the price of the item
+ * @return float the price of the item
 */
 float Item::calculatePrice() {
     return price;

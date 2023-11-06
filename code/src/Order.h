@@ -1,6 +1,9 @@
 /**
  * @file Order.h
  * @brief Contains declaration for the Order class
+ * 
+ * This file contains the declaration for the Order class. Order is an abstract class that is used to represent an order.
+ * 
  * @authors Aidan Chapman (u22738917)
 */
 
@@ -19,7 +22,7 @@ class Order{
         virtual float calculatePrice();
         Waiter* getWaiter();
     private:
-        Waiter* waiter;
+        Waiter* waiter; ///< The waiter who took the order
 };
 
 #endif

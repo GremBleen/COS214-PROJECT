@@ -1,7 +1,12 @@
 /**
  * @file ItemBuilder.h
  * @brief Contains declaration for the ItemBuilder class
- * @authors Aidan Chapman (u22738917)
+ * 
+ * Superclass for all ItemBuilders, which are used to build Items   
+ * 
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "Item.h"
@@ -17,7 +22,7 @@ class ItemBuilder
         virtual Item* getItem() = 0;
 
     protected:
-        Item* item;
+        Item* item; ///< Item object
 };
 
 #endif

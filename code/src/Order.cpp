@@ -7,57 +7,75 @@
 #include "Order.h"
 using namespace std;
 
-
 /**
- * Constructor of the order class
-*/
+ * @fn Order::Order()
+ * @brief Default constructor for the Order class.
+ * 
+ */
 Order::Order()
 {
 
 }
 
 /**
- * Constructor of the order class
-*/
+ * @fn Order::Order(Waiter* waiter)
+ * @brief Constructor for the Order class.
+ * 
+ * @param waiter The waiter that is attached to the order.
+ */
 Order::Order(Waiter* waiter) {
     this->waiter = waiter;
 }
 
 /**
- * Destructor of the order class
-*/
+ * @fn Order::~Order()
+ * @brief Destructor for the Order class.
+ * 
+ */
 Order::~Order()
 {
     
 }
 
 /**
- * Function for adding an item to the order
-*/
+ * @fn Order::addToOrder(Order* item)
+ * @brief Adds an Order object to the order.
+ * 
+ * @param item An Order pointer representing the Order object to be added to the order.
+ */
 void Order::addToOrder(Order* item)
 {
 
 }
 
 /**
- * Function for appending a complexOrder object to the order
-*/
+ * @fn Order::appendToOrder(Order* order)
+ * @brief Appends an Order object to the order.
+ * 
+ * @param order An Order pointer representing the Order object to be appended to the order.
+ */
 void Order::appendToOrder(Order* order)
 {
 
 }
 
 /**
- * Function for calculating the price
-*/
+ * @fn Order::calculatePrice()
+ * @brief Calculates the price of the order.
+ * 
+ * @return float The price of the order.
+ */
 float Order::calculatePrice()
 {
     return 0.0F;
 }
 
 /**
- * Function for getting the waiter attached to that specific order
-*/
+ * @fn Order::getWaiter()
+ * @brief Gets the waiter that is attached to the order.
+ * 
+ * @return Waiter* A pointer to the waiter that is attached to the order.
+ */
 Waiter* Order::getWaiter() {
     return waiter;
 }
