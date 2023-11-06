@@ -1,7 +1,9 @@
 /**
  * @file Neutral.h
  * @brief Contains declaration for the Neutral class
- * @authors Aidan Chapman (u22738917), Sange Tshakumane (u21479748)
+ * @authors
+ * - Aidan Chapman (u22738917) 
+ * - Sange Tshakumane (u21479748)
 */
 
 #include "Rating.h"

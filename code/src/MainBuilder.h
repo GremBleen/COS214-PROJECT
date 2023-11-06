@@ -1,7 +1,10 @@
 /**
  * @file MainBuilder.h
  * @brief Contains declaration for the MainBuilder class
- * @authors Aidan Chapman (u22738917)
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
+ * - Douglas Porter (u21797545)
 */
 
 #include "ItemBuilder.h"
@@ -23,7 +26,7 @@ class MainBuilder : public ItemBuilder
         virtual void plateMain() = 0;
 
     protected:
-        MainMeal* main;
+        MainMeal* main; ///< MainMeal object
 };
 
 #endif

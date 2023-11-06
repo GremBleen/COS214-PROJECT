@@ -19,7 +19,7 @@ class Order{
         virtual float calculatePrice();
         Waiter* getWaiter();
     private:
-        Waiter* waiter;
+        Waiter* waiter; ///< The waiter who took the order
 };
 
 #endif

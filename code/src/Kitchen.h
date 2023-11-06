@@ -28,9 +28,9 @@ class Kitchen
         void setRestaurant(Restaurant* restaurant);
 
     private:
-        Restaurant* restaurant;
-        Chef* chef;
-        vector<OrderContainer*> orderQueue;
+        Restaurant* restaurant; ///< Restaurant object
+        Chef* chef; ///< Chef object
+        vector<OrderContainer*> orderQueue; ///< Vector of OrderContainer objects
 };
 
 #endif

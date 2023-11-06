@@ -1,13 +1,17 @@
 /**
  * @file MainMeal.cpp
  * @brief Contains implementation for the MainMeal class
- * @authors Sange Tshakumane (u21479748), Aidan Chapman (u22738917)
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Sange Tshakumane (u21479748)
 */
 
 #include "MainMeal.h"
 
 /**
- * Constructor for the MainMeal class
+ * @fn MainMeal::MainMeal(float price)
+ * @brief Constructor for the MainMeal class
+ * @param price The price of the MainMeal
 */
 MainMeal::MainMeal(float price) : Item(price)
 {
@@ -15,7 +19,8 @@ MainMeal::MainMeal(float price) : Item(price)
 }
 
 /**
- * Destructor for the MainMeal class
+ * @fn MainMeal::~MainMeal()
+ * @brief Destructor for the MainMeal class
 */
 MainMeal::~MainMeal()
 {
