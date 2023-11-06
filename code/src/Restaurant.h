@@ -31,9 +31,9 @@ class Restaurant{
         void initialise();
         void cleanUp(Customer* customer);
     private:
-        Floor* floor;
-        Kitchen* kitchen;
-        vector<Waiter*> waiters;
+        Floor* floor; /** < A Floor pointer*/
+        Kitchen* kitchen; /** < A Kitchen Pointer */
+        vector<Waiter*> waiters; /** < A vector of Waiter pointers */
 };
 
 #endif

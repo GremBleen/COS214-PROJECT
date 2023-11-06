@@ -28,6 +28,11 @@ Restaurant::Restaurant(int numTables)
 */
 Restaurant::~Restaurant()
 {
+    for(int i = 0; i < floor->getNumTables(); i++)
+    {
+        delete this->waiters.at(i);
+    }
+
     delete floor;
     delete kitchen;
 }

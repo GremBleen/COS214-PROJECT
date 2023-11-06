@@ -54,6 +54,7 @@ Chef::~Chef()
     if(this->nextChef != nullptr)
     {
         delete this->nextChef;
+        this->nextChef = nullptr;
     }
 }
 
