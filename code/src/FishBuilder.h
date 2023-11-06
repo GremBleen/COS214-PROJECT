@@ -33,7 +33,7 @@ public:
     void cookFish();
     void plateFish();
 
-protected:
+private:
     Fish *fish; ///< Fish object
 };
 
