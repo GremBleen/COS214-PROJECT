@@ -22,7 +22,7 @@ The implementation makes use of the following design patterns:
 * Composite
 * Adapter
 
-The UML class diagram with the outlines of these patterns can be found along with the Activity, State, Sequence and Communication Diagrams in the **Diagrams.pdf** file.
+The UML class diagram with the outlines of these patterns can be found along with the Activity, State, Sequence and Communication Diagrams in the **COS214_Project_UML_DIAGRAMS.pdf** file in the **VPP_Diagrams** folder.
 Doxygen documentation can be found in the **Documentation** folder. To view the Doxygen Documentation, go to **/Documentation/html/index.html**
 
 #### Instructions to run:
