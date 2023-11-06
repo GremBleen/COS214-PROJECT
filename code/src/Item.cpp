@@ -17,6 +17,11 @@ Item::Item(float price) : Order()
     this->price = price;
 }
 
+Item::~Item()
+{
+    
+}
+
 /**
  * Function for getting the price of this item
 */

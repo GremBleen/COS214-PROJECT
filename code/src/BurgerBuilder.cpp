@@ -9,17 +9,17 @@
 
 BurgerBuilder::BurgerBuilder()
 {
-    this->burger = new Burger();
-    this->main = burger;
 }
 
 BurgerBuilder::~BurgerBuilder()
 {
-    delete burger;
 }
 
 void BurgerBuilder::prepareMeat()
 {
+    this->burger = new Burger();
+    this->main = burger;
+
     butterBun();
     prepareVegetables();
     this->main->preparedMain = true;

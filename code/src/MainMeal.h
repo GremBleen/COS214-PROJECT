@@ -13,8 +13,7 @@ class MainMeal : public Item
 {
 public:
     MainMeal(float price);
-
-    virtual ~MainMeal();
+    ~MainMeal();
 
     bool preparedMain = false;
     bool seasonedMain = false;

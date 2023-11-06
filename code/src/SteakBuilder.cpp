@@ -7,56 +7,52 @@
 #include "SteakBuilder.h"
 #include "Steak.h"
 
-SteakBuilder::SteakBuilder()
-{
+SteakBuilder::SteakBuilder() {
+
+}
+
+SteakBuilder::~SteakBuilder() {
+
+}
+
+void SteakBuilder::prepareMeat() {
     this->steak = new Steak();
     this->main = steak;
-}
 
-SteakBuilder::~SteakBuilder()
-{
-    delete steak;
-}
-
-void SteakBuilder::prepareMeat()
-{
     tenderiseSteak();
     this->main->preparedMain = true;
 }
 
-void SteakBuilder::seasonMeat()
-{
+void SteakBuilder::seasonMeat() {
     seasonSteak();
     this->main->seasonedMain = true;
 }
 
-void SteakBuilder::cookMeat()
-{
+void SteakBuilder::cookMeat() {
     cookSteak();
     this->main->cookedMain = true;
 }
 
-void SteakBuilder::plateMain()
-{
+void SteakBuilder::plateMain() {
     plateSteak();
-    this->steak->platedSteak = true;
+    this->main->platedMain = true;
 
     item = main;
 }
 
-void SteakBuilder::tenderiseSteak()
-{
+void SteakBuilder::tenderiseSteak() {
     this->steak->tenderisedSteak = true;
 }
 
-
-void SteakBuilder::seasonSteak()
-{
+void SteakBuilder::seasonSteak() {
     this->steak->seasonedSteak = true;
 }
 
-void SteakBuilder::cookSteak()
-{
+void SteakBuilder::cookSteak() {
     this->steak->cookedSteak = true;
+}
+
+void SteakBuilder::plateSteak() {
+    this->steak->platedSteak = true;
 }
 

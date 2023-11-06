@@ -12,8 +12,6 @@
 class ItemBuilder
 {
     public:
-        ItemBuilder();
-        virtual ~ItemBuilder();
         virtual void prepareIngredients() = 0;
         virtual void assembleItem() = 0;
         virtual Item* getItem() = 0;

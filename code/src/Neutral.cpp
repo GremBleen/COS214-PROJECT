@@ -9,6 +9,14 @@
 #include "Customer.h"
 using namespace std;
 
+Neutral::Neutral() : Rating() {
+
+}
+
+Neutral::~Neutral() {
+
+}
+
 /**
  * Function for changing the state of the passed in customer's rating to neutral
 */
@@ -25,7 +33,7 @@ string Neutral::getRating() {
 
 /**
  * Function fo calculating the tip which will be added to the bill.
- * 
+ *
  * Neutral customer gives 10% tip, satisfied customer gives 25% tip and unhappy customer doesn't give a tip.
 */
 float Neutral::calculateTip() {
