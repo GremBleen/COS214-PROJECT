@@ -105,11 +105,11 @@ float Customer::calculatePayment()
 {
     int diff = Interface::getCurrentUnixTime() - getTimestamp();
 
-    if(diff < 10)
+    if(diff < 30)
     {
         
     }
-    else if(diff < 20)
+    else if(diff < 60)
     {
         changeRating(new Neutral());
     }
