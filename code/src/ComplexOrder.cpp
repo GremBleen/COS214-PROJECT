@@ -107,7 +107,10 @@ float ComplexOrder::calculatePrice() {
         total = this->nextOrderItem->calculatePrice();
     }
 
-    total += this->item->calculatePrice();
+    if(this->item != nullptr)
+    {
+        total += this->item->calculatePrice();
+    }
 
     return total;
 }
