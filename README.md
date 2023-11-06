@@ -8,7 +8,7 @@ Each customer then places an order randomly which consists of main meals such as
 The orders are then sent to the kitchen where they are prepared.
 Once the order is ready, it is sent to the customer, who then pays for the order and leaves.
 This payment consists of a tip, which is determined by the time it takes for the order to be prepared. If the customer has to wait longer, the tip is lower.
-The preparation of the meals take variable time, which causes delays, resulting in the different attitudes of the customer when it comes time to tip.
+The preparation of the meals take time, which causes delays, resulting in the different attitudes of the customer when it comes time to tip.
 
 The implementation makes use of the following design patterns:
 * Facade

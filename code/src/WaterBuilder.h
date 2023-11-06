@@ -1,13 +1,13 @@
 /**
  * @file WaterBuilder.h
  * @brief Contains declaration for the WaterBuilder class
- * 
+ *
  * This file contains the declarations for the functions to build a Water object
  * using the Builder design pattern.
  * WaterBuilder is a concrete builder class that inherits from the DrinkBuilder class.
  * It is responsible for building a Water object using the template method pattern.
- * 
- * @authors 
+ *
+ * @authors
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)
 */
