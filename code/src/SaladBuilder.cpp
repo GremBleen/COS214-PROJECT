@@ -7,6 +7,8 @@
  */
 #include "SaladBuilder.h"
 #include <unistd.h>
+#include <cstdlib>
+#include <iostream>
 
 /**
  * @fn SaladBuilder::SaladBuilder()x
@@ -30,6 +32,7 @@ SaladBuilder::~SaladBuilder() {
  *
  */
 void SaladBuilder::washVegetables() {
+    cout << "Salad Order" <<endl;
     this->salad = new Salad();
     this->side = salad;
 
@@ -78,6 +81,7 @@ void SaladBuilder::plateSide() {
  *
  */
 void SaladBuilder::washLettuce() {
+    cout << "\tWashing Lettuce..."<<endl;
     salad->washedLettuce = true;
     sleep(1);
 }
@@ -88,6 +92,7 @@ void SaladBuilder::washLettuce() {
  *
  */
 void SaladBuilder::cutLettuce() {
+    cout << "\tCutting Lettuce..."<<endl;
     salad->cutLettuce = true;
     sleep(1);
 }
@@ -98,6 +103,7 @@ void SaladBuilder::cutLettuce() {
  *
  */
 void SaladBuilder::washTomato() {
+    cout << "\tWashing Tomato..."<<endl;
     salad->washedTomato = true;
     sleep(1);
 }
@@ -108,6 +114,7 @@ void SaladBuilder::washTomato() {
  *
  */
 void SaladBuilder::cutTomato() {
+    cout << "\tCutting Tomato..."<<endl;
     salad->cutTomato = true;
     sleep(1);
 }
@@ -118,6 +125,7 @@ void SaladBuilder::cutTomato() {
  *
  */
 void SaladBuilder::washCucumber() {
+    cout << "\tWashing Cucumber..."<<endl;
     salad->washedCucumber = true;
     sleep(1);
 }
@@ -128,6 +136,7 @@ void SaladBuilder::washCucumber() {
  *
  */
 void SaladBuilder::cutCucumber() {
+    cout <<"\tCutting Cucumber..."<<endl;
     salad->cutCucumber = true;
     sleep(1);
 }
@@ -138,6 +147,7 @@ void SaladBuilder::cutCucumber() {
  *
  */
 void SaladBuilder::cutFeta() {
+    cout << "\tCutting Feta..."<<endl;
     salad->cutFeta = true;
     sleep(1);
 }
@@ -150,4 +160,5 @@ void SaladBuilder::cutFeta() {
 void SaladBuilder::assembleSalad() {
     salad->assembledSalad = true;
     sleep(1);
+    cout<< "Salad Ready" << endl;
 }

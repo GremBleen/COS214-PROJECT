@@ -12,6 +12,8 @@
 
 #include "ChipsBuilder.h"
 #include <unistd.h>
+#include <cstdlib>
+#include <iostream>
 
 /**
  * @fn ChipsBuilder::ChipsBuilder()
@@ -37,6 +39,7 @@ ChipsBuilder::~ChipsBuilder() {
  * 
  */
 void ChipsBuilder::washVegetables() {
+    cout << "Chips order" << endl;
     this->chips = new Chips();
     this->side = chips;
 
@@ -73,6 +76,7 @@ void ChipsBuilder::assembleSide() {
 void ChipsBuilder::plateSide() {
     side->platedSide = true;
     item = side;
+    cout << "Chips Ready" << endl;
 }
 
 /**
@@ -81,6 +85,7 @@ void ChipsBuilder::plateSide() {
  * 
  */
 void ChipsBuilder::washPotato() {
+    cout << "\tWashing the potatoes..." << endl;
     chips->washedPotatoes = true;
     sleep(1);
 }
@@ -91,6 +96,7 @@ void ChipsBuilder::washPotato() {
  * 
  */
 void ChipsBuilder::cutPotato() {
+    cout << "\tCutting the potatoes..."<<endl;
     chips->cutPotatoes = true;
     sleep(2);
 }
@@ -101,6 +107,7 @@ void ChipsBuilder::cutPotato() {
  * 
  */
 void ChipsBuilder::fryPotato() {
+    cout <<"\tFrying the potatoes..."<<endl;
     chips->friedPotatoes = true;
     sleep(3);
 }
@@ -111,6 +118,7 @@ void ChipsBuilder::fryPotato() {
  * 
  */
 void ChipsBuilder::seasonChips() {
+    cout << "\tSeasoning the chips..."<<endl;
     chips->seasonedChips = true;
     sleep(1);
 }

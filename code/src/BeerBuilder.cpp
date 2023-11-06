@@ -11,6 +11,8 @@
  */
 #include "BeerBuilder.h"
 #include <unistd.h>
+#include <cstdlib>
+#include <iostream>
 
 /**
  * @fn BeerBuilder::BeerBuilder()
@@ -33,6 +35,7 @@ BeerBuilder::~BeerBuilder() {
  * @brief prepare the glass
  */
 void BeerBuilder::getGlass() {
+    cout << "Beer Order" << endl;
     beer = new Beer();
     drink = beer;
 
@@ -68,6 +71,7 @@ void BeerBuilder::assembleDrink() {
  * 
  */
 void BeerBuilder::getBeerGlass() {
+    cout << "\tBeer Glass has been acquired..." << endl;
     beer->gotBeerGlass = true;
     sleep(1);
 }
@@ -78,6 +82,7 @@ void BeerBuilder::getBeerGlass() {
  * 
  */
 void BeerBuilder::pourBeer() {
+    cout << "\tPouring Beer..." << endl;
     beer->pouredBeer = true;
     sleep(2);
 }
@@ -88,6 +93,8 @@ void BeerBuilder::pourBeer() {
  * 
  */
 void BeerBuilder::assembleBeer() {
+    cout << "Beer Ready" << endl;
     beer->assembledBeer = true;
     sleep(1);
+    cout << "Beer Ready" << endl;
 }
