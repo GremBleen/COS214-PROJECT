@@ -5,7 +5,7 @@
   \item {$\sim$Burger}
     \subitem {Burger}, \hyperpage{15}
   \item {$\sim$Chef}
-    \subitem {Chef}, \hyperpage{19}
+    \subitem {Chef}, \hyperpage{18}
   \item {$\sim$Chips}
     \subitem {Chips}, \hyperpage{21}
   \item {$\sim$ComplexOrder}
@@ -92,8 +92,8 @@
     \subitem {Satisfied}, \hyperpage{73}
     \subitem {Unhappy}, \hyperpage{91}
   \item {Chef}, \hyperpage{17}
-    \subitem {$\sim$Chef}, \hyperpage{19}
-    \subitem {Chef}, \hyperpage{19}
+    \subitem {$\sim$Chef}, \hyperpage{18}
+    \subitem {Chef}, \hyperpage{18}
     \subitem {request}, \hyperpage{19}
   \item {Chef.cpp}, \hyperpage{111}
   \item {Chef.h}, \hyperpage{112}
@@ -131,8 +131,6 @@
     \subitem {receiveOrder}, \hyperpage{30}
   \item {Customer.cpp}, \hyperpage{123}
   \item {Customer.h}, \hyperpage{124}
-  \item {cutFeta}
-    \subitem {SaladBuilder}, \hyperpage{72}
 
   \indexspace
 
@@ -195,7 +193,7 @@
     \subitem {Customer}, \hyperpage{28}
   \item {getRating}
     \subitem {Neutral}, \hyperpage{60}
-    \subitem {Satisfied}, \hyperpage{74}
+    \subitem {Satisfied}, \hyperpage{73}
     \subitem {Unhappy}, \hyperpage{91}
   \item {getRequestedOrder}
     \subitem {OrderContainer}, \hyperpage{64}
@@ -252,23 +250,23 @@
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{156}
+    \subitem {main.cpp}, \hyperpage{155}
   \item {main.cpp}, \hyperpage{154}
-    \subitem {main}, \hyperpage{156}
+    \subitem {main}, \hyperpage{155}
   \item {MainBuilder}, \hyperpage{53}
     \subitem {getItem}, \hyperpage{54}
   \item {MainBuilder.cpp}, \hyperpage{156}
-  \item {MainBuilder.h}, \hyperpage{158}
+  \item {MainBuilder.h}, \hyperpage{157}
   \item {MainChef}, \hyperpage{55}
     \subitem {$\sim$MainChef}, \hyperpage{56}
     \subitem {MainChef}, \hyperpage{56}
     \subitem {preparePart}, \hyperpage{56}
-  \item {MainChef.cpp}, \hyperpage{159}
-  \item {MainChef.h}, \hyperpage{160}
+  \item {MainChef.cpp}, \hyperpage{158}
+  \item {MainChef.h}, \hyperpage{159}
   \item {MainMeal}, \hyperpage{57}
     \subitem {MainMeal}, \hyperpage{58}
-  \item {MainMeal.cpp}, \hyperpage{162}
-  \item {MainMeal.h}, \hyperpage{163}
+  \item {MainMeal.cpp}, \hyperpage{161}
+  \item {MainMeal.h}, \hyperpage{162}
   \item {makeNextOrder}
     \subitem {Kitchen}, \hyperpage{51}
 
@@ -278,8 +276,8 @@
     \subitem {calculateTip}, \hyperpage{60}
     \subitem {changeState}, \hyperpage{60}
     \subitem {getRating}, \hyperpage{60}
-  \item {Neutral.cpp}, \hyperpage{165}
-  \item {Neutral.h}, \hyperpage{166}
+  \item {Neutral.cpp}, \hyperpage{164}
+  \item {Neutral.h}, \hyperpage{165}
 
   \indexspace
 
@@ -289,14 +287,14 @@
     \subitem {calculatePrice}, \hyperpage{62}
     \subitem {getWaiter}, \hyperpage{62}
     \subitem {Order}, \hyperpage{61}
-  \item {Order.cpp}, \hyperpage{167}
-  \item {Order.h}, \hyperpage{167}
+  \item {Order.cpp}, \hyperpage{166}
+  \item {Order.h}, \hyperpage{166}
   \item {OrderContainer}, \hyperpage{63}
     \subitem {getOrder}, \hyperpage{64}
     \subitem {getRequestedOrder}, \hyperpage{64}
     \subitem {OrderContainer}, \hyperpage{63}
-  \item {OrderContainer.cpp}, \hyperpage{169}
-  \item {OrderContainer.h}, \hyperpage{169}
+  \item {OrderContainer.cpp}, \hyperpage{168}
+  \item {OrderContainer.h}, \hyperpage{168}
 
   \indexspace
 
@@ -310,8 +308,8 @@
   \indexspace
 
   \item {Rating}, \hyperpage{64}
-  \item {Rating.cpp}, \hyperpage{171}
-  \item {Rating.h}, \hyperpage{171}
+  \item {Rating.cpp}, \hyperpage{170}
+  \item {Rating.h}, \hyperpage{170}
   \item {receiveOrder}
     \subitem {Customer}, \hyperpage{30}
     \subitem {Kitchen}, \hyperpage{52}
@@ -324,8 +322,8 @@
     \subitem {placeOrder}, \hyperpage{66}
     \subitem {Restaurant}, \hyperpage{65}
     \subitem {seatCustomer}, \hyperpage{67}
-  \item {Restaurant.cpp}, \hyperpage{172}
-  \item {Restaurant.h}, \hyperpage{173}
+  \item {Restaurant.cpp}, \hyperpage{171}
+  \item {Restaurant.h}, \hyperpage{172}
   \item {runCustomer}
     \subitem {Interface}, \hyperpage{47}
 
@@ -334,18 +332,17 @@
   \item {Salad}, \hyperpage{68}
     \subitem {$\sim$Salad}, \hyperpage{69}
     \subitem {Salad}, \hyperpage{69}
-  \item {Salad.cpp}, \hyperpage{174}
-  \item {Salad.h}, \hyperpage{175}
+  \item {Salad.cpp}, \hyperpage{173}
+  \item {Salad.h}, \hyperpage{174}
   \item {SaladBuilder}, \hyperpage{70}
-    \subitem {cutFeta}, \hyperpage{72}
-  \item {SaladBuilder.cpp}, \hyperpage{176}
-  \item {SaladBuilder.h}, \hyperpage{178}
+  \item {SaladBuilder.cpp}, \hyperpage{175}
+  \item {SaladBuilder.h}, \hyperpage{177}
   \item {Satisfied}, \hyperpage{72}
     \subitem {calculateTip}, \hyperpage{73}
     \subitem {changeState}, \hyperpage{73}
-    \subitem {getRating}, \hyperpage{74}
-  \item {Satisfied.cpp}, \hyperpage{179}
-  \item {Satisfied.h}, \hyperpage{180}
+    \subitem {getRating}, \hyperpage{73}
+  \item {Satisfied.cpp}, \hyperpage{178}
+  \item {Satisfied.h}, \hyperpage{179}
   \item {seatCustomer}
     \subitem {Floor}, \hyperpage{43}
     \subitem {Restaurant}, \hyperpage{67}
@@ -356,34 +353,34 @@
     \subitem {Kitchen}, \hyperpage{52}
   \item {Side}, \hyperpage{74}
     \subitem {Side}, \hyperpage{75}
-  \item {Side.cpp}, \hyperpage{182}
-  \item {Side.h}, \hyperpage{183}
+  \item {Side.cpp}, \hyperpage{181}
+  \item {Side.h}, \hyperpage{182}
   \item {SideBuilder}, \hyperpage{76}
     \subitem {getItem}, \hyperpage{77}
-  \item {SideBuilder.cpp}, \hyperpage{184}
-  \item {SideBuilder.h}, \hyperpage{186}
+  \item {SideBuilder.cpp}, \hyperpage{183}
+  \item {SideBuilder.h}, \hyperpage{185}
   \item {SideChef}, \hyperpage{78}
     \subitem {$\sim$SideChef}, \hyperpage{80}
     \subitem {preparePart}, \hyperpage{80}
     \subitem {SideChef}, \hyperpage{79}
-  \item {SideChef.cpp}, \hyperpage{187}
-  \item {SideChef.h}, \hyperpage{188}
+  \item {SideChef.cpp}, \hyperpage{186}
+  \item {SideChef.h}, \hyperpage{187}
   \item {Soda}, \hyperpage{81}
     \subitem {$\sim$Soda}, \hyperpage{82}
     \subitem {Soda}, \hyperpage{82}
-  \item {Soda.cpp}, \hyperpage{190}
-  \item {Soda.h}, \hyperpage{192}
+  \item {Soda.cpp}, \hyperpage{189}
+  \item {Soda.h}, \hyperpage{191}
   \item {SodaBuilder}, \hyperpage{83}
-  \item {SodaBuilder.cpp}, \hyperpage{193}
-  \item {SodaBuilder.h}, \hyperpage{195}
+  \item {SodaBuilder.cpp}, \hyperpage{192}
+  \item {SodaBuilder.h}, \hyperpage{194}
   \item {Steak}, \hyperpage{84}
     \subitem {$\sim$Steak}, \hyperpage{86}
     \subitem {Steak}, \hyperpage{85}
-  \item {Steak.cpp}, \hyperpage{196}
-  \item {Steak.h}, \hyperpage{198}
+  \item {Steak.cpp}, \hyperpage{195}
+  \item {Steak.h}, \hyperpage{197}
   \item {SteakBuilder}, \hyperpage{86}
-  \item {SteakBuilder.cpp}, \hyperpage{199}
-  \item {SteakBuilder.h}, \hyperpage{201}
+  \item {SteakBuilder.cpp}, \hyperpage{198}
+  \item {SteakBuilder.h}, \hyperpage{200}
 
   \indexspace
 
@@ -393,8 +390,8 @@
     \subitem {cleanUp}, \hyperpage{89}
     \subitem {getCustomer}, \hyperpage{89}
     \subitem {Table}, \hyperpage{88}
-  \item {Table.cpp}, \hyperpage{202}
-  \item {Table.h}, \hyperpage{203}
+  \item {Table.cpp}, \hyperpage{201}
+  \item {Table.h}, \hyperpage{202}
   \item {takeOrder}
     \subitem {Waiter}, \hyperpage{94}
 
@@ -404,8 +401,8 @@
     \subitem {calculateTip}, \hyperpage{90}
     \subitem {changeState}, \hyperpage{91}
     \subitem {getRating}, \hyperpage{91}
-  \item {Unhappy.cpp}, \hyperpage{204}
-  \item {Unhappy.h}, \hyperpage{205}
+  \item {Unhappy.cpp}, \hyperpage{203}
+  \item {Unhappy.h}, \hyperpage{204}
 
   \indexspace
 
@@ -417,12 +414,12 @@
     \subitem {serveCustomer}, \hyperpage{93}
     \subitem {takeOrder}, \hyperpage{94}
     \subitem {Waiter}, \hyperpage{92}
-  \item {Waiter.cpp}, \hyperpage{206}
-  \item {Waiter.h}, \hyperpage{207}
+  \item {Waiter.cpp}, \hyperpage{205}
+  \item {Waiter.h}, \hyperpage{206}
   \item {Water}, \hyperpage{95}
     \subitem {$\sim$Water}, \hyperpage{96}
     \subitem {Water}, \hyperpage{96}
-  \item {Water.cpp}, \hyperpage{208}
+  \item {Water.cpp}, \hyperpage{207}
   \item {Water.h}, \hyperpage{209}
   \item {WaterBuilder}, \hyperpage{97}
   \item {WaterBuilder.cpp}, \hyperpage{210}

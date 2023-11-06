@@ -6,6 +6,7 @@
  * - Graeme Blain (u22625462)
  */
 #include "SodaBuilder.h"
+#include <unistd.h>
 
 /**
  * @fn SodaBuilder::SodaBuilder() 
@@ -59,6 +60,7 @@ void SodaBuilder::assembleDrink() {
  */
 void SodaBuilder::getSodaGlass() {
     soda->gotSodaGlass = true;
+    sleep(1);
 }
 
 /**
@@ -67,6 +69,7 @@ void SodaBuilder::getSodaGlass() {
  */
 void SodaBuilder::pourSoda() {
     soda->pouredSoda = true;
+    sleep(1);
 }
 
 /**
@@ -75,5 +78,6 @@ void SodaBuilder::pourSoda() {
  */
 void SodaBuilder::assembleSoda() {
     soda->assembledSoda = true;
+    sleep(1);
 }
 

@@ -1,14 +1,28 @@
 <map id="main.cpp" name="main.cpp">
-<area shape="rect" id="node1" title="This is the file that the user will interact with." alt="" coords="107,5,190,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="54,80,134,107"/>
-<area shape="rect" id="node3" href="$Interface_8h.html" title="Contains declaration for the Interface class." alt="" coords="159,80,251,107"/>
-<area shape="rect" id="node4" href="$Customer_8h.html" title="Contains declaration for the Customer class." alt="" coords="85,155,181,181"/>
-<area shape="rect" id="node11" href="$OrderContainer_8h.html" title="The OrderContainer class represents a container for an Order object and its corresponding requested o..." alt="" coords="212,155,344,181"/>
-<area shape="rect" id="node5" href="$Rating_8h.html" title="Contains declaration for the Rating class." alt="" coords="5,229,81,256"/>
-<area shape="rect" id="node6" href="$Waiter_8h.html" title="Contains declaration for the Waiter class." alt="" coords="165,304,239,331"/>
-<area shape="rect" id="node10" href="$Table_8h.html" title="Contains declaration for the Table class." alt="" coords="157,229,225,256"/>
-<area shape="rect" id="node7" href="$Restaurant_8h.html" title="Contains declaration for the Restaurant class." alt="" coords="149,379,255,405"/>
-<area shape="rect" id="node8" title=" " alt="" coords="130,453,189,480"/>
-<area shape="rect" id="node9" title=" " alt="" coords="213,453,276,480"/>
-<area shape="rect" id="node12" href="$Order_8h.html" title="Contains declaration for the Order class." alt="" coords="250,229,319,256"/>
+<area shape="rect" id="node1" title="This is the file that the user will interact with." alt="" coords="467,5,549,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,85,181"/>
+<area shape="rect" id="node3" href="$Interface_8h.html" title="Contains declaration for the Interface class." alt="" coords="955,229,1047,256"/>
+<area shape="rect" id="node13" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="447,80,569,107"/>
+<area shape="rect" id="node4" href="$Customer_8h.html" title="Contains declaration for the Customer class." alt="" coords="1065,304,1161,331"/>
+<area shape="rect" id="node11" href="$OrderContainer_8h.html" title="The OrderContainer class represents a container for an Order object and its corresponding requested o..." alt="" coords="909,304,1041,331"/>
+<area shape="rect" id="node5" href="$Rating_8h.html" title="Contains declaration for the Rating class." alt="" coords="1123,379,1199,405"/>
+<area shape="rect" id="node6" href="$Waiter_8h.html" title="Contains declaration for the Waiter class." alt="" coords="881,453,956,480"/>
+<area shape="rect" id="node10" href="$Table_8h.html" title="Contains declaration for the Table class." alt="" coords="1031,379,1099,405"/>
+<area shape="rect" id="node7" href="$Restaurant_8h.html" title="Contains declaration for the Restaurant class." alt="" coords="866,528,971,555"/>
+<area shape="rect" id="node8" title=" " alt="" coords="847,603,905,629"/>
+<area shape="rect" id="node9" title=" " alt="" coords="930,603,993,629"/>
+<area shape="rect" id="node12" href="$Order_8h.html" title="Contains declaration for the Order class." alt="" coords="848,379,917,405"/>
+<area shape="rect" id="node14" href="$Salad_8h.html" title="Contains declaration for the Salad class." alt="" coords="714,155,785,181"/>
+<area shape="rect" id="node16" href="$Item_8h.html" title="Contains declaration for the Item class." alt="" coords="644,304,708,331"/>
+<area shape="rect" id="node17" href="$Chips_8h.html" title="Contains declaration for the Chips class." alt="" coords="809,155,879,181"/>
+<area shape="rect" id="node18" href="$Soda_8h.html" title="Contains declaration for the Soda class." alt="" coords="292,155,359,181"/>
+<area shape="rect" id="node20" href="$Water_8h.html" title="Contains declaration for the Water class." alt="" coords="110,155,181,181"/>
+<area shape="rect" id="node21" href="$Beer_8h.html" title="Contains the declaration for the Beer class." alt="" coords="205,155,267,181"/>
+<area shape="rect" id="node22" href="$Burger_8h.html" title="Contains declaration for the Burger class." alt="" coords="562,155,638,181"/>
+<area shape="rect" id="node24" href="$Steak_8h.html" title="Contains declaration for the Steak class." alt="" coords="383,155,454,181"/>
+<area shape="rect" id="node25" href="$Fish_8h.html" title="Contains declaration for the Fish class." alt="" coords="478,155,538,181"/>
+<area shape="rect" id="node26" href="$ComplexOrder_8h.html" title="Contains declaration for the ComplexOrder class." alt="" coords="758,304,885,331"/>
+<area shape="rect" id="node15" href="$Side_8h.html" title="Contains declaration for the Side class." alt="" coords="718,229,781,256"/>
+<area shape="rect" id="node19" href="$Drink_8h.html" title="Contains declaration for the Drink class." alt="" coords="247,229,316,256"/>
+<area shape="rect" id="node23" href="$MainMeal_8h.html" title="Contains declaration for the MainMeal class." alt="" coords="499,229,597,256"/>
 </map>

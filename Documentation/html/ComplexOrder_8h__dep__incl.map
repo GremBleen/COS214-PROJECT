@@ -1,8 +1,10 @@
 <map id="ComplexOrder.h" name="ComplexOrder.h">
-<area shape="rect" id="node1" title="Contains declaration for the ComplexOrder class." alt="" coords="301,5,428,32"/>
+<area shape="rect" id="node1" title="Contains declaration for the ComplexOrder class." alt="" coords="371,5,497,32"/>
 <area shape="rect" id="node2" href="$ComplexOrder_8cpp.html" title="Contains the implementation for the ComplexOrder class." alt="" coords="5,80,148,107"/>
 <area shape="rect" id="node3" href="$DrinkChef_8cpp.html" title="Contains implementation for the DrinkChef class." alt="" coords="172,80,285,107"/>
 <area shape="rect" id="node4" href="$MainChef_8cpp.html" title="Contains implementation for the MainChef class." alt="" coords="309,80,420,107"/>
 <area shape="rect" id="node5" href="$Restaurant_8cpp.html" title="Contains implementation for the Restaurant class." alt="" coords="445,80,565,107"/>
 <area shape="rect" id="node6" href="$SideChef_8cpp.html" title="Contains implementation for the SideChef class." alt="" coords="589,80,695,107"/>
+<area shape="rect" id="node7" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="719,80,842,107"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="739,155,822,181"/>
 </map>

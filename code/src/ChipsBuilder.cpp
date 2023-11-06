@@ -11,6 +11,7 @@
  */
 
 #include "ChipsBuilder.h"
+#include <unistd.h>
 
 /**
  * @fn ChipsBuilder::ChipsBuilder()
@@ -81,6 +82,7 @@ void ChipsBuilder::plateSide() {
  */
 void ChipsBuilder::washPotato() {
     chips->washedPotatoes = true;
+    sleep(1);
 }
 
 /**
@@ -90,6 +92,7 @@ void ChipsBuilder::washPotato() {
  */
 void ChipsBuilder::cutPotato() {
     chips->cutPotatoes = true;
+    sleep(2);
 }
 
 /**
@@ -99,6 +102,7 @@ void ChipsBuilder::cutPotato() {
  */
 void ChipsBuilder::fryPotato() {
     chips->friedPotatoes = true;
+    sleep(3);
 }
 
 /**
@@ -108,4 +112,5 @@ void ChipsBuilder::fryPotato() {
  */
 void ChipsBuilder::seasonChips() {
     chips->seasonedChips = true;
+    sleep(1);
 }
