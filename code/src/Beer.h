@@ -6,7 +6,7 @@
  * It contains boolean variables to keep track of whether a beer glass has been obtained, 
  * whether beer has been poured into the glass, and whether the beer has been assembled.
  * 
- * @author 
+ * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)
 */

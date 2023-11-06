@@ -14,6 +14,7 @@
 #include "BeerBuilder.h"
 
 /**
+ * @fn BeerBuilder::BeerBuilder()
  * @brief Construct a new Beer Builder:: Beer Builder object
  * 
  */
@@ -21,6 +22,7 @@ BeerBuilder::BeerBuilder() {
 }
 
 /**
+ * @fn BeerBuilder::~BeerBuilder()
  * @brief Destroy the Beer Builder:: Beer Builder object
  * 
  */
@@ -28,8 +30,8 @@ BeerBuilder::~BeerBuilder() {
 }
 
 /**
- * @brief Get the Glass object
- * 
+ * @fn void BeerBuilder::getGlass()
+ * @brief prepare the glass
  */
 void BeerBuilder::getGlass() {
     beer = new Beer();
@@ -40,6 +42,7 @@ void BeerBuilder::getGlass() {
 }
 
 /**
+ * @fn void BeerBuilder::pourDrink()
  * @brief Pour the Drink object
  * 
  */
@@ -49,6 +52,7 @@ void BeerBuilder::pourDrink() {
 }
 
 /**
+ * @fn void BeerBuilder::assembleDrink()
  * @brief Assemble the Drink object
  * 
  */
@@ -60,6 +64,7 @@ void BeerBuilder::assembleDrink() {
 }
 
 /**
+ * @fn void BeerBuilder::getBeerGlass()
  * @brief Get the Beer Glass object
  * 
  */
@@ -68,6 +73,7 @@ void BeerBuilder::getBeerGlass() {
 }
 
 /**
+ * @fn void BeerBuilder::pourBeer()
  * @brief Pour the Beer object
  * 
  */
@@ -76,6 +82,7 @@ void BeerBuilder::pourBeer() {
 }
 
 /**
+ * @fn void BeerBuilder::assembleBeer()
  * @brief Assemble the Beer object
  * 
  */

@@ -1,7 +1,9 @@
 /**
  * @file DrinkBuilder.h
  * @brief Contains declaration for the DrinkBuilder class
- * @authors Aidan Chapman (u22738917)
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "ItemBuilder.h"
@@ -21,7 +23,7 @@ public:
     virtual void assembleDrink() = 0;
 
 protected:
-    Drink* drink;
+    Drink* drink; ///< The drink that is being built
 };
 
 #endif

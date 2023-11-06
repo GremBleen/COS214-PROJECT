@@ -28,12 +28,12 @@ class Customer{
         int getTimestamp();
 
 private:
-        Waiter* waiter;
-        Rating* satisfaction;
-        Table* table;
+        Waiter* waiter; ///< The waiter serving the customer
+        Rating* satisfaction; ///< The customer's satisfaction rating
+        Table* table; ///< The table the customer is seated at
 
-        int timestamp;
-        Order* order;
+        int timestamp; ///< The time the customer arrived at the restaurant
+        Order* order; ///< The customer's order
 };
 
 #endif

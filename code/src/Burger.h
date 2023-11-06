@@ -1,7 +1,7 @@
 /**
  * @file Burger.h
  * @brief Contains declaration for the Burger class
- * @author 
+ * @authors 
  * - Aidan Chapman (u22738917)
  * - Graeme Blain (u22625462)
  * - Douglas Porter (u21797545)

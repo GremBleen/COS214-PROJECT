@@ -26,7 +26,7 @@ public:
 private:
     Customer *createCustomer();
     Restaurant *createRestaurant();
-    Restaurant *r;
+    Restaurant *r; ///< Restaurant object
 };
 
 #endif

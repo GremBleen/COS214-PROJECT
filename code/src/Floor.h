@@ -24,8 +24,8 @@ class Floor{
         int getNumTables();
         Table* getTable(Customer* customer);
     private:
-        Restaurant* restaurant;
-        vector<Table*> tables;
+        Restaurant* restaurant; ///< Restaurant object
+        vector<Table*> tables; ///< Vector of Table pointers
 };
 
 #endif

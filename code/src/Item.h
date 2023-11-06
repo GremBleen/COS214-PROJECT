@@ -16,7 +16,7 @@ class Item : public Order
         ~Item();
         float calculatePrice();
     protected:
-        float price;
+        float price; ///< The price of the item
 };
 
 #endif

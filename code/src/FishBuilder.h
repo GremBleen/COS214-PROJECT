@@ -1,7 +1,9 @@
 /**
  * @file FishBuilder.h
  * @brief Contains declaration for the FishBuilder class
- * @authors Aidan Chapman (u22738917)
+ * @authors 
+ * - Aidan Chapman (u22738917)
+ * - Graeme Blain (u22625462)
 */
 
 #include "MainBuilder.h"
@@ -28,7 +30,7 @@ public:
     void plateFish();
 
 protected:
-    Fish *fish;
+    Fish *fish; ///< Fish object
 };
 
 #endif
