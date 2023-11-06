@@ -1,17 +1,17 @@
 <map id="Side.h" name="Side.h">
-<area shape="rect" id="node1" title="Contains declaration for the Side class." alt="" coords="354,5,417,32"/>
-<area shape="rect" id="node2" href="$Chips_8h.html" title="Contains declaration for the Chips class." alt="" coords="166,80,237,107"/>
-<area shape="rect" id="node9" href="$Salad_8h.html" title="Contains declaration for the Salad class." alt="" coords="407,80,478,107"/>
-<area shape="rect" id="node14" href="$Side_8cpp.html" title="Contains implementation for the Side class." alt="" coords="503,80,580,107"/>
-<area shape="rect" id="node15" href="$SideBuilder_8h.html" title="Contains declaration for the SideBuilder class." alt="" coords="276,80,383,107"/>
+<area shape="rect" id="node1" title="Contains declaration for the Side class." alt="" coords="309,5,371,32"/>
+<area shape="rect" id="node2" href="$Chips_8h.html" title="Contains declaration for the Chips class." alt="" coords="121,80,191,107"/>
+<area shape="rect" id="node9" href="$Salad_8h.html" title="Contains declaration for the Salad class." alt="" coords="362,80,433,107"/>
+<area shape="rect" id="node14" href="$Side_8cpp.html" title="Contains implementation for the Side class." alt="" coords="457,80,535,107"/>
+<area shape="rect" id="node15" href="$SideBuilder_8h.html" title="Contains declaration for the SideBuilder class." alt="" coords="231,80,337,107"/>
 <area shape="rect" id="node3" href="$Chips_8cpp.html" title="Contains implementation for the Chips class." alt="" coords="5,155,91,181"/>
-<area shape="rect" id="node4" href="$ChipsBuilder_8h.html" title="Contains declaration for the ChipsBuilder class." alt="" coords="115,155,229,181"/>
-<area shape="rect" id="node7" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="253,155,376,181"/>
-<area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="331,229,410,256"/>
-<area shape="rect" id="node6" href="$ChipsBuilder_8cpp.html" title="Implementation of the ChipsBuilder class." alt="" coords="69,229,200,256"/>
-<area shape="rect" id="node8" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="224,229,307,256"/>
-<area shape="rect" id="node10" href="$Salad_8cpp.html" title="Contains implementation for the Salad class." alt="" coords="539,155,624,181"/>
-<area shape="rect" id="node11" href="$SaladBuilder_8h.html" title="Contains declaration for the SaladBuilder class." alt="" coords="400,155,515,181"/>
-<area shape="rect" id="node12" href="$SaladBuilder_8cpp.html" title="Contains implementation for the SaladBuilder class." alt="" coords="581,229,712,256"/>
-<area shape="rect" id="node13" href="$SideBuilder_8cpp.html" title="Contains implementation for the SideBuilder class." alt="" coords="435,229,557,256"/>
+<area shape="rect" id="node4" href="$ChipsBuilder_8h.html" title="Contains declaration for the ChipsBuilder class." alt="" coords="165,155,280,181"/>
+<area shape="rect" id="node7" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="161,229,284,256"/>
+<area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="309,229,387,256"/>
+<area shape="rect" id="node6" href="$ChipsBuilder_8cpp.html" title="Implementation of the ChipsBuilder class." alt="" coords="7,229,137,256"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="181,304,264,331"/>
+<area shape="rect" id="node10" href="$Salad_8cpp.html" title="Contains implementation for the Salad class." alt="" coords="493,155,579,181"/>
+<area shape="rect" id="node11" href="$SaladBuilder_8h.html" title="Contains declaration for the SaladBuilder class." alt="" coords="355,155,469,181"/>
+<area shape="rect" id="node12" href="$SaladBuilder_8cpp.html" title="Contains implementation for the SaladBuilder class." alt="" coords="559,229,689,256"/>
+<area shape="rect" id="node13" href="$SideBuilder_8cpp.html" title="Contains implementation for the SideBuilder class." alt="" coords="412,229,535,256"/>
 </map>

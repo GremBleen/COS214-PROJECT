@@ -5,7 +5,7 @@
  * This file contains the implementation of the BurgerBuilder class, which is responsible for building a Burger object.
  * 
  * @authors 
- * - Douglas Porter (u18061592)
+ * - Douglas Porter (u21797545)
  * - Graeme Blain (u22625462)
  */
 

@@ -1,9 +1,9 @@
 <map id="Beer.h" name="Beer.h">
-<area shape="rect" id="node1" title="Contains the declaration for the Beer class." alt="" coords="144,5,207,32"/>
-<area shape="rect" id="node2" href="$Beer_8cpp.html" title="Contains implementation for the Beer class." alt="" coords="17,80,96,107"/>
-<area shape="rect" id="node3" href="$BeerBuilder_8h.html" title="Contains declaration for the BeerBuilder class." alt="" coords="121,80,230,107"/>
-<area shape="rect" id="node6" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="254,80,377,107"/>
+<area shape="rect" id="node1" title="Contains the declaration for the Beer class." alt="" coords="171,5,233,32"/>
+<area shape="rect" id="node2" href="$Beer_8cpp.html" title="Contains implementation for the Beer class." alt="" coords="44,80,123,107"/>
+<area shape="rect" id="node3" href="$BeerBuilder_8h.html" title="Contains declaration for the BeerBuilder class." alt="" coords="147,80,257,107"/>
+<area shape="rect" id="node6" href="$UnitTesting_8hpp_source.html" title=" " alt="" coords="257,155,379,181"/>
 <area shape="rect" id="node4" href="$BeerBuilder_8cpp.html" title="Implementation of the BeerBuilder class." alt="" coords="5,155,129,181"/>
 <area shape="rect" id="node5" href="$Chef_8cpp.html" title="Contains implementation for the Chef class." alt="" coords="153,155,232,181"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="274,155,357,181"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="This is the file that the user will interact with." alt="" coords="277,229,359,256"/>
 </map>
